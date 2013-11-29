@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="connection" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="bExtra" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt;ELL-i open source co-op Eagle libraries&lt;/h3&gt;
+
+&lt;p&gt;In this library you'll find connectors that are used in the ELL-i boards.&lt;/p&gt;
+
+&lt;p&gt;Whenever possible, we prefer to use the components from the &lt;a href="https://github.com/Ell-i/SparkFun-Eagle-Libraries"&gt;SparkFun Public Eagle PCB Footprints&lt;/a&gt;, as they are available from &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. Whenever possible, we also prefer to push our components to the SparkFun libraries.  However, this is not always possible, and therefore we have our own libraries that for the most part contain components that cannot be found in the SparkFun libraries.&lt;/p&gt;</description>
+<packages>
+<package name="DF12(4.0)-32DP-0.5V">
+<description>&lt;h3&gt;Hirose DF12 32-pin female (header) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;4.0 mm high variant.&lt;/p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-3.7592" y="-2.9972" radius="0.127" width="0.127" layer="21"/>
+<circle x="-4.2164" y="-2.413" radius="0.127" width="0.127" layer="51"/>
+<wire x1="6.2319" y1="-2.8037" x2="-6.242" y2="-2.791" width="0.2" layer="39"/>
+<wire x1="-6.242" y1="-2.791" x2="-6.242" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="5.3488" y1="-1.3975" x2="-5.392" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-5.392" y1="-1.4102" x2="-5.392" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-5.392" y1="1.2845" x2="5.3488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="5.2954" y1="-1.0943" x2="-5.3601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="5.3488" y1="1.2972" x2="5.3488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="6.2319" y1="2.7225" x2="6.2319" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-6.242" y1="2.7352" x2="6.2319" y2="2.7225" width="0.2" layer="39"/>
+<rectangle x1="-0.8829" y1="1.651" x2="0.3871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-1.3833" y1="-1.9685" x2="-0.1133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-1.3858" y1="1.6535" x2="-0.1158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.3851" y1="1.6433" x2="0.8849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="0.1153" y1="1.6459" x2="1.3853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="0.6131" y1="1.6383" x2="1.8831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="1.116" y1="1.6383" x2="2.386" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="1.6164" y1="1.6383" x2="2.8864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="2.1142" y1="1.6409" x2="3.3842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="2.6172" y1="1.6358" x2="3.8872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="3.1175" y1="1.6383" x2="4.3875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.8811" y1="1.6535" x2="-0.6111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.3815" y1="1.6535" x2="-1.1115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.8844" y1="1.6535" x2="-1.6144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-3.3848" y1="1.651" x2="-2.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-3.8826" y1="1.6535" x2="-2.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-4.3855" y1="1.6535" x2="-3.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.8804" y1="-1.9685" x2="0.3896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-0.3851" y1="-1.971" x2="0.8849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="0.1178" y1="-1.971" x2="1.3878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="0.6156" y1="-1.976" x2="1.8856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="1.116" y1="-1.976" x2="2.386" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="1.619" y1="-1.9735" x2="2.889" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.1193" y1="-1.9735" x2="3.3893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.6197" y1="-1.9735" x2="3.8897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="3.1201" y1="-1.976" x2="4.3901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-1.8836" y1="-1.9659" x2="-0.6136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="-1.9659" x2="-1.114" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.8819" y1="-1.9659" x2="-1.6119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-3.3797" y1="-1.9659" x2="-2.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-3.8852" y1="-1.9659" x2="-2.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-4.3855" y1="-1.9659" x2="-3.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-5.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="5.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-4.8" y="1.5" drill="0.6"/>
+<hole x="4.8" y="1.5" drill="0.6"/>
+</package>
+<package name="DF12-32DS-0.5V">
+<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-3.7338" y="3.0861" radius="0.127" width="0.127" layer="21"/>
+<circle x="-4.2418" y="2.3241" radius="0.127" width="0.127" layer="51"/>
+<wire x1="6.2319" y1="-2.8037" x2="-6.242" y2="-2.791" width="0.2" layer="39"/>
+<wire x1="-6.242" y1="-2.791" x2="-6.242" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="5.3488" y1="-1.3975" x2="-5.392" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-5.392" y1="-1.4102" x2="-5.392" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-5.392" y1="1.2845" x2="5.3488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="5.2954" y1="-1.0943" x2="-5.3601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="5.3488" y1="1.2972" x2="5.3488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="6.2319" y1="2.7225" x2="6.2319" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-6.242" y1="2.7352" x2="6.2319" y2="2.7225" width="0.2" layer="39"/>
+<rectangle x1="-0.8829" y1="1.651" x2="0.3871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-1.3833" y1="-1.9685" x2="-0.1133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-1.3858" y1="1.6535" x2="-0.1158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.3851" y1="1.6433" x2="0.8849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="0.1153" y1="1.6459" x2="1.3853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="0.6131" y1="1.6383" x2="1.8831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="1.116" y1="1.6383" x2="2.386" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="1.6164" y1="1.6383" x2="2.8864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="2.1142" y1="1.6409" x2="3.3842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="2.6172" y1="1.6358" x2="3.8872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="3.1175" y1="1.6383" x2="4.3875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.8811" y1="1.6535" x2="-0.6111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.3815" y1="1.6535" x2="-1.1115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.8844" y1="1.6535" x2="-1.6144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-3.3848" y1="1.651" x2="-2.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-3.8826" y1="1.6535" x2="-2.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-4.3855" y1="1.6535" x2="-3.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.8804" y1="-1.9685" x2="0.3896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-0.3851" y1="-1.971" x2="0.8849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="0.1178" y1="-1.971" x2="1.3878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="0.6156" y1="-1.976" x2="1.8856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="1.116" y1="-1.976" x2="2.386" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="1.619" y1="-1.9735" x2="2.889" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.1193" y1="-1.9735" x2="3.3893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.6197" y1="-1.9735" x2="3.8897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="3.1201" y1="-1.976" x2="4.3901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-1.8836" y1="-1.9659" x2="-0.6136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="-1.9659" x2="-1.114" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.8819" y1="-1.9659" x2="-1.6119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-3.3797" y1="-1.9659" x2="-2.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-3.8852" y1="-1.9659" x2="-2.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-4.3855" y1="-1.9659" x2="-3.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-5.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="5.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-4.8" y="1.5" drill="0.6"/>
+<hole x="4.8" y="1.5" drill="0.6"/>
+</package>
+<package name="DF12(4.0)-60DP-0.5V">
+<description>&lt;h3&gt;Hirose DF12 60-pin female (header) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-7.2592" y="-2.9972" radius="0.127" width="0.127" layer="21"/>
+<circle x="-7.7164" y="-2.413" radius="0.127" width="0.127" layer="51"/>
+<wire x1="9.7319" y1="-2.7352" x2="-9.742" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="-2.7352" x2="-9.742" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="8.8488" y1="-1.3975" x2="-8.892" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="-1.4102" x2="-8.892" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="1.2845" x2="8.8488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="8.7954" y1="-1.0943" x2="-8.8601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="8.8488" y1="1.2972" x2="8.8488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="9.7319" y1="2.7352" x2="9.7319" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="2.7352" x2="9.7319" y2="2.7352" width="0.2" layer="39"/>
+<rectangle x1="-4.3829" y1="1.651" x2="-3.1129" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-4.8833" y1="-1.9685" x2="-3.6133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-4.8858" y1="1.6535" x2="-3.6158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="1.6433" x2="-2.6151" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="-3.3847" y1="1.6459" x2="-2.1147" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="-2.8869" y1="1.6383" x2="-1.6169" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="1.6383" x2="-1.114" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.8836" y1="1.6383" x2="-0.6136" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.3858" y1="1.6409" x2="-0.1158" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="-0.8828" y1="1.6358" x2="0.3872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="-0.3825" y1="1.6383" x2="0.8875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-5.3811" y1="1.6535" x2="-4.1111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-5.8815" y1="1.6535" x2="-4.6115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.3844" y1="1.6535" x2="-5.1144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.8848" y1="1.651" x2="-5.6148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-7.3826" y1="1.6535" x2="-6.1126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="1.6535" x2="-6.6155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-4.3804" y1="-1.9685" x2="-3.1104" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="-1.971" x2="-2.6151" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-3.3822" y1="-1.971" x2="-2.1122" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-2.8844" y1="-1.976" x2="-1.6144" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="-1.976" x2="-1.114" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-1.881" y1="-1.9735" x2="-0.611" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-1.3807" y1="-1.9735" x2="-0.1107" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.8803" y1="-1.9735" x2="0.3897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.3799" y1="-1.976" x2="0.8901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-5.3836" y1="-1.9659" x2="-4.1136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-5.884" y1="-1.9659" x2="-4.614" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.3819" y1="-1.9659" x2="-5.1119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.8797" y1="-1.9659" x2="-5.6097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.3852" y1="-1.9659" x2="-6.1152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="-1.9659" x2="-6.6155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-8.3" y="1.5" drill="0.6"/>
+<hole x="8.3" y="1.5" drill="0.6"/>
+<rectangle x1="3.6171" y1="1.651" x2="4.8871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="3.1167" y1="-1.9685" x2="4.3867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="3.1142" y1="1.6535" x2="4.3842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="1.6433" x2="5.3849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="4.6153" y1="1.6459" x2="5.8853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="5.1131" y1="1.6383" x2="6.3831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="1.6383" x2="6.886" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.1164" y1="1.6383" x2="7.3864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.6142" y1="1.6409" x2="7.8842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="2.6189" y1="1.6535" x2="3.8889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="2.1185" y1="1.6535" x2="3.3885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.6156" y1="1.6535" x2="2.8856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.1152" y1="1.651" x2="2.3852" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="0.6174" y1="1.6535" x2="1.8874" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="1.6535" x2="1.3845" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="3.6196" y1="-1.9685" x2="4.8896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="-1.971" x2="5.3849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="4.6178" y1="-1.971" x2="5.8878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="5.1156" y1="-1.976" x2="6.3856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="-1.976" x2="6.886" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="6.119" y1="-1.9735" x2="7.389" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="6.6193" y1="-1.9735" x2="7.8893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.6164" y1="-1.9659" x2="3.8864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="2.116" y1="-1.9659" x2="3.386" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.6181" y1="-1.9659" x2="2.8881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.1203" y1="-1.9659" x2="2.3903" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.6148" y1="-1.9659" x2="1.8848" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="-1.9659" x2="1.3845" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="33" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="34" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="35" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="36" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="37" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="38" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="39" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="40" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="41" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="42" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="43" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="44" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="45" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="46" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="47" x="4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="48" x="4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+</package>
+<package name="DF12-60DS-0.5V">
+<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-7.2338" y="3.0861" radius="0.127" width="0.127" layer="21"/>
+<circle x="-7.7418" y="2.3241" radius="0.127" width="0.127" layer="51"/>
+<wire x1="9.7319" y1="-2.8037" x2="-9.742" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="-2.8037" x2="-9.742" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="8.8488" y1="-1.3975" x2="-8.892" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="-1.4102" x2="-8.892" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="1.2845" x2="8.8488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="8.7954" y1="-1.0943" x2="-8.8601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="8.8488" y1="1.2972" x2="8.8488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="9.7319" y1="2.7352" x2="9.7319" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="2.7352" x2="9.7319" y2="2.7352" width="0.2" layer="39"/>
+<rectangle x1="-4.3829" y1="1.651" x2="-3.1129" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-4.8833" y1="-1.9685" x2="-3.6133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-4.8858" y1="1.6535" x2="-3.6158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="1.6433" x2="-2.6151" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="-3.3847" y1="1.6459" x2="-2.1147" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="-2.8869" y1="1.6383" x2="-1.6169" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="1.6383" x2="-1.114" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.8836" y1="1.6383" x2="-0.6136" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.3858" y1="1.6409" x2="-0.1158" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="-0.8828" y1="1.6358" x2="0.3872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="-0.3825" y1="1.6383" x2="0.8875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-5.3811" y1="1.6535" x2="-4.1111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-5.8815" y1="1.6535" x2="-4.6115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.3844" y1="1.6535" x2="-5.1144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.8848" y1="1.651" x2="-5.6148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-7.3826" y1="1.6535" x2="-6.1126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="1.6535" x2="-6.6155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-4.3804" y1="-1.9685" x2="-3.1104" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="-1.971" x2="-2.6151" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-3.3822" y1="-1.971" x2="-2.1122" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-2.8844" y1="-1.976" x2="-1.6144" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="-1.976" x2="-1.114" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-1.881" y1="-1.9735" x2="-0.611" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-1.3807" y1="-1.9735" x2="-0.1107" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.8803" y1="-1.9735" x2="0.3897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.3799" y1="-1.976" x2="0.8901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-5.3836" y1="-1.9659" x2="-4.1136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-5.884" y1="-1.9659" x2="-4.614" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.3819" y1="-1.9659" x2="-5.1119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.8797" y1="-1.9659" x2="-5.6097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.3852" y1="-1.9659" x2="-6.1152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="-1.9659" x2="-6.6155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0.08" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-8.3" y="1.5" drill="0.6"/>
+<hole x="8.3" y="1.5" drill="0.6"/>
+<rectangle x1="3.6171" y1="1.651" x2="4.8871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="3.1167" y1="-1.9685" x2="4.3867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="3.1142" y1="1.6535" x2="4.3842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="1.6433" x2="5.3849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="4.6153" y1="1.6459" x2="5.8853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="5.1131" y1="1.6383" x2="6.3831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="1.6383" x2="6.886" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.1164" y1="1.6383" x2="7.3864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.6142" y1="1.6409" x2="7.8842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="2.6189" y1="1.6535" x2="3.8889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="2.1185" y1="1.6535" x2="3.3885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.6156" y1="1.6535" x2="2.8856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.1152" y1="1.651" x2="2.3852" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="0.6174" y1="1.6535" x2="1.8874" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="1.6535" x2="1.3845" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="3.6196" y1="-1.9685" x2="4.8896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="-1.971" x2="5.3849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="4.6178" y1="-1.971" x2="5.8878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="5.1156" y1="-1.976" x2="6.3856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="-1.976" x2="6.886" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="6.119" y1="-1.9735" x2="7.389" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="6.6193" y1="-1.9735" x2="7.8893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.6164" y1="-1.9659" x2="3.8864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="2.116" y1="-1.9659" x2="3.386" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.6181" y1="-1.9659" x2="2.8881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.1203" y1="-1.9659" x2="2.3903" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.6148" y1="-1.9659" x2="1.8848" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="-1.9659" x2="1.3845" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="33" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="34" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="35" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="36" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="37" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="38" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="39" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="40" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="41" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="42" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="43" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="44" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="45" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="46" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="47" x="4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="48" x="4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+</package>
+<package name="DF12(4.0)-80DP-0.5V">
+<description>&lt;h3&gt;Hirose DF12 80-pin female (header) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-9.7592" y="-2.9972" radius="0.127" width="0.127" layer="21"/>
+<circle x="-10.2164" y="-2.413" radius="0.127" width="0.127" layer="51"/>
+<wire x1="12.2319" y1="-2.7352" x2="-12.242" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-12.242" y1="-2.7352" x2="-12.242" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="11.3488" y1="-1.3975" x2="-11.392" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-11.392" y1="-1.4102" x2="-11.392" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-11.392" y1="1.2845" x2="11.3488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="11.2954" y1="-1.0943" x2="-11.3601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="11.3488" y1="1.2972" x2="11.3488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="12.2319" y1="2.7352" x2="12.2319" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-12.242" y1="2.7352" x2="12.2319" y2="2.7352" width="0.2" layer="39"/>
+<rectangle x1="-6.8829" y1="1.651" x2="-5.6129" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-7.3833" y1="-1.9685" x2="-6.1133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-7.3858" y1="1.6535" x2="-6.1158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.3851" y1="1.6433" x2="-5.1151" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="-5.8847" y1="1.6459" x2="-4.6147" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="-5.3869" y1="1.6383" x2="-4.1169" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-4.884" y1="1.6383" x2="-3.614" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-4.3836" y1="1.6383" x2="-3.1136" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-3.8858" y1="1.6409" x2="-2.6158" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="-3.3828" y1="1.6358" x2="-2.1128" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="-2.8825" y1="1.6383" x2="-1.6125" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-7.8811" y1="1.6535" x2="-6.6111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-8.3815" y1="1.6535" x2="-7.1115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-8.8844" y1="1.6535" x2="-7.6144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-9.3848" y1="1.651" x2="-8.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-9.8826" y1="1.6535" x2="-8.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-10.3855" y1="1.6535" x2="-9.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.8804" y1="-1.9685" x2="-5.6104" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-6.3851" y1="-1.971" x2="-5.1151" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-5.8822" y1="-1.971" x2="-4.6122" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-5.3844" y1="-1.976" x2="-4.1144" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-4.884" y1="-1.976" x2="-3.614" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-4.381" y1="-1.9735" x2="-3.111" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-3.8807" y1="-1.9735" x2="-2.6107" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-3.3803" y1="-1.9735" x2="-2.1103" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-2.8799" y1="-1.976" x2="-1.6099" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-7.8836" y1="-1.9659" x2="-6.6136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-8.384" y1="-1.9659" x2="-7.114" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-8.8819" y1="-1.9659" x2="-7.6119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-9.3797" y1="-1.9659" x2="-8.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-9.8852" y1="-1.9659" x2="-8.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-10.3855" y1="-1.9659" x2="-9.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-9.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-9.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-9.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-9.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-8.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-8.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-8.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-8.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-7.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-7.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="-5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="-5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="-5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="-5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="-4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="-4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="-4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="-4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-11.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="11.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-10.8" y="1.5" drill="0.6"/>
+<hole x="10.8" y="1.5" drill="0.6"/>
+<rectangle x1="1.1171" y1="1.651" x2="2.3871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="0.6167" y1="-1.9685" x2="1.8867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="0.6142" y1="1.6535" x2="1.8842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.6149" y1="1.6433" x2="2.8849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="2.1153" y1="1.6459" x2="3.3853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="2.6131" y1="1.6383" x2="3.8831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="3.116" y1="1.6383" x2="4.386" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="3.6164" y1="1.6383" x2="4.8864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="4.1142" y1="1.6409" x2="5.3842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="4.6172" y1="1.6358" x2="5.8872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="5.1175" y1="1.6383" x2="6.3875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="0.1189" y1="1.6535" x2="1.3889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.3815" y1="1.6535" x2="0.8885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.8844" y1="1.6535" x2="0.3856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-1.3848" y1="1.651" x2="-0.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-1.8826" y1="1.6535" x2="-0.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.3855" y1="1.6535" x2="-1.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.1196" y1="-1.9685" x2="2.3896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="1.6149" y1="-1.971" x2="2.8849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="2.1178" y1="-1.971" x2="3.3878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="2.6156" y1="-1.976" x2="3.8856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="3.116" y1="-1.976" x2="4.386" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="3.619" y1="-1.9735" x2="4.889" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="4.1193" y1="-1.9735" x2="5.3893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="4.6197" y1="-1.9735" x2="5.8897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="5.1201" y1="-1.976" x2="6.3901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="0.1164" y1="-1.9659" x2="1.3864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-0.384" y1="-1.9659" x2="0.886" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-0.8819" y1="-1.9659" x2="0.3881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-1.3797" y1="-1.9659" x2="-0.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-1.8852" y1="-1.9659" x2="-0.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.3855" y1="-1.9659" x2="-1.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="33" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="34" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="35" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="36" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="37" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="38" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="39" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="40" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="41" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="42" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="43" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="44" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="45" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="46" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="47" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="48" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="61" x="5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="62" x="5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="63" x="5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="64" x="5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<rectangle x1="5.6149" y1="1.6433" x2="6.8849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="6.1153" y1="1.6459" x2="7.3853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="6.6131" y1="1.6383" x2="7.8831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="7.116" y1="1.6383" x2="8.386" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="7.6164" y1="1.6383" x2="8.8864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="8.1142" y1="1.6409" x2="9.3842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="8.6172" y1="1.6358" x2="9.8872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="9.1175" y1="1.6383" x2="10.3875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="5.6149" y1="-1.971" x2="6.8849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="6.1178" y1="-1.971" x2="7.3878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="6.6156" y1="-1.976" x2="7.8856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="7.116" y1="-1.976" x2="8.386" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="7.619" y1="-1.9735" x2="8.889" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="8.1193" y1="-1.9735" x2="9.3893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="8.6197" y1="-1.9735" x2="9.8897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="9.1201" y1="-1.976" x2="10.3901" y2="-1.7728" layer="51" rot="R90"/>
+<smd name="65" x="6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="66" x="6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="67" x="6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="68" x="6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="69" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="70" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="71" x="7.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="72" x="7.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="73" x="8.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="74" x="8.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="75" x="8.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="76" x="8.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="77" x="9.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="78" x="9.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="79" x="9.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="80" x="9.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+</package>
+<package name="DF12-80DS-0.5V">
+<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-9.7338" y="3.0861" radius="0.127" width="0.127" layer="21"/>
+<circle x="-10.2418" y="2.3241" radius="0.127" width="0.127" layer="51"/>
+<wire x1="12.2319" y1="-2.8037" x2="-12.242" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-12.242" y1="-2.8037" x2="-12.242" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="11.3488" y1="-1.3975" x2="-11.392" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-11.392" y1="-1.4102" x2="-11.392" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-11.392" y1="1.2845" x2="11.3488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="11.2954" y1="-1.0943" x2="-11.3601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="11.3488" y1="1.2972" x2="11.3488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="12.2319" y1="2.7352" x2="12.2319" y2="-2.8037" width="0.2" layer="39"/>
+<wire x1="-12.242" y1="2.7352" x2="12.2319" y2="2.7352" width="0.2" layer="39"/>
+<rectangle x1="-6.8829" y1="1.651" x2="-5.6129" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-7.3833" y1="-1.9685" x2="-6.1133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-7.3858" y1="1.6535" x2="-6.1158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.3851" y1="1.6433" x2="-5.1151" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="-5.8847" y1="1.6459" x2="-4.6147" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="-5.3869" y1="1.6383" x2="-4.1169" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-4.884" y1="1.6383" x2="-3.614" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-4.3836" y1="1.6383" x2="-3.1136" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-3.8858" y1="1.6409" x2="-2.6158" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="-3.3828" y1="1.6358" x2="-2.1128" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="-2.8825" y1="1.6383" x2="-1.6125" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-7.8811" y1="1.6535" x2="-6.6111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-8.3815" y1="1.6535" x2="-7.1115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-8.8844" y1="1.6535" x2="-7.6144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-9.3848" y1="1.651" x2="-8.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-9.8826" y1="1.6535" x2="-8.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-10.3855" y1="1.6535" x2="-9.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.8804" y1="-1.9685" x2="-5.6104" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-6.3851" y1="-1.971" x2="-5.1151" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-5.8822" y1="-1.971" x2="-4.6122" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-5.3844" y1="-1.976" x2="-4.1144" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-4.884" y1="-1.976" x2="-3.614" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-4.381" y1="-1.9735" x2="-3.111" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-3.8807" y1="-1.9735" x2="-2.6107" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-3.3803" y1="-1.9735" x2="-2.1103" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-2.8799" y1="-1.976" x2="-1.6099" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-7.8836" y1="-1.9659" x2="-6.6136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-8.384" y1="-1.9659" x2="-7.114" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-8.8819" y1="-1.9659" x2="-7.6119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-9.3797" y1="-1.9659" x2="-8.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-9.8852" y1="-1.9659" x2="-8.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-10.3855" y1="-1.9659" x2="-9.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-9.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-9.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-9.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-9.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-8.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-8.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-8.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-8.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-7.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-7.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="-5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="-5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="-5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="-5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="-4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="-4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="-4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="-4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-11.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="11.5" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0.08" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-10.8" y="1.5" drill="0.6"/>
+<hole x="10.8" y="1.5" drill="0.6"/>
+<rectangle x1="1.1171" y1="1.651" x2="2.3871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="0.6167" y1="-1.9685" x2="1.8867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="0.6142" y1="1.6535" x2="1.8842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.6149" y1="1.6433" x2="2.8849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="2.1153" y1="1.6459" x2="3.3853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="2.6131" y1="1.6383" x2="3.8831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="3.116" y1="1.6383" x2="4.386" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="3.6164" y1="1.6383" x2="4.8864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="4.1142" y1="1.6409" x2="5.3842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="4.6172" y1="1.6358" x2="5.8872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="5.1175" y1="1.6383" x2="6.3875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="0.1189" y1="1.6535" x2="1.3889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.3815" y1="1.6535" x2="0.8885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-0.8844" y1="1.6535" x2="0.3856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-1.3848" y1="1.651" x2="-0.1148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-1.8826" y1="1.6535" x2="-0.6126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-2.3855" y1="1.6535" x2="-1.1155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.1196" y1="-1.9685" x2="2.3896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="1.6149" y1="-1.971" x2="2.8849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="2.1178" y1="-1.971" x2="3.3878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="2.6156" y1="-1.976" x2="3.8856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="3.116" y1="-1.976" x2="4.386" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="3.619" y1="-1.9735" x2="4.889" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="4.1193" y1="-1.9735" x2="5.3893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="4.6197" y1="-1.9735" x2="5.8897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="5.1201" y1="-1.976" x2="6.3901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="0.1164" y1="-1.9659" x2="1.3864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-0.384" y1="-1.9659" x2="0.886" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-0.8819" y1="-1.9659" x2="0.3881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-1.3797" y1="-1.9659" x2="-0.1097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-1.8852" y1="-1.9659" x2="-0.6152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-2.3855" y1="-1.9659" x2="-1.1155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="33" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="34" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="35" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="36" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="37" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="38" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="39" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="40" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="41" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="42" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="43" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="44" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="45" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="46" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="47" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="48" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="61" x="5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="62" x="5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="63" x="5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="64" x="5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<rectangle x1="9.1171" y1="1.651" x2="10.3871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="8.6167" y1="-1.9685" x2="9.8867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="8.6142" y1="1.6535" x2="9.8842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="8.1189" y1="1.6535" x2="9.3889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="7.6185" y1="1.6535" x2="8.8885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="7.1156" y1="1.6535" x2="8.3856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="6.6152" y1="1.651" x2="7.8852" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="6.1174" y1="1.6535" x2="7.3874" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="5.6145" y1="1.6535" x2="6.8845" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="9.1196" y1="-1.9685" x2="10.3896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="8.1164" y1="-1.9659" x2="9.3864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="7.616" y1="-1.9659" x2="8.886" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="7.1181" y1="-1.9659" x2="8.3881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="6.6203" y1="-1.9659" x2="7.8903" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="6.1148" y1="-1.9659" x2="7.3848" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="5.6145" y1="-1.9659" x2="6.8845" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="65" x="6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="66" x="6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="67" x="6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="68" x="6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="69" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="70" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="71" x="7.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="72" x="7.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="73" x="8.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="74" x="8.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="75" x="8.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="76" x="8.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="77" x="9.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="78" x="9.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="79" x="9.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="80" x="9.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DF12-32-F">
+<description>&lt;h3&gt;Hirose DF12 32-pin female 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-40.64" x2="7.62" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-40.64" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DF12-32">
+<description>&lt;h3&gt;Hirose DF12 32-pin male 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-40.64" x2="7.62" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-40.64" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DF12-60-F">
+<description>&lt;h3&gt;Hirose DF12 60-pin Female 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-76.2" x2="7.62" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-76.2" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-78.74" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="33" x="-10.16" y="-40.64" length="middle"/>
+<pin name="34" x="12.7" y="-40.64" length="middle" rot="R180"/>
+<pin name="35" x="-10.16" y="-43.18" length="middle"/>
+<pin name="36" x="12.7" y="-43.18" length="middle" rot="R180"/>
+<pin name="37" x="-10.16" y="-45.72" length="middle"/>
+<pin name="38" x="12.7" y="-45.72" length="middle" rot="R180"/>
+<pin name="39" x="-10.16" y="-48.26" length="middle"/>
+<pin name="40" x="12.7" y="-48.26" length="middle" rot="R180"/>
+<pin name="41" x="-10.16" y="-50.8" length="middle"/>
+<pin name="42" x="12.7" y="-50.8" length="middle" rot="R180"/>
+<pin name="43" x="-10.16" y="-53.34" length="middle"/>
+<pin name="44" x="12.7" y="-53.34" length="middle" rot="R180"/>
+<pin name="45" x="-10.16" y="-55.88" length="middle"/>
+<pin name="46" x="12.7" y="-55.88" length="middle" rot="R180"/>
+<pin name="47" x="-10.16" y="-58.42" length="middle"/>
+<pin name="48" x="12.7" y="-58.42" length="middle" rot="R180"/>
+<pin name="49" x="-10.16" y="-60.96" length="middle"/>
+<pin name="50" x="12.7" y="-60.96" length="middle" rot="R180"/>
+<pin name="51" x="-10.16" y="-63.5" length="middle"/>
+<pin name="52" x="12.7" y="-63.5" length="middle" rot="R180"/>
+<pin name="53" x="-10.16" y="-66.04" length="middle"/>
+<pin name="54" x="12.7" y="-66.04" length="middle" rot="R180"/>
+<pin name="55" x="-10.16" y="-68.58" length="middle"/>
+<pin name="56" x="12.7" y="-68.58" length="middle" rot="R180"/>
+<pin name="57" x="-10.16" y="-71.12" length="middle"/>
+<pin name="58" x="12.7" y="-71.12" length="middle" rot="R180"/>
+<pin name="59" x="-10.16" y="-73.66" length="middle"/>
+<pin name="60" x="12.7" y="-73.66" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DF12-60">
+<description>&lt;h3&gt;Hirose DF12 60-pin male 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-76.2" x2="7.62" y2="-76.2" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-76.2" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-78.74" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="33" x="-10.16" y="-40.64" length="middle"/>
+<pin name="34" x="12.7" y="-40.64" length="middle" rot="R180"/>
+<pin name="35" x="-10.16" y="-43.18" length="middle"/>
+<pin name="36" x="12.7" y="-43.18" length="middle" rot="R180"/>
+<pin name="37" x="-10.16" y="-45.72" length="middle"/>
+<pin name="38" x="12.7" y="-45.72" length="middle" rot="R180"/>
+<pin name="39" x="-10.16" y="-48.26" length="middle"/>
+<pin name="40" x="12.7" y="-48.26" length="middle" rot="R180"/>
+<pin name="41" x="-10.16" y="-50.8" length="middle"/>
+<pin name="42" x="12.7" y="-50.8" length="middle" rot="R180"/>
+<pin name="43" x="-10.16" y="-53.34" length="middle"/>
+<pin name="44" x="12.7" y="-53.34" length="middle" rot="R180"/>
+<pin name="45" x="-10.16" y="-55.88" length="middle"/>
+<pin name="46" x="12.7" y="-55.88" length="middle" rot="R180"/>
+<pin name="47" x="-10.16" y="-58.42" length="middle"/>
+<pin name="48" x="12.7" y="-58.42" length="middle" rot="R180"/>
+<pin name="49" x="-10.16" y="-60.96" length="middle"/>
+<pin name="50" x="12.7" y="-60.96" length="middle" rot="R180"/>
+<pin name="51" x="-10.16" y="-63.5" length="middle"/>
+<pin name="52" x="12.7" y="-63.5" length="middle" rot="R180"/>
+<pin name="53" x="-10.16" y="-66.04" length="middle"/>
+<pin name="54" x="12.7" y="-66.04" length="middle" rot="R180"/>
+<pin name="55" x="-10.16" y="-68.58" length="middle"/>
+<pin name="56" x="12.7" y="-68.58" length="middle" rot="R180"/>
+<pin name="57" x="-10.16" y="-71.12" length="middle"/>
+<pin name="58" x="12.7" y="-71.12" length="middle" rot="R180"/>
+<pin name="59" x="-10.16" y="-73.66" length="middle"/>
+<pin name="60" x="12.7" y="-73.66" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DF12-80-F">
+<description>&lt;h3&gt;Hirose DF12 80-pin female 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-101.6" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-101.6" x2="7.62" y2="-101.6" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-101.6" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-104.14" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="33" x="-10.16" y="-40.64" length="middle"/>
+<pin name="34" x="12.7" y="-40.64" length="middle" rot="R180"/>
+<pin name="35" x="-10.16" y="-43.18" length="middle"/>
+<pin name="36" x="12.7" y="-43.18" length="middle" rot="R180"/>
+<pin name="37" x="-10.16" y="-45.72" length="middle"/>
+<pin name="38" x="12.7" y="-45.72" length="middle" rot="R180"/>
+<pin name="39" x="-10.16" y="-48.26" length="middle"/>
+<pin name="40" x="12.7" y="-48.26" length="middle" rot="R180"/>
+<pin name="41" x="-10.16" y="-50.8" length="middle"/>
+<pin name="42" x="12.7" y="-50.8" length="middle" rot="R180"/>
+<pin name="43" x="-10.16" y="-53.34" length="middle"/>
+<pin name="44" x="12.7" y="-53.34" length="middle" rot="R180"/>
+<pin name="45" x="-10.16" y="-55.88" length="middle"/>
+<pin name="46" x="12.7" y="-55.88" length="middle" rot="R180"/>
+<pin name="47" x="-10.16" y="-58.42" length="middle"/>
+<pin name="48" x="12.7" y="-58.42" length="middle" rot="R180"/>
+<pin name="49" x="-10.16" y="-60.96" length="middle"/>
+<pin name="50" x="12.7" y="-60.96" length="middle" rot="R180"/>
+<pin name="51" x="-10.16" y="-63.5" length="middle"/>
+<pin name="52" x="12.7" y="-63.5" length="middle" rot="R180"/>
+<pin name="53" x="-10.16" y="-66.04" length="middle"/>
+<pin name="54" x="12.7" y="-66.04" length="middle" rot="R180"/>
+<pin name="55" x="-10.16" y="-68.58" length="middle"/>
+<pin name="56" x="12.7" y="-68.58" length="middle" rot="R180"/>
+<pin name="57" x="-10.16" y="-71.12" length="middle"/>
+<pin name="58" x="12.7" y="-71.12" length="middle" rot="R180"/>
+<pin name="59" x="-10.16" y="-73.66" length="middle"/>
+<pin name="60" x="12.7" y="-73.66" length="middle" rot="R180"/>
+<pin name="61" x="-10.16" y="-76.2" length="middle"/>
+<pin name="62" x="12.7" y="-76.2" length="middle" rot="R180"/>
+<pin name="63" x="-10.16" y="-78.74" length="middle"/>
+<pin name="64" x="12.7" y="-78.74" length="middle" rot="R180"/>
+<pin name="65" x="-10.16" y="-81.28" length="middle"/>
+<pin name="66" x="12.7" y="-81.28" length="middle" rot="R180"/>
+<pin name="67" x="-10.16" y="-83.82" length="middle"/>
+<pin name="68" x="12.7" y="-83.82" length="middle" rot="R180"/>
+<pin name="69" x="-10.16" y="-86.36" length="middle"/>
+<pin name="70" x="12.7" y="-86.36" length="middle" rot="R180"/>
+<pin name="71" x="-10.16" y="-88.9" length="middle"/>
+<pin name="72" x="12.7" y="-88.9" length="middle" rot="R180"/>
+<pin name="73" x="-10.16" y="-91.44" length="middle"/>
+<pin name="74" x="12.7" y="-91.44" length="middle" rot="R180"/>
+<pin name="75" x="-10.16" y="-93.98" length="middle"/>
+<pin name="76" x="12.7" y="-93.98" length="middle" rot="R180"/>
+<pin name="77" x="-10.16" y="-96.52" length="middle"/>
+<pin name="78" x="12.7" y="-96.52" length="middle" rot="R180"/>
+<pin name="79" x="-10.16" y="-99.06" length="middle"/>
+<pin name="80" x="12.7" y="-99.06" length="middle" rot="R180"/>
+</symbol>
+<symbol name="DF12-80">
+<description>&lt;h3&gt;Hirose DF12 80-pin male 0.5mm pitch SMT B2B&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-101.6" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-101.6" x2="7.62" y2="-101.6" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-101.6" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<pin name="2" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="3" x="-10.16" y="-2.54" length="middle"/>
+<pin name="4" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="5" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="7" x="-10.16" y="-7.62" length="middle"/>
+<pin name="8" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="-10.16" y="-10.16" length="middle"/>
+<pin name="10" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="11" x="-10.16" y="-12.7" length="middle"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="13" x="-10.16" y="-15.24" length="middle"/>
+<pin name="14" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="15" x="-10.16" y="-17.78" length="middle"/>
+<pin name="16" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="17" x="-10.16" y="-20.32" length="middle"/>
+<pin name="18" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="19" x="-10.16" y="-22.86" length="middle"/>
+<pin name="20" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="21" x="-10.16" y="-25.4" length="middle"/>
+<pin name="22" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="23" x="-10.16" y="-27.94" length="middle"/>
+<pin name="24" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="25" x="-10.16" y="-30.48" length="middle"/>
+<pin name="26" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="27" x="-10.16" y="-33.02" length="middle"/>
+<pin name="28" x="12.7" y="-33.02" length="middle" rot="R180"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle"/>
+<pin name="30" x="12.7" y="-35.56" length="middle" rot="R180"/>
+<pin name="31" x="-10.16" y="-38.1" length="middle"/>
+<pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
+<text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-104.14" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="33" x="-10.16" y="-40.64" length="middle"/>
+<pin name="34" x="12.7" y="-40.64" length="middle" rot="R180"/>
+<pin name="35" x="-10.16" y="-43.18" length="middle"/>
+<pin name="36" x="12.7" y="-43.18" length="middle" rot="R180"/>
+<pin name="37" x="-10.16" y="-45.72" length="middle"/>
+<pin name="38" x="12.7" y="-45.72" length="middle" rot="R180"/>
+<pin name="39" x="-10.16" y="-48.26" length="middle"/>
+<pin name="40" x="12.7" y="-48.26" length="middle" rot="R180"/>
+<pin name="41" x="-10.16" y="-50.8" length="middle"/>
+<pin name="42" x="12.7" y="-50.8" length="middle" rot="R180"/>
+<pin name="43" x="-10.16" y="-53.34" length="middle"/>
+<pin name="44" x="12.7" y="-53.34" length="middle" rot="R180"/>
+<pin name="45" x="-10.16" y="-55.88" length="middle"/>
+<pin name="46" x="12.7" y="-55.88" length="middle" rot="R180"/>
+<pin name="47" x="-10.16" y="-58.42" length="middle"/>
+<pin name="48" x="12.7" y="-58.42" length="middle" rot="R180"/>
+<pin name="49" x="-10.16" y="-60.96" length="middle"/>
+<pin name="50" x="12.7" y="-60.96" length="middle" rot="R180"/>
+<pin name="51" x="-10.16" y="-63.5" length="middle"/>
+<pin name="52" x="12.7" y="-63.5" length="middle" rot="R180"/>
+<pin name="53" x="-10.16" y="-66.04" length="middle"/>
+<pin name="54" x="12.7" y="-66.04" length="middle" rot="R180"/>
+<pin name="55" x="-10.16" y="-68.58" length="middle"/>
+<pin name="56" x="12.7" y="-68.58" length="middle" rot="R180"/>
+<pin name="57" x="-10.16" y="-71.12" length="middle"/>
+<pin name="58" x="12.7" y="-71.12" length="middle" rot="R180"/>
+<pin name="59" x="-10.16" y="-73.66" length="middle"/>
+<pin name="60" x="12.7" y="-73.66" length="middle" rot="R180"/>
+<pin name="61" x="-10.16" y="-76.2" length="middle"/>
+<pin name="62" x="12.7" y="-76.2" length="middle" rot="R180"/>
+<pin name="63" x="-10.16" y="-78.74" length="middle"/>
+<pin name="64" x="12.7" y="-78.74" length="middle" rot="R180"/>
+<pin name="65" x="-10.16" y="-81.28" length="middle"/>
+<pin name="66" x="12.7" y="-81.28" length="middle" rot="R180"/>
+<pin name="67" x="-10.16" y="-83.82" length="middle"/>
+<pin name="68" x="12.7" y="-83.82" length="middle" rot="R180"/>
+<pin name="69" x="-10.16" y="-86.36" length="middle"/>
+<pin name="70" x="12.7" y="-86.36" length="middle" rot="R180"/>
+<pin name="71" x="-10.16" y="-88.9" length="middle"/>
+<pin name="72" x="12.7" y="-88.9" length="middle" rot="R180"/>
+<pin name="73" x="-10.16" y="-91.44" length="middle"/>
+<pin name="74" x="12.7" y="-91.44" length="middle" rot="R180"/>
+<pin name="75" x="-10.16" y="-93.98" length="middle"/>
+<pin name="76" x="12.7" y="-93.98" length="middle" rot="R180"/>
+<pin name="77" x="-10.16" y="-96.52" length="middle"/>
+<pin name="78" x="12.7" y="-96.52" length="middle" rot="R180"/>
+<pin name="79" x="-10.16" y="-99.06" length="middle"/>
+<pin name="80" x="12.7" y="-99.06" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DF12-32DP-0.5V" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 32-pin female (header) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;
+
+&lt;p&gt;This connector is used in the &lt;a href="http://tiny-circuits.com/products/tinyduino/"&gt;
+TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-32-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF12(4.0)-32DP-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF12-32DS-0.5V" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;
+
+&lt;p&gt;This connector is used in the &lt;a href="http://tiny-circuits.com/products/tinyduino/"&gt;
+TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-32" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF12-32DS-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF12-60-DP" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 60-pin female (header) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-60-F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF12(4.0)-60DP-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="41" pad="41"/>
+<connect gate="J" pin="42" pad="42"/>
+<connect gate="J" pin="43" pad="43"/>
+<connect gate="J" pin="44" pad="44"/>
+<connect gate="J" pin="45" pad="45"/>
+<connect gate="J" pin="46" pad="46"/>
+<connect gate="J" pin="47" pad="47"/>
+<connect gate="J" pin="48" pad="48"/>
+<connect gate="J" pin="49" pad="49"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="50" pad="50"/>
+<connect gate="J" pin="51" pad="51"/>
+<connect gate="J" pin="52" pad="52"/>
+<connect gate="J" pin="53" pad="53"/>
+<connect gate="J" pin="54" pad="54"/>
+<connect gate="J" pin="55" pad="55"/>
+<connect gate="J" pin="56" pad="56"/>
+<connect gate="J" pin="57" pad="57"/>
+<connect gate="J" pin="58" pad="58"/>
+<connect gate="J" pin="59" pad="59"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="60" pad="60"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF12-60-DS" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 60-pin male (receptable) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF12-60DS-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="41" pad="41"/>
+<connect gate="J" pin="42" pad="42"/>
+<connect gate="J" pin="43" pad="43"/>
+<connect gate="J" pin="44" pad="44"/>
+<connect gate="J" pin="45" pad="45"/>
+<connect gate="J" pin="46" pad="46"/>
+<connect gate="J" pin="47" pad="47"/>
+<connect gate="J" pin="48" pad="48"/>
+<connect gate="J" pin="49" pad="49"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="50" pad="50"/>
+<connect gate="J" pin="51" pad="51"/>
+<connect gate="J" pin="52" pad="52"/>
+<connect gate="J" pin="53" pad="53"/>
+<connect gate="J" pin="54" pad="54"/>
+<connect gate="J" pin="55" pad="55"/>
+<connect gate="J" pin="56" pad="56"/>
+<connect gate="J" pin="57" pad="57"/>
+<connect gate="J" pin="58" pad="58"/>
+<connect gate="J" pin="59" pad="59"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="60" pad="60"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF12-80-DP" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 80-pin female (header) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-80-F" x="0" y="30.48"/>
+</gates>
+<devices>
+<device name="" package="DF12(4.0)-80DP-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="41" pad="41"/>
+<connect gate="J" pin="42" pad="42"/>
+<connect gate="J" pin="43" pad="43"/>
+<connect gate="J" pin="44" pad="44"/>
+<connect gate="J" pin="45" pad="45"/>
+<connect gate="J" pin="46" pad="46"/>
+<connect gate="J" pin="47" pad="47"/>
+<connect gate="J" pin="48" pad="48"/>
+<connect gate="J" pin="49" pad="49"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="50" pad="50"/>
+<connect gate="J" pin="51" pad="51"/>
+<connect gate="J" pin="52" pad="52"/>
+<connect gate="J" pin="53" pad="53"/>
+<connect gate="J" pin="54" pad="54"/>
+<connect gate="J" pin="55" pad="55"/>
+<connect gate="J" pin="56" pad="56"/>
+<connect gate="J" pin="57" pad="57"/>
+<connect gate="J" pin="58" pad="58"/>
+<connect gate="J" pin="59" pad="59"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="60" pad="60"/>
+<connect gate="J" pin="61" pad="61"/>
+<connect gate="J" pin="62" pad="62"/>
+<connect gate="J" pin="63" pad="63"/>
+<connect gate="J" pin="64" pad="64"/>
+<connect gate="J" pin="65" pad="65"/>
+<connect gate="J" pin="66" pad="66"/>
+<connect gate="J" pin="67" pad="67"/>
+<connect gate="J" pin="68" pad="68"/>
+<connect gate="J" pin="69" pad="69"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="70" pad="70"/>
+<connect gate="J" pin="71" pad="71"/>
+<connect gate="J" pin="72" pad="72"/>
+<connect gate="J" pin="73" pad="73"/>
+<connect gate="J" pin="74" pad="74"/>
+<connect gate="J" pin="75" pad="75"/>
+<connect gate="J" pin="76" pad="76"/>
+<connect gate="J" pin="77" pad="77"/>
+<connect gate="J" pin="78" pad="78"/>
+<connect gate="J" pin="79" pad="79"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="80" pad="80"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF12-80-DS" prefix="J">
+<description>&lt;h3&gt;Hirose DF12 80-pin male (receptable) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<gates>
+<gate name="J" symbol="DF12-80" x="0" y="30.48"/>
+</gates>
+<devices>
+<device name="" package="DF12-80DS-0.5V">
+<connects>
+<connect gate="J" pin="1" pad="1"/>
+<connect gate="J" pin="10" pad="10"/>
+<connect gate="J" pin="11" pad="11"/>
+<connect gate="J" pin="12" pad="12"/>
+<connect gate="J" pin="13" pad="13"/>
+<connect gate="J" pin="14" pad="14"/>
+<connect gate="J" pin="15" pad="15"/>
+<connect gate="J" pin="16" pad="16"/>
+<connect gate="J" pin="17" pad="17"/>
+<connect gate="J" pin="18" pad="18"/>
+<connect gate="J" pin="19" pad="19"/>
+<connect gate="J" pin="2" pad="2"/>
+<connect gate="J" pin="20" pad="20"/>
+<connect gate="J" pin="21" pad="21"/>
+<connect gate="J" pin="22" pad="22"/>
+<connect gate="J" pin="23" pad="23"/>
+<connect gate="J" pin="24" pad="24"/>
+<connect gate="J" pin="25" pad="25"/>
+<connect gate="J" pin="26" pad="26"/>
+<connect gate="J" pin="27" pad="27"/>
+<connect gate="J" pin="28" pad="28"/>
+<connect gate="J" pin="29" pad="29"/>
+<connect gate="J" pin="3" pad="3"/>
+<connect gate="J" pin="30" pad="30"/>
+<connect gate="J" pin="31" pad="31"/>
+<connect gate="J" pin="32" pad="32"/>
+<connect gate="J" pin="33" pad="33"/>
+<connect gate="J" pin="34" pad="34"/>
+<connect gate="J" pin="35" pad="35"/>
+<connect gate="J" pin="36" pad="36"/>
+<connect gate="J" pin="37" pad="37"/>
+<connect gate="J" pin="38" pad="38"/>
+<connect gate="J" pin="39" pad="39"/>
+<connect gate="J" pin="4" pad="4"/>
+<connect gate="J" pin="40" pad="40"/>
+<connect gate="J" pin="41" pad="41"/>
+<connect gate="J" pin="42" pad="42"/>
+<connect gate="J" pin="43" pad="43"/>
+<connect gate="J" pin="44" pad="44"/>
+<connect gate="J" pin="45" pad="45"/>
+<connect gate="J" pin="46" pad="46"/>
+<connect gate="J" pin="47" pad="47"/>
+<connect gate="J" pin="48" pad="48"/>
+<connect gate="J" pin="49" pad="49"/>
+<connect gate="J" pin="5" pad="5"/>
+<connect gate="J" pin="50" pad="50"/>
+<connect gate="J" pin="51" pad="51"/>
+<connect gate="J" pin="52" pad="52"/>
+<connect gate="J" pin="53" pad="53"/>
+<connect gate="J" pin="54" pad="54"/>
+<connect gate="J" pin="55" pad="55"/>
+<connect gate="J" pin="56" pad="56"/>
+<connect gate="J" pin="57" pad="57"/>
+<connect gate="J" pin="58" pad="58"/>
+<connect gate="J" pin="59" pad="59"/>
+<connect gate="J" pin="6" pad="6"/>
+<connect gate="J" pin="60" pad="60"/>
+<connect gate="J" pin="61" pad="61"/>
+<connect gate="J" pin="62" pad="62"/>
+<connect gate="J" pin="63" pad="63"/>
+<connect gate="J" pin="64" pad="64"/>
+<connect gate="J" pin="65" pad="65"/>
+<connect gate="J" pin="66" pad="66"/>
+<connect gate="J" pin="67" pad="67"/>
+<connect gate="J" pin="68" pad="68"/>
+<connect gate="J" pin="69" pad="69"/>
+<connect gate="J" pin="7" pad="7"/>
+<connect gate="J" pin="70" pad="70"/>
+<connect gate="J" pin="71" pad="71"/>
+<connect gate="J" pin="72" pad="72"/>
+<connect gate="J" pin="73" pad="73"/>
+<connect gate="J" pin="74" pad="74"/>
+<connect gate="J" pin="75" pad="75"/>
+<connect gate="J" pin="76" pad="76"/>
+<connect gate="J" pin="77" pad="77"/>
+<connect gate="J" pin="78" pad="78"/>
+<connect gate="J" pin="79" pad="79"/>
+<connect gate="J" pin="8" pad="8"/>
+<connect gate="J" pin="80" pad="80"/>
+<connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
