@@ -192,6 +192,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/product/tps2378"&gt;Product page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.ti.com/lit/gpn/tps2378"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Ell-i/ELL-i-Eagle-Libraries/wiki/PowerIC-TPS2378"&gt;Wiki page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="TPS2378" x="0" y="0"/>
