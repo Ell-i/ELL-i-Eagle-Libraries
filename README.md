@@ -28,7 +28,7 @@ directory:
   git clone https://github.com/Ell-i/ELL-i-Eagle-Libraries.git
 ```
 
-The add the libraries into Eagle standard libraries:
+Then add the libraries into the Eagle library path:
 
 1. Lauch Eagle
 2. Make sure you have the ``Control Panel`` window selected.
@@ -52,6 +52,5 @@ The add the libraries into Eagle standard libraries:
 
 After this, when you create a new schematic, you should see (only) the
 SparkFun and ELL-i components.
-
 
 The instructions for EagleUp and SketchUp usage are TBD.
