@@ -125,7 +125,7 @@
 <layer number="255" name="bExtra" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h3&gt;ELL-i open source co-op Eagle libraries&lt;/h3&gt;
+<description>&lt;h3&gt;Connectors -- ELL-i open source co-op Eagle libraries&lt;/h3&gt;
 
 &lt;p&gt;In this library you'll find connectors that are used in the ELL-i boards.&lt;/p&gt;
 
@@ -446,7 +446,7 @@
 <smd name="60" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
 </package>
 <package name="DF12-60DS-0.5V">
-<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
+<description>&lt;h3&gt;Hirose DF12 60-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
 
 &lt;p&gt;
 &lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
@@ -770,7 +770,7 @@
 <smd name="80" x="9.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
 </package>
 <package name="DF12-80DS-0.5V">
-<description>&lt;h3&gt;Hirose DF12 32-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
+<description>&lt;h3&gt;Hirose DF12 80-pin male (receptable) pattern with metal fitting and boss&lt;/h3&gt;
 
 &lt;p&gt;
 &lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
@@ -1477,7 +1477,7 @@ TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-60-DP" prefix="J">
+<deviceset name="DF12-60DP" prefix="J">
 <description>&lt;h3&gt;Hirose DF12 60-pin female (header) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
 
 &lt;p&gt;
@@ -1555,7 +1555,7 @@ TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-60-DS" prefix="J">
+<deviceset name="DF12-60DS" prefix="J">
 <description>&lt;h3&gt;Hirose DF12 60-pin male (receptable) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
 
 &lt;p&gt;
@@ -1633,7 +1633,7 @@ TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-80-DP" prefix="J">
+<deviceset name="DF12-80DP" prefix="J">
 <description>&lt;h3&gt;Hirose DF12 80-pin female (header) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
 
 &lt;p&gt;
@@ -1731,7 +1731,7 @@ TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-80-DS" prefix="J">
+<deviceset name="DF12-80DS" prefix="J">
 <description>&lt;h3&gt;Hirose DF12 80-pin male (receptable) 0.5 mm pitch SMT board-to-board connector&lt;/h3&gt;
 
 &lt;p&gt;
