@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -171,16 +171,16 @@
 <wire x1="-2.02" y1="-1.5" x2="2.02" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="-2.02" y1="1.5" x2="2.02" y2="1.5" width="0.2032" layer="21"/>
 <circle x="-1.4456" y="-0.8406" radius="0.2727" width="0.0508" layer="21"/>
-<smd name="1" x="-1.75" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-0.75" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
-<smd name="5" x="0.25" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0.75" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
-<smd name="7" x="1.25" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
-<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="1" x="-1.75" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
+<smd name="3" x="-0.75" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
+<smd name="5" x="0.25" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
+<smd name="6" x="0.75" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
+<smd name="7" x="1.25" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
+<smd name="10" x="1.25" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
+<smd name="11" x="0.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
+<smd name="9" x="1.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
+<smd name="14" x="-0.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
+<smd name="16" x="-1.75" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
 <text x="-2.532" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="3.802" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-1.875" y1="-2.45" x2="-1.625" y2="-1.825" layer="51"/>
@@ -204,12 +204,12 @@
 <rectangle x1="-1.875" y1="1.825" x2="-1.625" y2="2.45" layer="51" rot="R180"/>
 <rectangle x1="-1.875" y1="1.475" x2="-1.625" y2="1.825" layer="21" rot="R180"/>
 <rectangle x1="0.125" y1="1.825" x2="0.375" y2="2.45" layer="51" rot="R180"/>
-<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="12" x="0.25" y="2.4" dx="0.3" dy="1.02" layer="1" rot="R180"/>
 <rectangle x1="1.625" y1="1.475" x2="1.875" y2="1.825" layer="21" rot="R180"/>
 <rectangle x1="1.625" y1="-1.825" x2="1.875" y2="-1.475" layer="21"/>
 <rectangle x1="1.125" y1="-2.45" x2="1.375" y2="-1.825" layer="51"/>
 <rectangle x1="1.625" y1="-2.45" x2="1.875" y2="-1.825" layer="51"/>
-<smd name="8" x="1.75" y="-2.4" dx="0.3" dy="1.02" layer="1" stop="no" cream="no"/>
+<smd name="8" x="1.75" y="-2.4" dx="0.3" dy="1.02" layer="1"/>
 </package>
 </packages>
 <symbols>
