@@ -1022,6 +1022,7 @@
 <hole x="5.715" y="0" drill="3.2"/>
 </package>
 <package name="FTDI-SER-6">
+<description>Ordinary 6-pin male header</description>
 <wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
@@ -1044,6 +1045,8 @@
 <text x="-7.62" y="-2.54" size="1.016" layer="51">1 (GND)</text>
 </package>
 <package name="TSM-106-01-L-SH">
+<description>Samtec TSM-106-01-L-SH
+only holes</description>
 <wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
@@ -1071,6 +1074,8 @@
 <text x="7.2" y="2.9" size="1.27" layer="21">1</text>
 </package>
 <package name="TSM-106-01-L-SH-REV">
+<description>Samtec TSM-106-01-L-SH
+only holes, reversed pin order</description>
 <wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
@@ -1099,6 +1104,8 @@
 <text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
 </package>
 <package name="TSM-106-01-L-SH-B-REV">
+<description>Samtec TSM-106-01-L-SH
+holes with copper, reversed pin order</description>
 <wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
@@ -1127,6 +1134,7 @@
 <pad name="SUPPORT-2" x="5.08" y="0" drill="1.78" diameter="3"/>
 </package>
 <package name="FTDI-SER-6-SIL">
+<description>0.1" pitch, suitable for pogopins</description>
 <pad name="RXD" x="0" y="3.81" drill="0.508"/>
 <pad name="TXD" x="0" y="1.27" drill="0.508"/>
 <pad name="VCC" x="0" y="-1.27" drill="0.508"/>
