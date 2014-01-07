@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="11" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="221" name="connection" color="7" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="bExtra" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<description>&lt;h3&gt;Boards -- ELL-i open source co-op Eagle libraries&lt;/h3&gt;
+
+&lt;p&gt;In this library you'll find outlines of the ELL-i boards, and other board-specific footprints and devices.&lt;/p&gt;
+
+&lt;p&gt;Whenever possible, we prefer to use the components from the &lt;a href="https://github.com/Ell-i/SparkFun-Eagle-Libraries"&gt;SparkFun Public Eagle PCB Footprints&lt;/a&gt;, as they are available from &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. Whenever possible, we also prefer to push our components to the SparkFun libraries.  However, this is not always possible, and therefore we have our own libraries that for the most part contain components that cannot be found in the SparkFun libraries.&lt;/p&gt;</description>
+<packages>
+<package name="DIN49073-1:2010-02">
+<description>&lt;h3&gt;Pattressbox DIN 49073 dimensions&lt;/h3&gt;
+
+&lt;p&gt;The inner dimension of the continental Europe pattress box, 
+as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
+
+&lt;p&gt;The diameter of the enclosing circle is 58mm, and the cutouts are at 54 mm distance.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Not tested in production.&lt;/b&gt;&lt;/p&gt;</description>
+<wire x1="38" y1="-1" x2="16" y2="-1" width="0.127" layer="46"/>
+<wire x1="0" y1="37" x2="0" y2="15" width="0.127" layer="46"/>
+<wire x1="54" y1="15" x2="54" y2="37" width="0.127" layer="46"/>
+<wire x1="16" y1="53" x2="38" y2="53" width="0.127" layer="46"/>
+<wire x1="0" y1="37" x2="16" y2="53" width="0.127" layer="46" curve="-45.667308"/>
+<wire x1="38" y1="53" x2="54" y2="37" width="0.127" layer="46" curve="-45.667308"/>
+<wire x1="54" y1="15" x2="38" y2="-1" width="0.127" layer="46" curve="-45.667308"/>
+<wire x1="16" y1="-1" x2="0" y2="15" width="0.127" layer="46" curve="-45.667308"/>
+<text x="15.57" y="-0.67" size="1.27" layer="21">DIN49073</text>
+<circle x="27" y="26" radius="33.52610625" width="0.127" layer="51"/>
+<pad name="P$1" x="15.24" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$2" x="17.78" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$3" x="20.32" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$4" x="22.86" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$5" x="25.4" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$6" x="27.94" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$7" x="30.48" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$8" x="33.02" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$9" x="35.56" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$10" x="38.1" y="50.8" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$11" x="15.24" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$12" x="17.78" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$13" x="20.32" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$14" x="22.86" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$15" x="25.4" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$16" x="27.94" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$17" x="30.48" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$18" x="33.02" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$19" x="35.56" y="2.54" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$20" x="38.1" y="2.54" drill="0.8" shape="long" rot="R90"/>
+</package>
+<package name="RASPBERRYPI-SHIELD-FULLSIZE">
+<wire x1="0" y1="0" x2="0" y2="54" width="0.127" layer="46"/>
+<wire x1="0" y1="0" x2="8.2" y2="0" width="0.127" layer="46"/>
+<wire x1="16.2" y1="0" x2="63" y2="0" width="0.127" layer="46"/>
+<wire x1="63" y1="0" x2="63" y2="19" width="0.127" layer="46"/>
+<wire x1="63" y1="19" x2="82" y2="19" width="0.127" layer="46"/>
+<wire x1="0" y1="54" x2="39" y2="54" width="0.127" layer="46"/>
+<wire x1="39" y1="54" x2="39" y2="43" width="0.127" layer="46"/>
+<wire x1="82" y1="54" x2="50" y2="54" width="0.127" layer="46"/>
+<wire x1="50" y1="54" x2="50" y2="43" width="0.127" layer="46"/>
+<wire x1="39" y1="43" x2="50" y2="43" width="0.127" layer="46"/>
+<wire x1="82" y1="54" x2="82" y2="38" width="0.127" layer="46"/>
+<wire x1="82" y1="38" x2="72" y2="38" width="0.127" layer="46"/>
+<wire x1="82" y1="19" x2="82" y2="25" width="0.127" layer="46"/>
+<wire x1="82" y1="25" x2="72" y2="25" width="0.127" layer="46"/>
+<wire x1="72" y1="25" x2="72" y2="38" width="0.127" layer="46"/>
+<pad name="1" x="1.707" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="2" x="1.707" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="3" x="4.247" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="4" x="4.247" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="5" x="6.787" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="6" x="6.787" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="7" x="9.327" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="8" x="9.327" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="9" x="11.867" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="10" x="11.867" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<rectangle x1="1.453" y1="49.291" x2="1.961" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="1.453" y1="51.831" x2="1.961" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="3.993" y1="51.831" x2="4.501" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="3.993" y1="49.291" x2="4.501" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="6.533" y1="51.831" x2="7.041" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="6.533" y1="49.291" x2="7.041" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="9.073" y1="51.831" x2="9.581" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="9.073" y1="49.291" x2="9.581" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="11.613" y1="51.831" x2="12.121" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="11.613" y1="49.291" x2="12.121" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="9.073" y1="49.291" x2="9.581" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="9.073" y1="51.831" x2="9.581" y2="52.339" layer="51" rot="R90"/>
+<pad name="11" x="14.407" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="12" x="14.407" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="13" x="16.947" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="14" x="16.947" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="15" x="19.487" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="16" x="19.487" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="17" x="22.027" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="18" x="22.027" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="19" x="24.567" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="20" x="24.567" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<rectangle x1="14.153" y1="49.291" x2="14.661" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="14.153" y1="51.831" x2="14.661" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="16.693" y1="51.831" x2="17.201" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="16.693" y1="49.291" x2="17.201" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="19.233" y1="51.831" x2="19.741" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="19.233" y1="49.291" x2="19.741" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="21.773" y1="51.831" x2="22.281" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="21.773" y1="49.291" x2="22.281" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="24.313" y1="51.831" x2="24.821" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="24.313" y1="49.291" x2="24.821" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="21.773" y1="49.291" x2="22.281" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="21.773" y1="51.831" x2="22.281" y2="52.339" layer="51" rot="R90"/>
+<pad name="21" x="27.107" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="22" x="27.107" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="23" x="29.647" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="24" x="29.647" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="25" x="32.187" y="49.545" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="26" x="32.187" y="52.085" drill="1.016" diameter="1.8796" shape="octagon"/>
+<rectangle x1="26.853" y1="51.831" x2="27.361" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="26.853" y1="49.291" x2="27.361" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="29.393" y1="51.831" x2="29.901" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="29.393" y1="49.291" x2="29.901" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="31.933" y1="51.831" x2="32.441" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="31.933" y1="49.291" x2="32.441" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="29.393" y1="49.291" x2="29.901" y2="49.799" layer="51" rot="R90"/>
+<rectangle x1="29.393" y1="51.831" x2="29.901" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="16.693" y1="51.831" x2="17.201" y2="52.339" layer="51" rot="R90"/>
+<rectangle x1="16.693" y1="51.831" x2="17.201" y2="52.339" layer="51" rot="R90"/>
+<wire x1="16.2" y1="6" x2="16.2" y2="0" width="0.127" layer="46"/>
+<wire x1="8.2" y1="6" x2="8.2" y2="0" width="0.127" layer="46"/>
+<wire x1="8.2" y1="6" x2="16.2" y2="6" width="0.127" layer="46" curve="-180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIN49073">
+<description>&lt;h3&gt;Indication of DIN49073 outline&lt;/h3&gt;
+
+&lt;p&gt;This symbol is used by the DIN49073 device to indicate that a DIN49073-compliant board outline is used for the board.&lt;/p&gt;</description>
+<text x="0" y="0" size="1.778" layer="94">DIN49073</text>
+<wire x1="-2.54" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RASPBERRYPI-GPIO">
+<wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+<pin name="3.3V@1" x="-15.24" y="20.32" length="short" direction="pwr"/>
+<pin name="SDA" x="15.24" y="25.4" length="short" rot="R180"/>
+<pin name="SCL" x="15.24" y="22.86" length="short" rot="R180"/>
+<pin name="GP4" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="GND@9" x="-15.24" y="-15.24" length="short" direction="pwr"/>
+<pin name="GP17" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="GP27" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="GP22" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="3.3V@17" x="-15.24" y="17.78" length="short" direction="pwr"/>
+<pin name="MOSI" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="MISO" x="15.24" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="SCLK" x="15.24" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="GND@25" x="-15.24" y="-22.86" length="short" direction="pwr"/>
+<pin name="CE1" x="15.24" y="0" length="short" direction="out" rot="R180"/>
+<pin name="CE0" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="GP25" x="15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="GND@20" x="-15.24" y="-20.32" length="short" direction="pwr"/>
+<pin name="GP24" x="15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="GP23" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="GND@14" x="-15.24" y="-17.78" length="short" direction="pwr"/>
+<pin name="GP18" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="RXI" x="15.24" y="15.24" length="short" direction="in" rot="R180"/>
+<pin name="TXO" x="15.24" y="17.78" length="short" direction="out" rot="R180"/>
+<pin name="GND@6" x="-15.24" y="-12.7" length="short" direction="pwr"/>
+<pin name="5V@4" x="-15.24" y="22.86" length="short" direction="pwr"/>
+<pin name="5V@2" x="-15.24" y="25.4" length="short" direction="pwr"/>
+<text x="-12.7" y="28.702" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-27.94" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIN49073" prefix="DIMENSIONS">
+<description>&lt;h3&gt;DIN49073 board&lt;/h3&gt;
+
+&lt;p&gt;Used to document in the schematic that the board outline is comliant with the DN49073 standard, and to select an appropriate dimension for the actual board.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIN49073" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIN49073-1:2010-02">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RASPBERRY-SHIELD">
+<gates>
+<gate name="G$1" symbol="RASPBERRYPI-GPIO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RASPBERRYPI-SHIELD-FULLSIZE">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="CE0" pad="24"/>
+<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GP17" pad="11"/>
+<connect gate="G$1" pin="GP18" pad="12"/>
+<connect gate="G$1" pin="GP22" pad="15"/>
+<connect gate="G$1" pin="GP23" pad="16"/>
+<connect gate="G$1" pin="GP24" pad="18"/>
+<connect gate="G$1" pin="GP25" pad="22"/>
+<connect gate="G$1" pin="GP27" pad="13"/>
+<connect gate="G$1" pin="GP4" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="21"/>
+<connect gate="G$1" pin="MOSI" pad="19"/>
+<connect gate="G$1" pin="RXI" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="TXO" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
