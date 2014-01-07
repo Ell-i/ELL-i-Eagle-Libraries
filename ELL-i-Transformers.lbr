@@ -386,11 +386,11 @@
 <pin name="RD+" x="-20.32" y="-2.54" length="short" direction="in"/>
 <pin name="RCT" x="-20.32" y="-10.16" length="short" direction="in"/>
 <pin name="RD-" x="-20.32" y="-17.78" length="short" direction="in"/>
-<pin name="TX1+" x="20.32" y="17.78" length="short" rot="R180"/>
-<pin name="TX1-" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="TX+" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="TX-" x="20.32" y="2.54" length="short" rot="R180"/>
 <pin name="TXCT" x="20.32" y="10.16" length="short" rot="R180"/>
 <pin name="RXCT" x="20.32" y="-10.16" length="short" rot="R180"/>
-<pin name="RX1+" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="RX+" x="20.32" y="-2.54" length="short" rot="R180"/>
 <pin name="RX-" x="20.32" y="-17.78" length="short" rot="R180"/>
 <wire x1="17.78" y1="10.16" x2="17.78" y2="16.51" width="0.254" layer="94"/>
 <wire x1="17.78" y1="10.16" x2="15.24" y2="10.16" width="0.127" layer="94"/>
