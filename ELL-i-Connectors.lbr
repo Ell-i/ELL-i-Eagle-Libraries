@@ -1280,6 +1280,32 @@
 <rectangle x1="3.556" y1="0" x2="4.064" y2="1.016" layer="51"/>
 <rectangle x1="6.096" y1="0" x2="6.604" y2="1.016" layer="51"/>
 </package>
+<package name="BELFUSE-SS-51-PD-T568A">
+<description>&lt;h3&gt;Belfuse SS-51 8-pin Punch Down Block &lt;/h3&gt;
+
+&lt;p&gt;This is an Belfuse SS-51 8-pin EIA 110 PCB punch down block.  EIA 110 punchdown blocks are used for fixed Ethernet installations, either in T568A or T568B pin order.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://belfuse.com/ethernet/punch-down-blocks/"&gt;Product webpage.&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="http://belfuse.com/pdfs/CT510004.pdf"&gt;Datasheet.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pad name="1" x="-3.302" y="0" drill="1.1"/>
+<pad name="2" x="-6.604" y="0" drill="1.1"/>
+<pad name="3" x="6.604" y="0" drill="1.1"/>
+<pad name="4" x="16.51" y="0" drill="1.1"/>
+<pad name="5" x="13.208" y="0" drill="1.1"/>
+<pad name="6" x="3.302" y="0" drill="1.1"/>
+<pad name="7" x="-13.208" y="0" drill="1.1"/>
+<pad name="8" x="-16.51" y="0" drill="1.1"/>
+<wire x1="-19" y1="4" x2="19" y2="4" width="0.127" layer="21"/>
+<wire x1="19" y1="4" x2="19" y2="-4" width="0.127" layer="21"/>
+<wire x1="19" y1="-4" x2="-19" y2="-4" width="0.127" layer="21"/>
+<wire x1="-19" y1="-4" x2="-19" y2="4" width="0.127" layer="21"/>
+<text x="14" y="2" size="1.27" layer="21">BLUE</text>
+<text x="-18" y="2" size="1.27" layer="21">BROWN</text>
+<text x="-19" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-18" y="-3" size="1.27" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DF12-32-F">
