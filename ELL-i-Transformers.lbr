@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -222,6 +222,31 @@
 <text x="-3.81" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-5.08" y="5.08" radius="1.27" width="0.127" layer="21"/>
 </package>
+<package name="PULSE-H2019NL">
+<smd name="1" x="-4.445" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="2" x="-3.175" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="3" x="-1.905" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="4" x="-0.635" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="5" x="0.635" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="6" x="1.905" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="7" x="3.175" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="8" x="4.445" y="-4.572" dx="0.635" dy="1.397" layer="1"/>
+<smd name="9" x="4.445" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="10" x="3.175" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="11" x="1.905" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="12" x="0.635" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="13" x="-0.635" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="14" x="-1.905" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="15" x="-3.175" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<smd name="16" x="-4.445" y="4.572" dx="0.635" dy="1.397" layer="1" rot="R180"/>
+<wire x1="-6.35" y1="3.556" x2="6.35" y2="3.556" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.556" x2="6.35" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.556" x2="-6.35" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-3.556" x2="-6.35" y2="3.556" width="0.127" layer="21"/>
+<text x="-5.334" y="1.016" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.334" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-4.445" y="-2.794" radius="0.40160625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2PRIMARY-1SECONDARY">
@@ -430,20 +455,39 @@
 <gate name="G$1" symbol="POE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="COILCRAFT-ETH1-230L">
+<device name="-230NL" package="COILCRAFT-ETH1-230L">
 <connects>
 <connect gate="G$1" pin="RCT" pad="P$3"/>
 <connect gate="G$1" pin="RD+" pad="P$2"/>
 <connect gate="G$1" pin="RD-" pad="P$1"/>
+<connect gate="G$1" pin="RX+" pad="P$13"/>
 <connect gate="G$1" pin="RX-" pad="P$14"/>
-<connect gate="G$1" pin="RX1+" pad="P$13"/>
 <connect gate="G$1" pin="RXCT" pad="P$12"/>
 <connect gate="G$1" pin="TCT" pad="P$4"/>
 <connect gate="G$1" pin="TD+" pad="P$6"/>
 <connect gate="G$1" pin="TD-" pad="P$5"/>
-<connect gate="G$1" pin="TX1+" pad="P$9"/>
-<connect gate="G$1" pin="TX1-" pad="P$10"/>
+<connect gate="G$1" pin="TX+" pad="P$9"/>
+<connect gate="G$1" pin="TX-" pad="P$10"/>
 <connect gate="G$1" pin="TXCT" pad="P$11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-H2019NL" package="PULSE-H2019NL">
+<connects>
+<connect gate="G$1" pin="RCT" pad="7"/>
+<connect gate="G$1" pin="RD+" pad="6"/>
+<connect gate="G$1" pin="RD-" pad="8"/>
+<connect gate="G$1" pin="RX+" pad="11"/>
+<connect gate="G$1" pin="RX-" pad="9"/>
+<connect gate="G$1" pin="RXCT" pad="10"/>
+<connect gate="G$1" pin="TCT" pad="2"/>
+<connect gate="G$1" pin="TD+" pad="1"/>
+<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="TX+" pad="16"/>
+<connect gate="G$1" pin="TX-" pad="14"/>
+<connect gate="G$1" pin="TXCT" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
