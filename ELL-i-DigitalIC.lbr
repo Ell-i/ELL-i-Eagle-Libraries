@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1402,6 +1402,8 @@
 
 &lt;p&gt;8x8 mm, 0.5 mm pitch.&lt;/p&gt;
 
+&lt;p&gt;&lt;b&gt;Note&lt;/b&gt; that this package has extra non-connected invisible 0.0x0.0 sized pads, in the middle, named NC1-NC7.  That facilitates allowing csBGA 132 and TQFP 144 packages to be used with the same device.&lt;/p&gt;
+
 &lt;p&gt;&lt;b&gt;Note&lt;/b&gt; that this package extra annotation in the Docu layer, showing which balls form together pin pairs in the FPGA pin assignment.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1630,6 +1632,13 @@
 <wire x1="2.75" y1="-0.75" x2="3.25" y2="-0.75" width="0.05" layer="51"/>
 <wire x1="2.75" y1="-2.25" x2="3.25" y2="-2.75" width="0.05" layer="51"/>
 <wire x1="2.75" y1="-2.75" x2="2.75" y2="-3.25" width="0.05" layer="51"/>
+<smd name="NC1" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC2" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC3" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC4" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC5" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC6" x="0" y="0" dx="0" dy="0" layer="1"/>
+<smd name="NC7" x="0" y="0" dx="0" dy="0" layer="1"/>
 </package>
 <package name="CSBGA132-ICE40">
 <description>&lt;h3&gt;132 balls chip sized Ball Grid Array (BGA) for Lattice iCE40 series FPGAs&lt;/h3&gt;
@@ -2085,129 +2094,233 @@
 <wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
 <pin name="PB_2B/4B/4D/5B/4B" x="-22.86" y="5.08" length="middle"/>
 </symbol>
-<symbol name="MACHXO2-256">
-<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+<symbol name="MACHXO2-CSBGA132-BOTTOM-256">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Additional bottom ports for csBGA 132&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-256Pinout.CSV"&gt;MachXO2 256 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="PT_6A/6A/9A/9A/9A" x="-5.08" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_6B/6B/9B/9B/9B" x="-2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_8A/9A/12A/17A/18A" x="2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_8B/9B/12B/17B/18B" x="5.08" y="30.48" length="middle" rot="R270"/>
-<pin name="PR_3D/3D/4D/5B/8B" x="45.72" y="5.08" length="middle" rot="R180"/>
-<pin name="PR_3C/3C/4C/5A/8A" x="45.72" y="7.62" length="middle" rot="R180"/>
-<pin name="PR_3B/2D/3B/3B/5B" x="45.72" y="12.7" length="middle" rot="R180"/>
-<pin name="PR_3A/2C/3A/3A/5A" x="45.72" y="15.24" length="middle" rot="R180"/>
-<pin name="PR_2B/2B/2B/1B/2B" x="45.72" y="20.32" length="middle" rot="R180"/>
-<pin name="PR_2A/2A/2A/1A/2A" x="45.72" y="22.86" length="middle" rot="R180"/>
-<pin name="PR_5A/5C/5C/7A/10A" x="45.72" y="0" length="middle" rot="R180"/>
-<pin name="PR_5B/5D/5D/7B/10B" x="45.72" y="-2.54" length="middle" rot="R180"/>
-<pin name="PR_5C/6C/9A/11A/15A" x="45.72" y="-7.62" length="middle" rot="R180"/>
-<pin name="PR_5D/6D/9B/11B/15B" x="45.72" y="-10.16" length="middle" rot="R180"/>
-<pin name="PR_6A/7A/9C/12A/16A" x="45.72" y="-15.24" length="middle" rot="R180"/>
-<pin name="PR_6B/7B/9D/12B/16B" x="45.72" y="-17.78" length="middle" rot="R180"/>
-<pin name="PR_6C/7C/10C/14A/19A" x="45.72" y="-22.86" length="middle" rot="R180"/>
-<pin name="PR_6D/7D/10D/14B/19B" x="45.72" y="-25.4" length="middle" rot="R180"/>
-<pin name="PL_3C/5A/5A/7C/10C" x="-45.72" y="0" length="middle"/>
-<pin name="PL_3D/5B/5B/7D/10D" x="-45.72" y="-2.54" length="middle"/>
-<pin name="PL_5A/6A/8A/10A/14A" x="-45.72" y="-7.62" length="middle"/>
-<pin name="PL_5B/6B/8B/10B/14B" x="-45.72" y="-10.16" length="middle"/>
-<pin name="PL_5C/7A/9A/12A/17A" x="-45.72" y="-15.24" length="middle"/>
-<pin name="PL_5D/7B/9B/12B/17B" x="-45.72" y="-17.78" length="middle"/>
-<pin name="PL_6A/7C/10C/14A/20A" x="-45.72" y="-22.86" length="middle"/>
-<pin name="PL_6B/7D/10D/14B/20B" x="-45.72" y="-25.4" length="middle"/>
-<pin name="PL_3B/3B/3D/4B/7B" x="-45.72" y="5.08" length="middle"/>
-<pin name="PL_3A/3A/3C/4A/7A" x="-45.72" y="7.62" length="middle"/>
-<pin name="PL_2D/2D/3B/3B/6B" x="-45.72" y="12.7" length="middle"/>
-<pin name="PL_2C/2C/3A/3A/6A" x="-45.72" y="15.24" length="middle"/>
-<pin name="PL_2B/2B/2D/2B/4B" x="-45.72" y="20.32" length="middle"/>
-<pin name="PL_2A/2A/2C/2A/4A" x="-45.72" y="22.86" length="middle"/>
-<pin name="PB_4C/10C/11A/16A/20A" x="-5.08" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_4D/10D/11B/16B/20B" x="-2.54" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_7A/12A/15A/18A/21A" x="2.54" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_7B/12B/15B/18B/21B" x="5.08" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_7C/12C/18A/21A/24A" x="10.16" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_7D/12D/18B/21B/24B" x="12.7" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_4A/6C/9A/11A/13A" x="-12.7" y="-33.02" length="middle" rot="R90"/>
-<pin name="PB_4B/6D/9B/11B/13B" x="-10.16" y="-33.02" length="middle" rot="R90"/>
-<wire x1="-40.64" y1="-27.94" x2="-40.64" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-40.64" y1="25.4" x2="40.64" y2="25.4" width="0.254" layer="94"/>
-<wire x1="40.64" y1="25.4" x2="40.64" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="40.64" y1="-27.94" x2="-40.64" y2="-27.94" width="0.254" layer="94"/>
+<pin name="PB_7A/12A/15A/18A/21A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PB_7B/12B/15B/18B/21B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB_7C/12C/18A/21A/24A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB_7D/12D/18B/21B/24B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-640">
-<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+<symbol name="MACHXO2-CSBGA132-TOP-256">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-256Pinout.CSV"&gt;MachXO2 256 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PT_6A/6A/9A/9A/9A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PT_6B/6B/9B/9B/9B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PT_8A/9A/12A/17A/18A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PT_8B/9B/12B/17B/18B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-RIGHT-256">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-256Pinout.CSV"&gt;MachXO2 256 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PR_3D/3D/4D/5B/8B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PR_3C/3C/4C/5A/8A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PR_3B/2D/3B/3B/5B" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PR_3A/2C/3A/3A/5A" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="PR_2B/2B/2B/1B/2B" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="PR_2A/2A/2A/1A/2A" x="10.16" y="20.32" length="middle" rot="R180"/>
+<pin name="PR_5C/6C/9A/11A/15A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PR_5D/6D/9B/11B/15B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PR_6A/7A/9C/12A/16A" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PR_6B/7B/9D/12B/16B" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PR_6C/7C/10C/14A/19A" x="10.16" y="-17.78" length="middle" rot="R180"/>
+<pin name="PR_6D/7D/10D/14B/19B" x="10.16" y="-20.32" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-LEFT-256">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-256Pinout.CSV"&gt;MachXO2 256 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PL_3C/5A/5A/7C/10C" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PL_3D/5B/5B/7D/10D" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PL_5A/6A/8A/10A/14A" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PL_5B/6B/8B/10B/14B" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PL_6A/7C/10C/14A/20A" x="10.16" y="-17.78" length="middle" rot="R180"/>
+<pin name="PL_6B/7D/10D/14B/20B" x="10.16" y="-20.32" length="middle" rot="R180"/>
+<pin name="PL_3B/3B/3D/4B/7B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PL_3A/3A/3C/4A/7A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PL_2D/2D/3B/3B/6B" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PL_2C/2C/3A/3A/6A" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="PL_2B/2B/2D/2B/4B" x="10.16" y="17.78" length="middle" rot="R180"/>
+<pin name="PL_2A/2A/2C/2A/4A" x="10.16" y="20.32" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
+<text x="-27.94" y="17.78" size="1.778" layer="94" rot="R270">csBGA132 PR 256/640/...</text>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-TOP-640">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-640Pinout.CSV"&gt;MachXO2 640 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="PT_/10A/15A/19A/21A" x="-2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_/10B/15B/19B/21B" x="0" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_/11A/16C/22A/25A" x="5.08" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_/11B/16D/22B/25B" x="7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_/6D/10B/11B/11B" x="-7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_/6C/10A/11A/11A" x="-10.16" y="30.48" length="middle" rot="R270"/>
-<pin name="PL_/5D/5D/9B/13B" x="-38.1" y="0" length="middle"/>
-<pin name="PL_/5C/5C/9A/13A" x="-38.1" y="2.54" length="middle"/>
-<pin name="PL_/3D/4B/5B/8B" x="-38.1" y="7.62" length="middle"/>
-<pin name="PL_/3C/4A/5A/8A" x="-38.1" y="10.16" length="middle"/>
-<pin name="PL_/6C/8C/11A/16A" x="-38.1" y="-5.08" length="middle"/>
-<pin name="PL_/6D/8D/11B/16B" x="-38.1" y="-7.62" length="middle"/>
-<pin name="PR_/6A/8C/10A/14A" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="PR_/6B/8D/10B/14B" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="PB_/14A/18C/22A/27A" x="5.08" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_/14B/18D/22B/27B" x="7.62" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_/4C/6A/6A/7A" x="-10.16" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_/4D/6B/6B/7B" x="-7.62" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_/10A/11C/12A/15A" x="-2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_/10B/11D/12B/15B" x="0" y="-30.48" length="middle" rot="R90"/>
-<pin name="PR_/3B/4B/4B/6B" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="PR_/3A/4A/4A/6A" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="PR_/5A/5A/6A/9A" x="38.1" y="2.54" length="middle" rot="R180"/>
-<pin name="PR_/5B/5B/6B/9B" x="38.1" y="0" length="middle" rot="R180"/>
-<wire x1="-33.02" y1="-25.4" x2="-33.02" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="25.4" x2="33.02" y2="25.4" width="0.254" layer="94"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-25.4" x2="-33.02" y2="-25.4" width="0.254" layer="94"/>
+<pin name="PT_/10A/15A/19A/21A" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PT_/10B/15B/19B/21B" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PT_/11A/16C/22A/25A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PT_/11B/16D/22B/25B" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PT_/6D/10B/11B/11B" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PT_/6C/10A/11A/11A" x="10.16" y="10.16" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-1200">
+<symbol name="MACHXO2-CSBGA132-LEFT-640">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-640Pinout.CSV"&gt;MachXO2 640 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PL_/5D/5D/9B/13B" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PL_/5C/5C/9A/13A" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PL_/3D/4B/5B/8B" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PL_/3C/4A/5A/8A" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PL_/6C/8C/11A/16A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PL_/6D/8D/11B/16B" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-RIGHT-640">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-640Pinout.CSV"&gt;MachXO2 640 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PR_/6A/8C/10A/14A" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="PR_/6B/8D/10B/14B" x="7.62" y="-7.62" length="middle" rot="R180"/>
+<pin name="PR_/3B/4B/4B/6B" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="PR_/3A/4A/4A/6A" x="7.62" y="10.16" length="middle" rot="R180"/>
+<pin name="PR_/5A/5A/6A/9A" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="PR_/5B/5B/6B/9B" x="7.62" y="0" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-BOTTOM-640">
+<description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Bottom ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-640Pinout.CSV"&gt;MachXO2 640 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PB_/14A/18C/22A/27A" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PB_/14B/18D/22B/27B" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PB_/4C/6A/6A/7A" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB_/4D/6B/6B/7B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB_/10A/11C/12A/15A" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PB_/10B/11D/12B/15B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-TOP-1200">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="PT_//17B/24B/27B" x="10.16" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_//17A/23A/27A" x="7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_//16B/21B/24B" x="2.54" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_//16A/21A/24A" x="0" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_//11A/13A/14A" x="-7.62" y="30.48" length="middle" rot="R270"/>
-<pin name="PT_//11B/13B/14B" x="-5.08" y="30.48" length="middle" rot="R270"/>
-<pin name="PL_//2B/1B/3B" x="-38.1" y="5.08" length="middle"/>
-<pin name="PL_//2A/1A/3A" x="-38.1" y="7.62" length="middle"/>
-<pin name="PL_//4C/6A/9A" x="-38.1" y="0" length="middle"/>
-<pin name="PL_//4D/6B/9B" x="-38.1" y="-2.54" length="middle"/>
-<pin name="PL_//10B/13B/19B" x="-38.1" y="-7.62" length="middle"/>
-<pin name="PR_//8A/9A/13A" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="PR_//8B/9B/13B" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="PR_//10A/13A/18A" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="PR_//10B/13B/18B" x="38.1" y="-10.16" length="middle" rot="R180"/>
-<pin name="PR_//2D/2B/3B" x="38.1" y="5.08" length="middle" rot="R180"/>
-<pin name="PR_//2C/2A/3A" x="38.1" y="7.62" length="middle" rot="R180"/>
-<pin name="PB_//20B/24B/29B" x="-10.16" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//9D/9B/10B" x="-2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//4A/3A/3A" x="2.54" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//4B/3B/3B" x="5.08" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//15C/19A/23A" x="10.16" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//15D/19B/23B" x="12.7" y="-30.48" length="middle" rot="R90"/>
-<wire x1="-33.02" y1="-25.4" x2="-33.02" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="25.4" x2="33.02" y2="25.4" width="0.254" layer="94"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-25.4" x2="-33.02" y2="-25.4" width="0.254" layer="94"/>
-<pin name="PB_//20A/24A/29A" x="-12.7" y="-30.48" length="middle" rot="R90"/>
-<pin name="PB_//9C/9A/10A" x="-5.08" y="-30.48" length="middle" rot="R90"/>
+<pin name="PT_//17B/24B/27B" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PT_//17A/23A/27A" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PT_//16B/21B/24B" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PT_//16A/21A/24A" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PT_//11A/13A/14A" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PT_//11B/13B/14B" x="10.16" y="5.08" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="-27.94" y2="-12.7" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-PWR">
+<symbol name="MACHXO2-CSBGA132-LEFT-1200">
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PL_//2B/1B/3B" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PL_//2A/1A/3A" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PL_//4C/6A/9A" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PL_//4D/6B/9B" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PL_//10B/13B/19B" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-RIGHT-1200">
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PR_//8A/9A/13A" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PR_//8B/9B/13B" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="PR_//10A/13A/18A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PR_//10B/13B/18B" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PR_//2D/2B/3B" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PR_//2C/2A/3A" x="10.16" y="10.16" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-BOTTOM-1200">
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Bottom ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PB_//20B/24B/29B" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB_//9D/9B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB_//4A/3A/3A" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="PB_//4B/3B/3B" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PB_//15C/19A/23A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB_//15D/19B/23B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-27.94" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<pin name="PB_//20A/24A/29A" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB_//9C/9A/10A" x="10.16" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MACHXO2-CSBGA132-PWR">
 <description>&lt;h3&gt;Lattice MachXO2 common power pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -2390,6 +2503,54 @@
 <text x="-25.4" y="-15.24" size="1.27" layer="94" align="center-left">FMC_NE4</text>
 <text x="-25.4" y="-17.78" size="1.27" layer="94" align="center-left">ETH RMII_TXD0</text>
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">ETH RMII_TXD1</text>
+</symbol>
+<symbol name="MACHXO2-QFN32-256">
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Generic pins available in the QFN32 package.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-256Pinout.CSV"&gt;MachXO2 256 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PR_5A/5C/5C/7A/10A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PR_5B/5D/5D/7B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PL_5C/7A/9A/12A/17A" x="10.16" y="12.7" length="middle" rot="R180"/>
+<pin name="PL_5D/7B/9B/12B/17B" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PB_4C/10C/11A/16A/20A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB_4D/10D/11B/16B/20B" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB_4A/6C/9A/11A/13A" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB_4B/6D/9B/11B/13B" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MACHXO2-TQFP144-1200">
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
+
+&lt;p&gt;Ports in the TQFP 144 package for MachXO2 1200, in addition to those available in csBGA 132 package.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pin name="PL_//10A/13A/19A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PT_//9C/10A/10A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PT_//9D/10B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-27.94" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-27.94" y2="7.62" width="0.254" layer="94"/>
+<text x="-22.86" y="-2.54" size="1.27" layer="94" rot="R90">TQFP144-
+only pins</text>
+</symbol>
+<symbol name="MACHXO2-TQFP144-2000">
+<pin name="PR_///7D/10D/15B" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PL_///7A/10A/11A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PL_///7B/10B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-27.94" y2="7.62" width="0.254" layer="94"/>
+<text x="-22.86" y="-5.08" size="1.27" layer="94" rot="R90">TQFP144-
+only pins</text>
+<pin name="PR_///7C/10C/15A" x="10.16" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2961,376 +3122,751 @@
 </deviceset>
 <deviceset name="LCMXO2-256" prefix="U">
 <gates>
-<gate name="G$1" symbol="MACHXO2-PWR" x="-45.72" y="10.16"/>
-<gate name="G$2" symbol="MACHXO2-ERB" x="5.08" y="20.32"/>
-<gate name="G$3" symbol="MACHXO2-256" x="86.36" y="17.78"/>
+<gate name="MACHXO2-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-20.32" y="73.66"/>
+<gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="88.9" y="68.58"/>
+<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="45.72" y="27.94"/>
+<gate name="MACHXO2-CSBA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-7.62" y="5.08"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="101.6" y="0"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="45.72" y="-27.94"/>
+<gate name="MACHXO2-QNF32-256" symbol="MACHXO2-QFN32-256" x="45.72" y="0"/>
 </gates>
 <devices>
-<device name="-MG132" package="CSBGA132-MACHXO2">
+<device name="MG132" package="CSBGA132-MACHXO2">
 <connects>
-<connect gate="G$1" pin="GND@A5" pad="A5"/>
-<connect gate="G$1" pin="GND@B11" pad="B11"/>
-<connect gate="G$1" pin="GND@D13" pad="D13"/>
-<connect gate="G$1" pin="GND@D2" pad="D2"/>
-<connect gate="G$1" pin="GND@G2" pad="G2"/>
-<connect gate="G$1" pin="GND@H13" pad="H13"/>
-<connect gate="G$1" pin="GND@L13" pad="L13"/>
-<connect gate="G$1" pin="GND@L2" pad="L2"/>
-<connect gate="G$1" pin="GND@P10" pad="P10"/>
-<connect gate="G$1" pin="GND@P5" pad="P5"/>
-<connect gate="G$1" pin="VCC@A1" pad="A1"/>
-<connect gate="G$1" pin="VCC@A14" pad="A14"/>
-<connect gate="G$1" pin="VCC@N1" pad="N1"/>
-<connect gate="G$1" pin="VCC@P14" pad="P14"/>
-<connect gate="G$1" pin="VCCIO0@A8" pad="A8"/>
-<connect gate="G$1" pin="VCCIO0@B10" pad="B10"/>
-<connect gate="G$1" pin="VCCIO0@C5" pad="C5"/>
-<connect gate="G$1" pin="VCCIO1@D14" pad="D14"/>
-<connect gate="G$1" pin="VCCIO1@H14" pad="H14"/>
-<connect gate="G$1" pin="VCCIO1@L12" pad="L12"/>
-<connect gate="G$1" pin="VCCIO2@M6" pad="M6"/>
-<connect gate="G$1" pin="VCCIO2@N11" pad="N11"/>
-<connect gate="G$1" pin="VCCIO2@P1" pad="P1"/>
-<connect gate="G$1" pin="VCCIO3/5@D3" pad="D3"/>
-<connect gate="G$1" pin="VCCIO3@L1" pad="L1"/>
-<connect gate="G$1" pin="VCCIO4@G1" pad="G1"/>
-<connect gate="G$2" pin="CSSPIN/PB_2A..." pad="P3"/>
-<connect gate="G$2" pin="DONE/PT17D" pad="A13"/>
-<connect gate="G$2" pin="INITN/PT17C" pad="B13"/>
-<connect gate="G$2" pin="JTAGENB/PT15C" pad="B9"/>
-<connect gate="G$2" pin="MCLK/CCLK/PB6C" pad="M4"/>
-<connect gate="G$2" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
-<connect gate="G$2" pin="PROGRAMN/PT15D" pad="C10"/>
-<connect gate="G$2" pin="SCL/PT12C" pad="C8"/>
-<connect gate="G$2" pin="SDA/PT12D" pad="B8"/>
-<connect gate="G$2" pin="SISPI/PB20D" pad="P13"/>
-<connect gate="G$2" pin="SN/PB20C" pad="N12"/>
-<connect gate="G$2" pin="SPISO/PB6D" pad="N4"/>
-<connect gate="G$2" pin="TCK" pad="B6"/>
-<connect gate="G$2" pin="TDI" pad="B4"/>
-<connect gate="G$2" pin="TDO" pad="A4"/>
-<connect gate="G$2" pin="TMS" pad="A6"/>
-<connect gate="G$3" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
-<connect gate="G$3" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
-<connect gate="G$3" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
-<connect gate="G$3" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
-<connect gate="G$3" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="G$3" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="G$3" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="G$3" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="G$3" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="G$3" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="G$3" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="G$3" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="G$3" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="G$3" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="G$3" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="G$3" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="G$3" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="G$3" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="G$3" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
-<connect gate="G$3" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
-<connect gate="G$3" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="G$3" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="G$3" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="G$3" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="G$3" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="G$3" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="G$3" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="G$3" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="G$3" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
-<connect gate="G$3" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
-<connect gate="G$3" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="G$3" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="G$3" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="G$3" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="G$3" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="G$3" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="G$3" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="G$3" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="G$3" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="G$3" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
+<connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
+<connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
+<connect gate="MACHXO2-ERB" pin="JTAGENB/PT15C" pad="B9"/>
+<connect gate="MACHXO2-ERB" pin="MCLK/CCLK/PB6C" pad="M4"/>
+<connect gate="MACHXO2-ERB" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
+<connect gate="MACHXO2-ERB" pin="PROGRAMN/PT15D" pad="C10"/>
+<connect gate="MACHXO2-ERB" pin="SCL/PT12C" pad="C8"/>
+<connect gate="MACHXO2-ERB" pin="SDA/PT12D" pad="B8"/>
+<connect gate="MACHXO2-ERB" pin="SISPI/PB20D" pad="P13"/>
+<connect gate="MACHXO2-ERB" pin="SN/PB20C" pad="N12"/>
+<connect gate="MACHXO2-ERB" pin="SPISO/PB6D" pad="N4"/>
+<connect gate="MACHXO2-ERB" pin="TCK" pad="B6"/>
+<connect gate="MACHXO2-ERB" pin="TDI" pad="B4"/>
+<connect gate="MACHXO2-ERB" pin="TDO" pad="A4"/>
+<connect gate="MACHXO2-ERB" pin="TMS" pad="A6"/>
+<connect gate="MACHXO2-PWR" pin="GND@A5" pad="A5"/>
+<connect gate="MACHXO2-PWR" pin="GND@B11" pad="B11"/>
+<connect gate="MACHXO2-PWR" pin="GND@D13" pad="D13"/>
+<connect gate="MACHXO2-PWR" pin="GND@D2" pad="D2"/>
+<connect gate="MACHXO2-PWR" pin="GND@G2" pad="G2"/>
+<connect gate="MACHXO2-PWR" pin="GND@H13" pad="H13"/>
+<connect gate="MACHXO2-PWR" pin="GND@L13" pad="L13"/>
+<connect gate="MACHXO2-PWR" pin="GND@L2" pad="L2"/>
+<connect gate="MACHXO2-PWR" pin="GND@P10" pad="P10"/>
+<connect gate="MACHXO2-PWR" pin="GND@P5" pad="P5"/>
+<connect gate="MACHXO2-PWR" pin="VCC@A1" pad="A1"/>
+<connect gate="MACHXO2-PWR" pin="VCC@A14" pad="A14"/>
+<connect gate="MACHXO2-PWR" pin="VCC@N1" pad="N1"/>
+<connect gate="MACHXO2-PWR" pin="VCC@P14" pad="P14"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO0@A8" pad="A8"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO0@B10" pad="B10"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO0@C5" pad="C5"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO1@D14" pad="D14"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO1@H14" pad="H14"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO1@L12" pad="L12"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO2@M6" pad="M6"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO2@N11" pad="N11"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO2@P1" pad="P1"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO3/5@D3" pad="D3"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO3@L1" pad="L1"/>
+<connect gate="MACHXO2-PWR" pin="VCCIO4@G1" pad="G1"/>
+<connect gate="MACHXO2-QNF32-256" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
+<connect gate="MACHXO2-QNF32-256" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
+<connect gate="MACHXO2-QNF32-256" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
+<connect gate="MACHXO2-QNF32-256" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
+<connect gate="MACHXO2-QNF32-256" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
+<connect gate="MACHXO2-QNF32-256" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
+<connect gate="MACHXO2-QNF32-256" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
+<connect gate="MACHXO2-QNF32-256" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
 </connects>
 <technologies>
-<technology name="HC"/>
-<technology name="HE"/>
-<technology name="ZE"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LCMXO2-640" prefix="U">
-<gates>
-<gate name="G$1" symbol="MACHXO2-PWR" x="-45.72" y="10.16"/>
-<gate name="G$2" symbol="MACHXO2-ERB" x="5.08" y="20.32"/>
-<gate name="G$3" symbol="MACHXO2-256" x="86.36" y="17.78"/>
-<gate name="G$4" symbol="MACHXO2-640" x="86.36" y="-55.88"/>
-</gates>
-<devices>
-<device name="-MG132" package="CSBGA132-MACHXO2">
-<connects>
-<connect gate="G$1" pin="GND@A5" pad="A5"/>
-<connect gate="G$1" pin="GND@B11" pad="B11"/>
-<connect gate="G$1" pin="GND@D13" pad="D13"/>
-<connect gate="G$1" pin="GND@D2" pad="D2"/>
-<connect gate="G$1" pin="GND@G2" pad="G2"/>
-<connect gate="G$1" pin="GND@H13" pad="H13"/>
-<connect gate="G$1" pin="GND@L13" pad="L13"/>
-<connect gate="G$1" pin="GND@L2" pad="L2"/>
-<connect gate="G$1" pin="GND@P10" pad="P10"/>
-<connect gate="G$1" pin="GND@P5" pad="P5"/>
-<connect gate="G$1" pin="VCC@A1" pad="A1"/>
-<connect gate="G$1" pin="VCC@A14" pad="A14"/>
-<connect gate="G$1" pin="VCC@N1" pad="N1"/>
-<connect gate="G$1" pin="VCC@P14" pad="P14"/>
-<connect gate="G$1" pin="VCCIO0@A8" pad="A8"/>
-<connect gate="G$1" pin="VCCIO0@B10" pad="B10"/>
-<connect gate="G$1" pin="VCCIO0@C5" pad="C5"/>
-<connect gate="G$1" pin="VCCIO1@D14" pad="D14"/>
-<connect gate="G$1" pin="VCCIO1@H14" pad="H14"/>
-<connect gate="G$1" pin="VCCIO1@L12" pad="L12"/>
-<connect gate="G$1" pin="VCCIO2@M6" pad="M6"/>
-<connect gate="G$1" pin="VCCIO2@N11" pad="N11"/>
-<connect gate="G$1" pin="VCCIO2@P1" pad="P1"/>
-<connect gate="G$1" pin="VCCIO3/5@D3" pad="D3"/>
-<connect gate="G$1" pin="VCCIO3@L1" pad="L1"/>
-<connect gate="G$1" pin="VCCIO4@G1" pad="G1"/>
-<connect gate="G$2" pin="CSSPIN/PB_2A..." pad="P3"/>
-<connect gate="G$2" pin="DONE/PT17D" pad="A13"/>
-<connect gate="G$2" pin="INITN/PT17C" pad="B13"/>
-<connect gate="G$2" pin="JTAGENB/PT15C" pad="B9"/>
-<connect gate="G$2" pin="MCLK/CCLK/PB6C" pad="M4"/>
-<connect gate="G$2" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
-<connect gate="G$2" pin="PROGRAMN/PT15D" pad="C10"/>
-<connect gate="G$2" pin="SCL/PT12C" pad="C8"/>
-<connect gate="G$2" pin="SDA/PT12D" pad="B8"/>
-<connect gate="G$2" pin="SISPI/PB20D" pad="P13"/>
-<connect gate="G$2" pin="SN/PB20C" pad="N12"/>
-<connect gate="G$2" pin="SPISO/PB6D" pad="N4"/>
-<connect gate="G$2" pin="TCK" pad="B6"/>
-<connect gate="G$2" pin="TDI" pad="B4"/>
-<connect gate="G$2" pin="TDO" pad="A4"/>
-<connect gate="G$2" pin="TMS" pad="A6"/>
-<connect gate="G$3" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
-<connect gate="G$3" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
-<connect gate="G$3" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
-<connect gate="G$3" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
-<connect gate="G$3" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="G$3" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="G$3" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="G$3" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="G$3" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="G$3" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="G$3" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="G$3" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="G$3" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="G$3" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="G$3" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="G$3" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="G$3" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="G$3" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="G$3" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
-<connect gate="G$3" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
-<connect gate="G$3" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="G$3" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="G$3" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="G$3" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="G$3" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="G$3" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="G$3" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="G$3" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="G$3" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
-<connect gate="G$3" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
-<connect gate="G$3" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="G$3" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="G$3" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="G$3" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="G$3" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="G$3" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="G$3" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="G$3" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="G$3" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="G$3" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
-<connect gate="G$4" pin="PB_/10A/11C/12A/15A" pad="P7"/>
-<connect gate="G$4" pin="PB_/10B/11D/12B/15B" pad="N7"/>
-<connect gate="G$4" pin="PB_/14A/18C/22A/27A" pad="M10"/>
-<connect gate="G$4" pin="PB_/14B/18D/22B/27B" pad="P11"/>
-<connect gate="G$4" pin="PB_/4C/6A/6A/7A" pad="N2"/>
-<connect gate="G$4" pin="PB_/4D/6B/6B/7B" pad="P4"/>
-<connect gate="G$4" pin="PL_/3C/4A/5A/8A" pad="E3"/>
-<connect gate="G$4" pin="PL_/3D/4B/5B/8B" pad="F2"/>
-<connect gate="G$4" pin="PL_/5C/5C/9A/13A" pad="H1"/>
-<connect gate="G$4" pin="PL_/5D/5D/9B/13B" pad="H3"/>
-<connect gate="G$4" pin="PL_/6C/8C/11A/16A" pad="J3"/>
-<connect gate="G$4" pin="PL_/6D/8D/11B/16B" pad="K2"/>
-<connect gate="G$4" pin="PR_/3A/4A/4A/6A" pad="E13"/>
-<connect gate="G$4" pin="PR_/3B/4B/4B/6B" pad="F12"/>
-<connect gate="G$4" pin="PR_/5A/5A/6A/9A" pad="G12"/>
-<connect gate="G$4" pin="PR_/5B/5B/6B/9B" pad="G14"/>
-<connect gate="G$4" pin="PR_/6A/8C/10A/14A" pad="J13"/>
-<connect gate="G$4" pin="PR_/6B/8D/10B/14B" pad="K12"/>
-<connect gate="G$4" pin="PT_/10A/15A/19A/21A" pad="C9"/>
-<connect gate="G$4" pin="PT_/10B/15B/19B/21B" pad="A9"/>
-<connect gate="G$4" pin="PT_/11A/16C/22A/25A" pad="A11"/>
-<connect gate="G$4" pin="PT_/11B/16D/22B/25B" pad="B12"/>
-<connect gate="G$4" pin="PT_/6C/10A/11A/11A" pad="A3"/>
-<connect gate="G$4" pin="PT_/6D/10B/11B/11B" pad="C4"/>
-</connects>
-<technologies>
-<technology name="HC"/>
-<technology name="HE"/>
-<technology name="ZE"/>
+<technology name="HC-4"/>
+<technology name="HC-5"/>
+<technology name="HC-6"/>
+<technology name="HE-4"/>
+<technology name="HE-5"/>
+<technology name="HE-6"/>
+<technology name="ZE-1"/>
+<technology name="ZE-2"/>
+<technology name="ZE-3"/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LCMXO2-1200" prefix="U">
 <gates>
-<gate name="G$1" symbol="MACHXO2-PWR" x="-45.72" y="10.16"/>
-<gate name="G$2" symbol="MACHXO2-ERB" x="5.08" y="20.32"/>
-<gate name="G$3" symbol="MACHXO2-256" x="86.36" y="17.78"/>
-<gate name="G$4" symbol="MACHXO2-640" x="86.36" y="-55.88"/>
-<gate name="G$5" symbol="MACHXO2-1200" x="-2.54" y="-55.88"/>
+<gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
+<gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
+<gate name="MACHXO2-QFN32-256" symbol="MACHXO2-QFN32-256" x="35.56" y="-55.88"/>
+<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="35.56" y="-12.7"/>
+<gate name="MACHXO2-CSBGA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-22.86" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="83.82" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="35.56" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-TOP-640" symbol="MACHXO2-CSBGA132-TOP-640" x="35.56" y="5.08"/>
+<gate name="MACHXO2-CSBGA132-LEFT-640" symbol="MACHXO2-CSBGA132-LEFT-640" x="-22.86" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-640" symbol="MACHXO2-CSBGA132-RIGHT-640" x="86.36" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-640" symbol="MACHXO2-CSBGA132-BOTTOM-640" x="35.56" y="-106.68"/>
+<gate name="MACHXO2-CSBGA132-TOP-1200" symbol="MACHXO2-CSBGA132-TOP-1200" x="35.56" y="30.48"/>
+<gate name="MACHXO2-CSBGA132-LEFT-1200" symbol="MACHXO2-CSBGA132-LEFT-1200" x="-22.86" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-1200" symbol="MACHXO2-CSBGA132-RIGHT-1200" x="83.82" y="-88.9"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-1200" symbol="MACHXO2-CSBGA132-BOTTOM-1200" x="35.56" y="-132.08"/>
+<gate name="MACHXO2-TQFP144" symbol="MACHXO2-TQFP144-1200" x="35.56" y="-35.56"/>
 </gates>
 <devices>
-<device name="-MG132" package="CSBGA132-MACHXO2">
+<device name="MG132" package="CSBGA132-MACHXO2">
 <connects>
-<connect gate="G$1" pin="GND@A5" pad="A5"/>
-<connect gate="G$1" pin="GND@B11" pad="B11"/>
-<connect gate="G$1" pin="GND@D13" pad="D13"/>
-<connect gate="G$1" pin="GND@D2" pad="D2"/>
-<connect gate="G$1" pin="GND@G2" pad="G2"/>
-<connect gate="G$1" pin="GND@H13" pad="H13"/>
-<connect gate="G$1" pin="GND@L13" pad="L13"/>
-<connect gate="G$1" pin="GND@L2" pad="L2"/>
-<connect gate="G$1" pin="GND@P10" pad="P10"/>
-<connect gate="G$1" pin="GND@P5" pad="P5"/>
-<connect gate="G$1" pin="VCC@A1" pad="A1"/>
-<connect gate="G$1" pin="VCC@A14" pad="A14"/>
-<connect gate="G$1" pin="VCC@N1" pad="N1"/>
-<connect gate="G$1" pin="VCC@P14" pad="P14"/>
-<connect gate="G$1" pin="VCCIO0@A8" pad="A8"/>
-<connect gate="G$1" pin="VCCIO0@B10" pad="B10"/>
-<connect gate="G$1" pin="VCCIO0@C5" pad="C5"/>
-<connect gate="G$1" pin="VCCIO1@D14" pad="D14"/>
-<connect gate="G$1" pin="VCCIO1@H14" pad="H14"/>
-<connect gate="G$1" pin="VCCIO1@L12" pad="L12"/>
-<connect gate="G$1" pin="VCCIO2@M6" pad="M6"/>
-<connect gate="G$1" pin="VCCIO2@N11" pad="N11"/>
-<connect gate="G$1" pin="VCCIO2@P1" pad="P1"/>
-<connect gate="G$1" pin="VCCIO3/5@D3" pad="D3"/>
-<connect gate="G$1" pin="VCCIO3@L1" pad="L1"/>
-<connect gate="G$1" pin="VCCIO4@G1" pad="G1"/>
-<connect gate="G$2" pin="CSSPIN/PB_2A..." pad="P3"/>
-<connect gate="G$2" pin="DONE/PT17D" pad="A13"/>
-<connect gate="G$2" pin="INITN/PT17C" pad="B13"/>
-<connect gate="G$2" pin="JTAGENB/PT15C" pad="B9"/>
-<connect gate="G$2" pin="MCLK/CCLK/PB6C" pad="M4"/>
-<connect gate="G$2" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
-<connect gate="G$2" pin="PROGRAMN/PT15D" pad="C10"/>
-<connect gate="G$2" pin="SCL/PT12C" pad="C8"/>
-<connect gate="G$2" pin="SDA/PT12D" pad="B8"/>
-<connect gate="G$2" pin="SISPI/PB20D" pad="P13"/>
-<connect gate="G$2" pin="SN/PB20C" pad="N12"/>
-<connect gate="G$2" pin="SPISO/PB6D" pad="N4"/>
-<connect gate="G$2" pin="TCK" pad="B6"/>
-<connect gate="G$2" pin="TDI" pad="B4"/>
-<connect gate="G$2" pin="TDO" pad="A4"/>
-<connect gate="G$2" pin="TMS" pad="A6"/>
-<connect gate="G$3" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
-<connect gate="G$3" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
-<connect gate="G$3" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
-<connect gate="G$3" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
-<connect gate="G$3" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="G$3" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="G$3" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="G$3" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="G$3" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="G$3" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="G$3" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="G$3" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="G$3" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="G$3" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="G$3" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="G$3" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="G$3" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="G$3" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="G$3" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
-<connect gate="G$3" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
-<connect gate="G$3" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="G$3" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="G$3" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="G$3" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="G$3" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="G$3" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="G$3" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="G$3" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="G$3" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
-<connect gate="G$3" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
-<connect gate="G$3" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="G$3" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="G$3" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="G$3" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="G$3" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="G$3" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="G$3" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="G$3" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="G$3" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="G$3" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
-<connect gate="G$4" pin="PB_/10A/11C/12A/15A" pad="P7"/>
-<connect gate="G$4" pin="PB_/10B/11D/12B/15B" pad="N7"/>
-<connect gate="G$4" pin="PB_/14A/18C/22A/27A" pad="M10"/>
-<connect gate="G$4" pin="PB_/14B/18D/22B/27B" pad="P11"/>
-<connect gate="G$4" pin="PB_/4C/6A/6A/7A" pad="N3"/>
-<connect gate="G$4" pin="PB_/4D/6B/6B/7B" pad="P4"/>
-<connect gate="G$4" pin="PL_/3C/4A/5A/8A" pad="E3"/>
-<connect gate="G$4" pin="PL_/3D/4B/5B/8B" pad="F2"/>
-<connect gate="G$4" pin="PL_/5C/5C/9A/13A" pad="H1"/>
-<connect gate="G$4" pin="PL_/5D/5D/9B/13B" pad="H3"/>
-<connect gate="G$4" pin="PL_/6C/8C/11A/16A" pad="J3"/>
-<connect gate="G$4" pin="PL_/6D/8D/11B/16B" pad="K2"/>
-<connect gate="G$4" pin="PR_/3A/4A/4A/6A" pad="E13"/>
-<connect gate="G$4" pin="PR_/3B/4B/4B/6B" pad="F12"/>
-<connect gate="G$4" pin="PR_/5A/5A/6A/9A" pad="G12"/>
-<connect gate="G$4" pin="PR_/5B/5B/6B/9B" pad="G14"/>
-<connect gate="G$4" pin="PR_/6A/8C/10A/14A" pad="J13"/>
-<connect gate="G$4" pin="PR_/6B/8D/10B/14B" pad="K12"/>
-<connect gate="G$4" pin="PT_/10A/15A/19A/21A" pad="C9"/>
-<connect gate="G$4" pin="PT_/10B/15B/19B/21B" pad="A9"/>
-<connect gate="G$4" pin="PT_/11A/16C/22A/25A" pad="A11"/>
-<connect gate="G$4" pin="PT_/11B/16D/22B/25B" pad="B12"/>
-<connect gate="G$4" pin="PT_/6C/10A/11A/11A" pad="A3"/>
-<connect gate="G$4" pin="PT_/6D/10B/11B/11B" pad="C4"/>
-<connect gate="G$5" pin="PB_//15C/19A/23A" pad="P9"/>
-<connect gate="G$5" pin="PB_//15D/19B/23B" pad="N9"/>
-<connect gate="G$5" pin="PB_//20A/24A/29A" pad="M11"/>
-<connect gate="G$5" pin="PB_//20B/24B/29B" pad="P12"/>
-<connect gate="G$5" pin="PB_//4A/3A/3A" pad="P2"/>
-<connect gate="G$5" pin="PB_//4B/3B/3B" pad="N2"/>
-<connect gate="G$5" pin="PB_//9C/9A/10A" pad="N5"/>
-<connect gate="G$5" pin="PB_//9D/9B/10B" pad="M5"/>
-<connect gate="G$5" pin="PL_//10B/13B/19B" pad="L3"/>
-<connect gate="G$5" pin="PL_//2A/1A/3A" pad="B1"/>
-<connect gate="G$5" pin="PL_//2B/1B/3B" pad="B2"/>
-<connect gate="G$5" pin="PL_//4C/6A/9A" pad="F1"/>
-<connect gate="G$5" pin="PL_//4D/6B/9B" pad="F3"/>
-<connect gate="G$5" pin="PR_//10A/13A/18A" pad="M12"/>
-<connect gate="G$5" pin="PR_//10B/13B/18B" pad="M14"/>
-<connect gate="G$5" pin="PR_//2C/2A/3A" pad="C14"/>
-<connect gate="G$5" pin="PR_//2D/2B/3B" pad="D12"/>
-<connect gate="G$5" pin="PR_//8A/9A/13A" pad="J12"/>
-<connect gate="G$5" pin="PR_//8B/9B/13B" pad="J14"/>
-<connect gate="G$5" pin="PT_//11A/13A/14A" pad="B5"/>
-<connect gate="G$5" pin="PT_//11B/13B/14B" pad="C6"/>
-<connect gate="G$5" pin="PT_//16A/21A/24A" pad="A10"/>
-<connect gate="G$5" pin="PT_//16B/21B/24B" pad="C11"/>
-<connect gate="G$5" pin="PT_//17A/23A/27A" pad="C12"/>
-<connect gate="G$5" pin="PT_//17B/24B/27B" pad="A12"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="P9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="N9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="M11"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="P12"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="P2"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="N2"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="N5"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="M5"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="P7"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="N7"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="M10"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="P11"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="N3"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="P4"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="L3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="B1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="B2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="F1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="F3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="E3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="F2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="H1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="H3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="J3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="A5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="B11"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="D13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D2" pad="D2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@G2" pad="G2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@H13" pad="H13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L13" pad="L13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L2" pad="L2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P10" pad="P10"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P5" pad="P5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A1" pad="A1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A14" pad="A14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@N1" pad="N1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@P14" pad="P14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@A8" pad="A8"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@B10" pad="B10"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@C5" pad="C5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@D14" pad="D14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@H14" pad="H14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@L12" pad="L12"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@M6" pad="M6"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@N11" pad="N11"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@P1" pad="P1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="D3"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="L1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="G1"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="M12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="M14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="C14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="D12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="J12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="J14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="E13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="F12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="G12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="G14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="J13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="K12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="B5"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="C6"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="A10"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="C11"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="C12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="A12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="C9"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="A9"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="A11"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="B12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="A3"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="C4"/>
+<connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
+<connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
+<connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
+<connect gate="MACHXO2-ERB" pin="JTAGENB/PT15C" pad="B9"/>
+<connect gate="MACHXO2-ERB" pin="MCLK/CCLK/PB6C" pad="M4"/>
+<connect gate="MACHXO2-ERB" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
+<connect gate="MACHXO2-ERB" pin="PROGRAMN/PT15D" pad="C10"/>
+<connect gate="MACHXO2-ERB" pin="SCL/PT12C" pad="C8"/>
+<connect gate="MACHXO2-ERB" pin="SDA/PT12D" pad="B8"/>
+<connect gate="MACHXO2-ERB" pin="SISPI/PB20D" pad="P13"/>
+<connect gate="MACHXO2-ERB" pin="SN/PB20C" pad="N12"/>
+<connect gate="MACHXO2-ERB" pin="SPISO/PB6D" pad="N4"/>
+<connect gate="MACHXO2-ERB" pin="TCK" pad="B6"/>
+<connect gate="MACHXO2-ERB" pin="TDI" pad="B4"/>
+<connect gate="MACHXO2-ERB" pin="TDO" pad="A4"/>
+<connect gate="MACHXO2-ERB" pin="TMS" pad="A6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
+<connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="NC1"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="NC2"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="NC3"/>
 </connects>
 <technologies>
-<technology name="HC"/>
-<technology name="HE"/>
-<technology name="ZE"/>
+<technology name="HC-4"/>
+<technology name="HC-5"/>
+<technology name="HC-6"/>
+<technology name="HE-4"/>
+<technology name="HE-5"/>
+<technology name="HE-6"/>
+<technology name="ZE-1"/>
+<technology name="ZE-2"/>
+<technology name="ZE-3"/>
+</technologies>
+</device>
+<device name="TG144" package="TQFP144">
+<connects>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="59"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="60"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="68"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="69"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="38"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="39"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="47"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="48"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="52"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="54"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="65"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="67"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="42"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="43"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="33"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="13"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="14"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="11"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="12"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="21"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="22"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="25"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="46 116"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="134"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="101"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D2" pad="8"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@G2" pad="18"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@H13" pad="80 90"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L13" pad="124"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L2" pad="29"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P10" pad="64"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P5" pad="53"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A1" pad="144"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A14" pad="72"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@N1" pad="36"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@P14" pad="108"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@A8" pad="135"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@B10" pad="123"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@C5" pad="118"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@D14" pad="88"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@H14" pad="102"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@L12" pad="79"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@M6" pad="51"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@N11" pad="66"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@P1" pad="37"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="7"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="30"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="16"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="76"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="75"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="105"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="104"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="86"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="85"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="98"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="97"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="94"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="93"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="84"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="83"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="133"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="132"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="117"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="115"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="112"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="111"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="122"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="121"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="114"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="113"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="139"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="138"/>
+<connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="40"/>
+<connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="109"/>
+<connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="110"/>
+<connect gate="MACHXO2-ERB" pin="JTAGENB/PT15C" pad="120"/>
+<connect gate="MACHXO2-ERB" pin="MCLK/CCLK/PB6C" pad="44"/>
+<connect gate="MACHXO2-ERB" pin="PB_2B/4B/4D/5B/4B" pad="41"/>
+<connect gate="MACHXO2-ERB" pin="PROGRAMN/PT15D" pad="119"/>
+<connect gate="MACHXO2-ERB" pin="SCL/PT12C" pad="126"/>
+<connect gate="MACHXO2-ERB" pin="SDA/PT12D" pad="125"/>
+<connect gate="MACHXO2-ERB" pin="SISPI/PB20D" pad="71"/>
+<connect gate="MACHXO2-ERB" pin="SN/PB20C" pad="70"/>
+<connect gate="MACHXO2-ERB" pin="SPISO/PB6D" pad="45"/>
+<connect gate="MACHXO2-ERB" pin="TCK" pad="131"/>
+<connect gate="MACHXO2-ERB" pin="TDI" pad="136"/>
+<connect gate="MACHXO2-ERB" pin="TDO" pad="137"/>
+<connect gate="MACHXO2-ERB" pin="TMS" pad="130"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4A/6C/9A/11A/13A" pad="49"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4B/6D/9B/11B/13B" pad="50"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4C/10C/11A/16A/20A" pad="55"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4D/10D/11B/16B/20B" pad="56"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5C/7A/9A/12A/17A" pad="27"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="28"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="92"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="91"/>
+<connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="32"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="141"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="140"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LCMXO2-2000" prefix="U">
+<gates>
+<gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
+<gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
+<gate name="MACHXO2-QFN32-256" symbol="MACHXO2-QFN32-256" x="35.56" y="-55.88"/>
+<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="35.56" y="2.54"/>
+<gate name="MACHXO2-CSBGA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-22.86" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="83.82" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="35.56" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-TOP-640" symbol="MACHXO2-CSBGA132-TOP-640" x="35.56" y="20.32"/>
+<gate name="MACHXO2-CSBGA132-LEFT-640" symbol="MACHXO2-CSBGA132-LEFT-640" x="-22.86" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-640" symbol="MACHXO2-CSBGA132-RIGHT-640" x="86.36" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-640" symbol="MACHXO2-CSBGA132-BOTTOM-640" x="35.56" y="-106.68"/>
+<gate name="MACHXO2-CSBGA132-TOP-1200" symbol="MACHXO2-CSBGA132-TOP-1200" x="35.56" y="45.72"/>
+<gate name="MACHXO2-CSBGA132-LEFT-1200" symbol="MACHXO2-CSBGA132-LEFT-1200" x="-22.86" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-RIGHT-1200" symbol="MACHXO2-CSBGA132-RIGHT-1200" x="83.82" y="-88.9"/>
+<gate name="MACHXO2-CSBGA132-BOTTOM-1200" symbol="MACHXO2-CSBGA132-BOTTOM-1200" x="35.56" y="-132.08"/>
+<gate name="MACHXO2-TQFP144" symbol="MACHXO2-TQFP144-1200" x="35.56" y="-35.56"/>
+<gate name="G$1" symbol="MACHXO2-TQFP144-2000" x="35.56" y="-20.32"/>
+</gates>
+<devices>
+<device name="MG132" package="CSBGA132-MACHXO2">
+<connects>
+<connect gate="G$1" pin="PL_///7A/10A/11A" pad="NC4"/>
+<connect gate="G$1" pin="PL_///7B/10B/10B" pad="NC5"/>
+<connect gate="G$1" pin="PR_///7C/10C/15A" pad="NC6"/>
+<connect gate="G$1" pin="PR_///7D/10D/15B" pad="NC7"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="P9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="N9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="M11"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="P12"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="P2"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="N2"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="N5"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="M5"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="P7"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="N7"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="M10"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="P11"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="N3"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="P4"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="L3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="B1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="B2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="F1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="F3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="E3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="F2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="H1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="H3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="J3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="A5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="B11"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="D13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D2" pad="D2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@G2" pad="G2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@H13" pad="H13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L13" pad="L13"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L2" pad="L2"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P10" pad="P10"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P5" pad="P5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A1" pad="A1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A14" pad="A14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@N1" pad="N1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@P14" pad="P14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@A8" pad="A8"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@B10" pad="B10"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@C5" pad="C5"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@D14" pad="D14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@H14" pad="H14"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@L12" pad="L12"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@M6" pad="M6"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@N11" pad="N11"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@P1" pad="P1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="D3"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="L1"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="G1"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="M12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="M14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="C14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="D12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="J12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="J14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="E13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="F12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="G12"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="G14"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="J13"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="K12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="B5"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="C6"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="A10"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="C11"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="C12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="A12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="C9"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="A9"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="A11"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="B12"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="A3"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="C4"/>
+<connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
+<connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
+<connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
+<connect gate="MACHXO2-ERB" pin="JTAGENB/PT15C" pad="B9"/>
+<connect gate="MACHXO2-ERB" pin="MCLK/CCLK/PB6C" pad="M4"/>
+<connect gate="MACHXO2-ERB" pin="PB_2B/4B/4D/5B/4B" pad="M3"/>
+<connect gate="MACHXO2-ERB" pin="PROGRAMN/PT15D" pad="C10"/>
+<connect gate="MACHXO2-ERB" pin="SCL/PT12C" pad="C8"/>
+<connect gate="MACHXO2-ERB" pin="SDA/PT12D" pad="B8"/>
+<connect gate="MACHXO2-ERB" pin="SISPI/PB20D" pad="P13"/>
+<connect gate="MACHXO2-ERB" pin="SN/PB20C" pad="N12"/>
+<connect gate="MACHXO2-ERB" pin="SPISO/PB6D" pad="N4"/>
+<connect gate="MACHXO2-ERB" pin="TCK" pad="B6"/>
+<connect gate="MACHXO2-ERB" pin="TDI" pad="B4"/>
+<connect gate="MACHXO2-ERB" pin="TDO" pad="A4"/>
+<connect gate="MACHXO2-ERB" pin="TMS" pad="A6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4A/6C/9A/11A/13A" pad="N6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4B/6D/9B/11B/13B" pad="P6"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4C/10C/11A/16A/20A" pad="M7"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4D/10D/11B/16B/20B" pad="N8"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5C/7A/9A/12A/17A" pad="K1"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
+<connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="NC1"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="NC2"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="NC3"/>
+</connects>
+<technologies>
+<technology name="HC-4"/>
+<technology name="HC-5"/>
+<technology name="HC-6"/>
+<technology name="HE-4"/>
+<technology name="HE-5"/>
+<technology name="HE-6"/>
+<technology name="ZE-1"/>
+<technology name="ZE-2"/>
+<technology name="ZE-3"/>
+</technologies>
+</device>
+<device name="TG144" package="TQFP144">
+<connects>
+<connect gate="G$1" pin="PL_///7A/10A/11A" pad="15"/>
+<connect gate="G$1" pin="PL_///7B/10B/10B" pad="17"/>
+<connect gate="G$1" pin="PR_///7C/10C/15A" pad="87"/>
+<connect gate="G$1" pin="PR_///7D/10D/15B" pad="89"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="59"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="60"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="68"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="69"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="38"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="39"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="47"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="48"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="52"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="54"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="65"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="67"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="42"/>
+<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="43"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="33"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="1"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="2"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="13"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="14"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="11"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="12"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="21"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="22"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="25"/>
+<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="46 116"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="134"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="101"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D2" pad="8"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@G2" pad="18"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@H13" pad="80 90"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L13" pad="124"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@L2" pad="29"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P10" pad="64"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="GND@P5" pad="53"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A1" pad="144"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@A14" pad="72"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@N1" pad="36"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCC@P14" pad="108"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@A8" pad="135"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@B10" pad="123"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO0@C5" pad="118"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@D14" pad="88"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@H14" pad="102"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO1@L12" pad="79"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@M6" pad="51"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@N11" pad="66"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO2@P1" pad="37"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="7"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="30"/>
+<connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="16"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="76"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="75"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="105"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="104"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="86"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="85"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="98"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="97"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="94"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="93"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="84"/>
+<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="83"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="133"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="132"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="117"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="115"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="112"/>
+<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="111"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
+<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="122"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="121"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="114"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="113"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="139"/>
+<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="138"/>
+<connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="40"/>
+<connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="109"/>
+<connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="110"/>
+<connect gate="MACHXO2-ERB" pin="JTAGENB/PT15C" pad="120"/>
+<connect gate="MACHXO2-ERB" pin="MCLK/CCLK/PB6C" pad="44"/>
+<connect gate="MACHXO2-ERB" pin="PB_2B/4B/4D/5B/4B" pad="41"/>
+<connect gate="MACHXO2-ERB" pin="PROGRAMN/PT15D" pad="119"/>
+<connect gate="MACHXO2-ERB" pin="SCL/PT12C" pad="126"/>
+<connect gate="MACHXO2-ERB" pin="SDA/PT12D" pad="125"/>
+<connect gate="MACHXO2-ERB" pin="SISPI/PB20D" pad="71"/>
+<connect gate="MACHXO2-ERB" pin="SN/PB20C" pad="70"/>
+<connect gate="MACHXO2-ERB" pin="SPISO/PB6D" pad="45"/>
+<connect gate="MACHXO2-ERB" pin="TCK" pad="131"/>
+<connect gate="MACHXO2-ERB" pin="TDI" pad="136"/>
+<connect gate="MACHXO2-ERB" pin="TDO" pad="137"/>
+<connect gate="MACHXO2-ERB" pin="TMS" pad="130"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4A/6C/9A/11A/13A" pad="49"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4B/6D/9B/11B/13B" pad="50"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4C/10C/11A/16A/20A" pad="55"/>
+<connect gate="MACHXO2-QFN32-256" pin="PB_4D/10D/11B/16B/20B" pad="56"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5C/7A/9A/12A/17A" pad="27"/>
+<connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="28"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="92"/>
+<connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="91"/>
+<connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="32"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="141"/>
+<connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="140"/>
+</connects>
+<technologies>
+<technology name="HC-4"/>
+<technology name="HC-5"/>
+<technology name="HC-6"/>
+<technology name="HE-4"/>
+<technology name="HE-5"/>
+<technology name="HE-6"/>
+<technology name="ZE-1"/>
+<technology name="ZE-2"/>
+<technology name="ZE-3"/>
 </technologies>
 </device>
 </devices>
@@ -3363,4 +3899,10 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
