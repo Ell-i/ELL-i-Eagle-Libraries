@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2094,7 +2094,7 @@
 <wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
 <pin name="PB_2B/4B/4D/5B/4B" x="-22.86" y="5.08" length="middle"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-BOTTOM-256">
+<symbol name="MACHXO2-CSBGA132-256-BOTTOM">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Additional bottom ports for csBGA 132&lt;/p&gt;
@@ -2110,7 +2110,7 @@
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-TOP-256">
+<symbol name="MACHXO2-CSBGA132-256-TOP">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
@@ -2126,7 +2126,7 @@
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-RIGHT-256">
+<symbol name="MACHXO2-CSBGA132-256-RIGHT">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
@@ -2150,7 +2150,7 @@
 <wire x1="5.08" y1="22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-LEFT-256">
+<symbol name="MACHXO2-CSBGA132-256-LEFT">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in QFN32.&lt;/p&gt;
@@ -2173,9 +2173,9 @@
 <wire x1="-27.94" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
-<text x="-27.94" y="17.78" size="1.778" layer="94" rot="R270">csBGA132 PR 256/640/...</text>
+<text x="-27.94" y="17.78" size="1.778" layer="94" rot="R270">csBGA132 PL 256/640/...</text>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-TOP-640">
+<symbol name="MACHXO2-CSBGA132-640-TOP">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
@@ -2193,7 +2193,7 @@
 <wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-LEFT-640">
+<symbol name="MACHXO2-CSBGA132-640-LEFT">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
@@ -2211,7 +2211,7 @@
 <wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-RIGHT-640">
+<symbol name="MACHXO2-CSBGA132-640-RIGHT">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
@@ -2229,7 +2229,7 @@
 <wire x1="2.54" y1="12.7" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-BOTTOM-640">
+<symbol name="MACHXO2-CSBGA132-640-BOTTOM">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 640 / 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Bottom ports in the csBGA 132 package, in addition to those available in 256.&lt;/p&gt;
@@ -2237,17 +2237,17 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-640Pinout.CSV"&gt;MachXO2 640 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="PB_/14A/18C/22A/27A" x="10.16" y="7.62" length="middle" rot="R180"/>
-<pin name="PB_/14B/18D/22B/27B" x="10.16" y="10.16" length="middle" rot="R180"/>
-<pin name="PB_/4C/6A/6A/7A" x="10.16" y="-7.62" length="middle" rot="R180"/>
-<pin name="PB_/4D/6B/6B/7B" x="10.16" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB_/10A/11C/12A/15A" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="PB_/10B/11D/12B/15B" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB_/14A/18C/22A/27A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PB_/14B/18D/22B/27B" x="10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="PB_/4C/6A/6A/7A" x="10.16" y="10.16" length="middle" rot="R180"/>
+<pin name="PB_/4D/6B/6B/7B" x="10.16" y="7.62" length="middle" rot="R180"/>
+<pin name="PB_/10A/11C/12A/15A" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="PB_/10B/11D/12B/15B" x="10.16" y="0" length="middle" rot="R180"/>
 <wire x1="-27.94" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-TOP-1200">
+<symbol name="MACHXO2-CSBGA132-1200-TOP">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Top ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
@@ -2255,17 +2255,17 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO2-1200Pinout.CSV"&gt;MachXO2 1200 pinout&lt;/a&gt; (CSV)&lt;/li&gt;
 &lt;/ul&gt;</description>
-<pin name="PT_//17B/24B/27B" x="10.16" y="-10.16" length="middle" rot="R180"/>
-<pin name="PT_//17A/23A/27A" x="10.16" y="-7.62" length="middle" rot="R180"/>
-<pin name="PT_//16B/21B/24B" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="PT_//16A/21A/24A" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="PT_//11A/13A/14A" x="10.16" y="7.62" length="middle" rot="R180"/>
-<pin name="PT_//11B/13B/14B" x="10.16" y="5.08" length="middle" rot="R180"/>
-<wire x1="-27.94" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="-27.94" y2="-12.7" width="0.254" layer="94"/>
+<pin name="PT_//17B/24B/27B" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="PT_//17A/23A/27A" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="PT_//16B/21B/24B" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="PT_//16A/21A/24A" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="PT_//11A/13A/14A" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="PT_//11B/13B/14B" x="12.7" y="7.62" length="middle" rot="R180"/>
+<wire x1="-25.4" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-25.4" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-LEFT-1200">
+<symbol name="MACHXO2-CSBGA132-1200-LEFT">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Left ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
@@ -2282,7 +2282,7 @@
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-RIGHT-1200">
+<symbol name="MACHXO2-CSBGA132-1200-RIGHT">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Right ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
@@ -2300,7 +2300,7 @@
 <wire x1="5.08" y1="12.7" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MACHXO2-CSBGA132-BOTTOM-1200">
+<symbol name="MACHXO2-CSBGA132-1200-BOTTOM">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
 
 &lt;p&gt;Bottom ports in the csBGA 132 package, in addition to those available in 640.&lt;/p&gt;
@@ -2525,10 +2525,10 @@
 <pin name="PR_5B/5D/5D/7B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
 <pin name="PL_5C/7A/9A/12A/17A" x="10.16" y="12.7" length="middle" rot="R180"/>
 <pin name="PL_5D/7B/9B/12B/17B" x="10.16" y="10.16" length="middle" rot="R180"/>
-<pin name="PB_4C/10C/11A/16A/20A" x="10.16" y="-5.08" length="middle" rot="R180"/>
-<pin name="PB_4D/10D/11B/16B/20B" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB_4A/6C/9A/11A/13A" x="10.16" y="-12.7" length="middle" rot="R180"/>
-<pin name="PB_4B/6D/9B/11B/13B" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB_4C/10C/11A/16A/20A" x="10.16" y="-10.16" length="middle" rot="R180"/>
+<pin name="PB_4D/10D/11B/16B/20B" x="10.16" y="-12.7" length="middle" rot="R180"/>
+<pin name="PB_4A/6C/9A/11A/13A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="PB_4B/6D/9B/11B/13B" x="10.16" y="-5.08" length="middle" rot="R180"/>
 <wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="15.24" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
@@ -2551,15 +2551,205 @@
 only pins</text>
 </symbol>
 <symbol name="MACHXO2-TQFP144-2000">
-<pin name="PR_///7D/10D/15B" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="PL_///7A/10A/11A" x="10.16" y="5.08" length="middle" rot="R180"/>
+<pin name="PR_///7D/10D/15B" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PL_///7A/10A/10A" x="10.16" y="5.08" length="middle" rot="R180"/>
 <pin name="PL_///7B/10B/10B" x="10.16" y="2.54" length="middle" rot="R180"/>
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="7.62" x2="-27.94" y2="7.62" width="0.254" layer="94"/>
 <text x="-22.86" y="-5.08" size="1.27" layer="94" rot="R90">TQFP144-
 only pins</text>
-<pin name="PR_///7C/10C/15A" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="PR_///7C/10C/15A" x="10.16" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ELLI-SMALL-MACHXO2-ALL">
+<description>&lt;h3&gt;ELL-i I/O pins for Lattice MachXO2&lt;/h3&gt;
+
+&lt;p&gt;Generic pins  in the QFN32 package.&lt;/p&gt;</description>
+<wire x1="-27.94" y1="15.24" x2="-60.96" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="15.24" x2="-60.96" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<text x="-58.42" y="12.7" size="1.778" layer="94" align="center-left">LVDS 3T</text>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">LVDS 3C</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">LVDS 1T</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">LVDS 1C</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">LVDS 2T</text>
+<text x="-58.42" y="-12.7" size="1.778" layer="94" align="center-left">LVDS 2C</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">MCO</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">Arduino D8</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-256-QNF32">
+<description>&lt;h3&gt;ELL-i I/O pins for Lattice MachXO2&lt;/h3&gt;
+
+&lt;p&gt;The "QFN32 package" pins for ELL-i when TQFP144 package is used.&lt;/p&gt;</description>
+<wire x1="-27.94" y1="15.24" x2="-60.96" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="15.24" x2="-60.96" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<text x="-58.42" y="12.7" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Memory CLK</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">Memory NE1</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">Arduino D5 / JNRST</text>
+<text x="-58.42" y="-12.7" size="1.778" layer="94" align="center-left">Arduino D6</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">DDR2 CLK TBD</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">DDR2 CLK TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-256-LEFT">
+<wire x1="-27.94" y1="22.86" x2="-60.96" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="22.86" x2="-60.96" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
+<text x="-58.42" y="20.32" size="1.778" layer="94" align="center-left">Memory AD2</text>
+<text x="-58.42" y="17.78" size="1.778" layer="94" align="center-left">Memory AD3</text>
+<text x="-58.42" y="12.7" size="1.778" layer="94" align="center-left">Memory AD4</text>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">Memory AD5</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">Memory AD6</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">Memory AD7</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Memory AD14</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">Memory AD15</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">Memory A18</text>
+<text x="-58.42" y="-12.7" size="1.778" layer="94" align="center-left">Memory A19</text>
+<text x="-58.42" y="-17.78" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+<text x="-58.42" y="-20.32" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-640-LEFT">
+<wire x1="-27.94" y1="12.7" x2="-60.96" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="12.7" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">Memory AD8</text>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">Memory AD9</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">Memory AD16</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">Memory AD17</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-1200-LEFT">
+<wire x1="-27.94" y1="10.16" x2="-60.96" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="10.16" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">Memory AD0</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">Memory AD1</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">Memory AD10</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Memory AD11</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-256-BOTTOM">
+<wire x1="-27.94" y1="7.62" x2="-60.96" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="7.62" x2="-60.96" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">USART3_TX</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">USART3_RX</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Memory A22</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">Memory A23</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-640-BOTTOM">
+<wire x1="-27.94" y1="10.16" x2="-60.96" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="10.16" x2="-60.96" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-12.7" x2="-27.94" y2="-12.7" width="0.254" layer="94"/>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">Memory A21</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">Memory NL/NADV</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">Arduino D7</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Arduino D9</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">SPI2_SS / CAN2_RX</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">SPI2_SCK / CAN2_TX</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-1200-BOTTOM">
+<wire x1="-27.94" y1="15.24" x2="-60.96" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="15.24" x2="-60.96" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<text x="-58.42" y="12.7" size="1.778" layer="94" align="center-left">Memory NBL0</text>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">Memory NBL1</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">Memory NOE</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">Memory NWE</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">Arduino D0</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">Arduino D1</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">SPI2 MISO</text>
+<text x="-58.42" y="-12.7" size="1.778" layer="94" align="center-left">SPI2 MOSI</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-1200-TQFP144">
+<wire x1="-27.94" y1="7.62" x2="-60.96" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="7.62" x2="-60.96" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-5.08" x2="-27.94" y2="-5.08" width="0.254" layer="94"/>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">LVDS 1T</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">LVDS 1C</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">DDR2 TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-2000-TQFP144">
+<wire x1="-27.94" y1="7.62" x2="-60.96" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="7.62" x2="-60.96" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">Memory AD12</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">Memory AD13</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">DDR2 CLK TBD</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">DDR2 CLK TBD</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-256-RIGHT">
+<wire x1="-27.94" y1="22.86" x2="-60.96" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="22.86" x2="-60.96" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
+<text x="-58.42" y="20.32" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="17.78" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="12.7" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">DDR2 DQn</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-10.16" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-12.7" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-17.78" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-20.32" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-640-RIGHT">
+<wire x1="-27.94" y1="12.7" x2="-60.96" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="12.7" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">DDR2 DQ0</text>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">DDR2 DQ0</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">DDR2 DQS0N check!</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">DDR2 DQS0 check!</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-1200-RIGHT">
+<wire x1="-27.94" y1="12.7" x2="-60.96" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="12.7" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">DDR2 DQ0</text>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">DDR2 DQ0</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">DDR2 ADDR</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-256-TOP">
+<wire x1="-27.94" y1="7.62" x2="-60.96" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="7.62" x2="-60.96" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+<text x="-58.42" y="5.08" size="1.778" layer="94" align="center-left">LVDS 6T</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">LVDS 6C</text>
+<text x="-58.42" y="-2.54" size="1.778" layer="94" align="center-left">MCO</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">Arduino D2</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-640-TOP">
+<wire x1="-27.94" y1="12.7" x2="-60.96" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="12.7" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">LVDS 2T</text>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">LVDS 2T</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">LVDS 3T</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">LVDS 3C</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">LVDS 5T</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">LVDS 5C</text>
+</symbol>
+<symbol name="ELLI-MACHXO2-1200-TOP">
+<wire x1="-27.94" y1="12.7" x2="-60.96" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="12.7" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-27.94" y2="-10.16" width="0.254" layer="94"/>
+<text x="-58.42" y="10.16" size="1.778" layer="94" align="center-left">Arduino D8</text>
+<text x="-58.42" y="7.62" size="1.778" layer="94" align="center-left">Memory NWAIT</text>
+<text x="-58.42" y="2.54" size="1.778" layer="94" align="center-left">I2C2 SCL</text>
+<text x="-58.42" y="0" size="1.778" layer="94" align="center-left">I2C2 SDA</text>
+<text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">LVDS 4T</text>
+<text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">LVDS 4B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3133,47 +3323,47 @@ only pins</text>
 <gates>
 <gate name="MACHXO2-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-20.32" y="73.66"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="88.9" y="68.58"/>
-<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="45.72" y="27.94"/>
-<gate name="MACHXO2-CSBA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-7.62" y="5.08"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="101.6" y="0"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="45.72" y="-27.94"/>
+<gate name="MACHXO2-CSBGA132-256-TOP" symbol="MACHXO2-CSBGA132-256-TOP" x="45.72" y="27.94"/>
+<gate name="MACHXO2-CSBA132-256-LEFT" symbol="MACHXO2-CSBGA132-256-LEFT" x="-7.62" y="5.08"/>
+<gate name="MACHXO2-CSBGA132-256-RIGHT" symbol="MACHXO2-CSBGA132-256-RIGHT" x="101.6" y="0"/>
+<gate name="MACHXO2-CSBGA132-256-BOTTOM" symbol="MACHXO2-CSBGA132-256-BOTTOM" x="45.72" y="-27.94"/>
 <gate name="MACHXO2-QNF32-256" symbol="MACHXO2-QFN32-256" x="45.72" y="0"/>
 </gates>
 <devices>
 <device name="MG132" package="CSBGA132-MACHXO2">
 <connects>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="MACHXO2-CSBA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBA132-256-LEFT" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
 <connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
 <connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
 <connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
@@ -3244,64 +3434,104 @@ only pins</text>
 <gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
 <gate name="MACHXO2-QFN32-256" symbol="MACHXO2-QFN32-256" x="35.56" y="-55.88"/>
-<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="35.56" y="-12.7"/>
-<gate name="MACHXO2-CSBGA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-22.86" y="-30.48"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="83.82" y="-30.48"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="35.56" y="-86.36"/>
-<gate name="MACHXO2-CSBGA132-TOP-640" symbol="MACHXO2-CSBGA132-TOP-640" x="35.56" y="5.08"/>
-<gate name="MACHXO2-CSBGA132-LEFT-640" symbol="MACHXO2-CSBGA132-LEFT-640" x="-22.86" y="-66.04"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-640" symbol="MACHXO2-CSBGA132-RIGHT-640" x="86.36" y="-66.04"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-640" symbol="MACHXO2-CSBGA132-BOTTOM-640" x="35.56" y="-106.68"/>
-<gate name="MACHXO2-CSBGA132-TOP-1200" symbol="MACHXO2-CSBGA132-TOP-1200" x="35.56" y="30.48"/>
-<gate name="MACHXO2-CSBGA132-LEFT-1200" symbol="MACHXO2-CSBGA132-LEFT-1200" x="-22.86" y="-86.36"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-1200" symbol="MACHXO2-CSBGA132-RIGHT-1200" x="83.82" y="-88.9"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-1200" symbol="MACHXO2-CSBGA132-BOTTOM-1200" x="35.56" y="-132.08"/>
+<gate name="MACHXO2-CSBGA132-256-TOP" symbol="MACHXO2-CSBGA132-256-TOP" x="35.56" y="-12.7"/>
+<gate name="MACHXO2-CSBGA132-256-LEFT" symbol="MACHXO2-CSBGA132-256-LEFT" x="-22.86" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-256-RIGHT" symbol="MACHXO2-CSBGA132-256-RIGHT" x="83.82" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-256-BOTTOM" symbol="MACHXO2-CSBGA132-256-BOTTOM" x="35.56" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-640-TOP" symbol="MACHXO2-CSBGA132-640-TOP" x="35.56" y="5.08"/>
+<gate name="MACHXO2-CSBGA132-640-LEFT" symbol="MACHXO2-CSBGA132-640-LEFT" x="-22.86" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-640-RIGHT" symbol="MACHXO2-CSBGA132-640-RIGHT" x="86.36" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-640-BOTTOM" symbol="MACHXO2-CSBGA132-640-BOTTOM" x="35.56" y="-106.68"/>
+<gate name="MACHXO2-CSBGA132-1200-TOP" symbol="MACHXO2-CSBGA132-1200-TOP" x="35.56" y="30.48"/>
+<gate name="MACHXO2-CSBGA132-1200-LEFT" symbol="MACHXO2-CSBGA132-1200-LEFT" x="-22.86" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-1200-RIGHT" symbol="MACHXO2-CSBGA132-1200-RIGHT" x="83.82" y="-88.9"/>
+<gate name="MACHXO2-CSBGA132-1200-BOTTOM" symbol="MACHXO2-CSBGA132-1200-BOTTOM" x="35.56" y="-132.08"/>
 <gate name="MACHXO2-TQFP144" symbol="MACHXO2-TQFP144-1200" x="35.56" y="-35.56"/>
 </gates>
 <devices>
 <device name="MG132" package="CSBGA132-MACHXO2">
 <connects>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="P9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="N9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="M11"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="P12"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="P2"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="N2"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="N5"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="M5"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="P7"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="N7"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="M10"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="P11"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="N3"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="P4"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="L3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="B1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="B2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="F1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="F3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="E3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="F2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="H1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="H3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="J3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15C/19A/23A" pad="P9"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15D/19B/23B" pad="N9"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20A/24A/29A" pad="M11"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20B/24B/29B" pad="P12"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4A/3A/3A" pad="P2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4B/3B/3B" pad="N2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9C/9A/10A" pad="N5"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9D/9B/10B" pad="M5"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//10B/13B/19B" pad="L3"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2A/1A/3A" pad="B1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2B/1B/3B" pad="B2"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4C/6A/9A" pad="F1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4D/6B/9B" pad="F3"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10A/13A/18A" pad="M12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10B/13B/18B" pad="M14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2C/2A/3A" pad="C14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2D/2B/3B" pad="D12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8A/9A/13A" pad="J12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8B/9B/13B" pad="J14"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11A/13A/14A" pad="B5"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11B/13B/14B" pad="C6"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16A/21A/24A" pad="A10"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16B/21B/24B" pad="C11"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17A/23A/27A" pad="C12"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17B/24B/27B" pad="A12"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10A/11C/12A/15A" pad="P7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10B/11D/12B/15B" pad="N7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14A/18C/22A/27A" pad="M10"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14B/18D/22B/27B" pad="P11"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4C/6A/6A/7A" pad="N3"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4D/6B/6B/7B" pad="P4"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3C/4A/5A/8A" pad="E3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3D/4B/5B/8B" pad="F2"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5C/5C/9A/13A" pad="H1"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5D/5D/9B/13B" pad="H3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6C/8C/11A/16A" pad="J3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3A/4A/4A/6A" pad="E13"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3B/4B/4B/6B" pad="F12"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5A/5A/6A/9A" pad="G12"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5B/5B/6B/9B" pad="G14"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6A/8C/10A/14A" pad="J13"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6B/8D/10B/14B" pad="K12"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10A/15A/19A/21A" pad="C9"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10B/15B/19B/21B" pad="A9"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11A/16C/22A/25A" pad="A11"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11B/16D/22B/25B" pad="B12"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6C/10A/11A/11A" pad="A3"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6D/10B/11B/11B" pad="C4"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="A5"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="B11"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="D13"/>
@@ -3328,46 +3558,6 @@ only pins</text>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="D3"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="L1"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="G1"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="M12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="M14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="C14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="D12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="J12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="J14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="E13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="F12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="G12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="G14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="J13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="K12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="B5"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="C6"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="A10"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="C11"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="C12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="A12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="C9"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="A9"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="A11"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="B12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="A3"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="C4"/>
 <connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
 <connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
 <connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
@@ -3410,47 +3600,87 @@ only pins</text>
 </device>
 <device name="TG144" package="TQFP144">
 <connects>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="59"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="60"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="68"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="69"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="38"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="39"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="47"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="48"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="52"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="54"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="65"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="67"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="42"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="43"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="33"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="13"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="14"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="11"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="12"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="21"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="22"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="25"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15C/19A/23A" pad="59"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15D/19B/23B" pad="60"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20A/24A/29A" pad="68"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20B/24B/29B" pad="69"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4A/3A/3A" pad="38"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4B/3B/3B" pad="39"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9C/9A/10A" pad="47"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9D/9B/10B" pad="48"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//10B/13B/19B" pad="33"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2A/1A/3A" pad="1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2B/1B/3B" pad="2"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4C/6A/9A" pad="13"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4D/6B/9B" pad="14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10A/13A/18A" pad="76"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10B/13B/18B" pad="75"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2C/2A/3A" pad="105"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2D/2B/3B" pad="104"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8A/9A/13A" pad="86"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8B/9B/13B" pad="85"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11A/13A/14A" pad="133"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11B/13B/14B" pad="132"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16A/21A/24A" pad="117"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16B/21B/24B" pad="115"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17A/23A/27A" pad="112"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17B/24B/27B" pad="111"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10A/11C/12A/15A" pad="52"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10B/11D/12B/15B" pad="54"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14A/18C/22A/27A" pad="65"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14B/18D/22B/27B" pad="67"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4C/6A/6A/7A" pad="42"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4D/6B/6B/7B" pad="43"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3C/4A/5A/8A" pad="11"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3D/4B/5B/8B" pad="12"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5C/5C/9A/13A" pad="21"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5D/5D/9B/13B" pad="22"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6C/8C/11A/16A" pad="25"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3A/4A/4A/6A" pad="98"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3B/4B/4B/6B" pad="97"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5A/5A/6A/9A" pad="94"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5B/5B/6B/9B" pad="93"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6A/8C/10A/14A" pad="84"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6B/8D/10B/14B" pad="83"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10A/15A/19A/21A" pad="122"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10B/15B/19B/21B" pad="121"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11A/16C/22A/25A" pad="114"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11B/16D/22B/25B" pad="113"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6C/10A/11A/11A" pad="139"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6D/10B/11B/11B" pad="138"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="46 116"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="134"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="101"/>
@@ -3477,46 +3707,6 @@ only pins</text>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="7"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="30"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="16"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="76"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="75"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="105"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="104"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="86"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="85"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="98"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="97"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="94"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="93"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="84"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="83"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="133"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="132"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="117"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="115"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="112"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="111"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="122"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="121"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="114"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="113"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="139"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="138"/>
 <connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="40"/>
 <connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="109"/>
 <connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="110"/>
@@ -3556,69 +3746,105 @@ only pins</text>
 <gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
 <gate name="MACHXO2-QFN32-256" symbol="MACHXO2-QFN32-256" x="35.56" y="-55.88"/>
-<gate name="MACHXO2-CSBGA132-TOP-256" symbol="MACHXO2-CSBGA132-TOP-256" x="35.56" y="2.54"/>
-<gate name="MACHXO2-CSBGA132-LEFT-256" symbol="MACHXO2-CSBGA132-LEFT-256" x="-22.86" y="-30.48"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-256" symbol="MACHXO2-CSBGA132-RIGHT-256" x="83.82" y="-30.48"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-256" symbol="MACHXO2-CSBGA132-BOTTOM-256" x="35.56" y="-86.36"/>
-<gate name="MACHXO2-CSBGA132-TOP-640" symbol="MACHXO2-CSBGA132-TOP-640" x="35.56" y="20.32"/>
-<gate name="MACHXO2-CSBGA132-LEFT-640" symbol="MACHXO2-CSBGA132-LEFT-640" x="-22.86" y="-66.04"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-640" symbol="MACHXO2-CSBGA132-RIGHT-640" x="86.36" y="-66.04"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-640" symbol="MACHXO2-CSBGA132-BOTTOM-640" x="35.56" y="-106.68"/>
-<gate name="MACHXO2-CSBGA132-TOP-1200" symbol="MACHXO2-CSBGA132-TOP-1200" x="35.56" y="45.72"/>
-<gate name="MACHXO2-CSBGA132-LEFT-1200" symbol="MACHXO2-CSBGA132-LEFT-1200" x="-22.86" y="-86.36"/>
-<gate name="MACHXO2-CSBGA132-RIGHT-1200" symbol="MACHXO2-CSBGA132-RIGHT-1200" x="83.82" y="-88.9"/>
-<gate name="MACHXO2-CSBGA132-BOTTOM-1200" symbol="MACHXO2-CSBGA132-BOTTOM-1200" x="35.56" y="-132.08"/>
+<gate name="MACHXO2-CSBGA132-256-TOP" symbol="MACHXO2-CSBGA132-256-TOP" x="35.56" y="2.54"/>
+<gate name="MACHXO2-CSBGA132-256-LEFT" symbol="MACHXO2-CSBGA132-256-LEFT" x="-22.86" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-256-RIGHT" symbol="MACHXO2-CSBGA132-256-RIGHT" x="83.82" y="-30.48"/>
+<gate name="MACHXO2-CSBGA132-256-BOTTOM" symbol="MACHXO2-CSBGA132-256-BOTTOM" x="35.56" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-640-TOP" symbol="MACHXO2-CSBGA132-640-TOP" x="35.56" y="20.32"/>
+<gate name="MACHXO2-CSBGA132-640-LEFT" symbol="MACHXO2-CSBGA132-640-LEFT" x="-22.86" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-640-RIGHT" symbol="MACHXO2-CSBGA132-640-RIGHT" x="86.36" y="-66.04"/>
+<gate name="MACHXO2-CSBGA132-640-BOTTOM" symbol="MACHXO2-CSBGA132-640-BOTTOM" x="35.56" y="-106.68"/>
+<gate name="MACHXO2-CSBGA132-1200-TOP" symbol="MACHXO2-CSBGA132-1200-TOP" x="33.02" y="43.18"/>
+<gate name="MACHXO2-CSBGA132-1200-LEFT" symbol="MACHXO2-CSBGA132-1200-LEFT" x="-22.86" y="-86.36"/>
+<gate name="MACHXO2-CSBGA132-1200-RIGHT" symbol="MACHXO2-CSBGA132-1200-RIGHT" x="83.82" y="-88.9"/>
+<gate name="MACHXO2-CSBGA132-1200-BOTTOM" symbol="MACHXO2-CSBGA132-1200-BOTTOM" x="35.56" y="-132.08"/>
 <gate name="MACHXO2-TQFP144" symbol="MACHXO2-TQFP144-1200" x="35.56" y="-35.56"/>
-<gate name="G$1" symbol="MACHXO2-TQFP144-2000" x="35.56" y="-20.32"/>
+<gate name="MACHXO2-TEFQ144-2000" symbol="MACHXO2-TQFP144-2000" x="35.56" y="-20.32"/>
 </gates>
 <devices>
 <device name="MG132" package="CSBGA132-MACHXO2">
 <connects>
-<connect gate="G$1" pin="PL_///7A/10A/11A" pad="NC4"/>
-<connect gate="G$1" pin="PL_///7B/10B/10B" pad="NC5"/>
-<connect gate="G$1" pin="PR_///7C/10C/15A" pad="NC6"/>
-<connect gate="G$1" pin="PR_///7D/10D/15B" pad="NC7"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="P9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="N9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="M11"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="P12"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="P2"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="N2"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="N5"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="M5"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="P7"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="N7"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="M10"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="P11"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="N3"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="P4"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="L3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="B1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="B2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="F1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="F3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="E3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="F2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="H1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="H3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="J3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15C/19A/23A" pad="P9"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15D/19B/23B" pad="N9"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20A/24A/29A" pad="M11"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20B/24B/29B" pad="P12"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4A/3A/3A" pad="P2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4B/3B/3B" pad="N2"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9C/9A/10A" pad="N5"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9D/9B/10B" pad="M5"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//10B/13B/19B" pad="L3"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2A/1A/3A" pad="B1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2B/1B/3B" pad="B2"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4C/6A/9A" pad="F1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4D/6B/9B" pad="F3"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10A/13A/18A" pad="M12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10B/13B/18B" pad="M14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2C/2A/3A" pad="C14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2D/2B/3B" pad="D12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8A/9A/13A" pad="J12"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8B/9B/13B" pad="J14"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11A/13A/14A" pad="B5"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11B/13B/14B" pad="C6"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16A/21A/24A" pad="A10"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16B/21B/24B" pad="C11"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17A/23A/27A" pad="C12"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17B/24B/27B" pad="A12"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7A/12A/15A/18A/21A" pad="P8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7B/12B/15B/18B/21B" pad="M8"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7C/12C/18A/21A/24A" pad="M9"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7D/12D/18B/21B/24B" pad="N10"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2A/2A/2C/2A/4A" pad="C1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2B/2B/2D/2B/4B" pad="C3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2C/2C/3A/3A/6A" pad="C2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2D/2D/3B/3B/6B" pad="D1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3A/3A/3C/4A/7A" pad="E1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3B/3B/3D/4B/7B" pad="E2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3C/5A/5A/7C/10C" pad="G3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3D/5B/5B/7D/10D" pad="H2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5A/6A/8A/10A/14A" pad="J1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5B/6B/8B/10B/14B" pad="J2"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6A/7C/10C/14A/20A" pad="M1"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6B/7D/10D/14B/20B" pad="M2"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10A/11C/12A/15A" pad="P7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10B/11D/12B/15B" pad="N7"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14A/18C/22A/27A" pad="M10"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14B/18D/22B/27B" pad="P11"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4C/6A/6A/7A" pad="N3"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4D/6B/6B/7B" pad="P4"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3C/4A/5A/8A" pad="E3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3D/4B/5B/8B" pad="F2"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5C/5C/9A/13A" pad="H1"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5D/5D/9B/13B" pad="H3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6C/8C/11A/16A" pad="J3"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6D/8D/11B/16B" pad="K2"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3A/4A/4A/6A" pad="E13"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3B/4B/4B/6B" pad="F12"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5A/5A/6A/9A" pad="G12"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5B/5B/6B/9B" pad="G14"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6A/8C/10A/14A" pad="J13"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6B/8D/10B/14B" pad="K12"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10A/15A/19A/21A" pad="C9"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10B/15B/19B/21B" pad="A9"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11A/16C/22A/25A" pad="A11"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11B/16D/22B/25B" pad="B12"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6C/10A/11A/11A" pad="A3"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6D/10B/11B/11B" pad="C4"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="A5"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="B11"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="D13"/>
@@ -3645,46 +3871,6 @@ only pins</text>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="D3"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="L1"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="G1"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="M12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="M14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="C14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="D12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="J12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="J14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="B14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="C13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="E12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="E14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="F13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="F14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="K13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="K14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="L14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="M13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="N13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="N14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="E13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="F12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="G12"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="G14"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="J13"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="K12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="B5"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="C6"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="A10"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="C11"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="C12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="A12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="A2"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="B3"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="A7"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="B7"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="C9"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="A9"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="A11"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="B12"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="A3"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="C4"/>
 <connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="P3"/>
 <connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="A13"/>
 <connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="B13"/>
@@ -3709,6 +3895,10 @@ only pins</text>
 <connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="K3"/>
 <connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="G13"/>
 <connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="H12"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PL_///7A/10A/10A" pad="NC4"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PL_///7B/10B/10B" pad="NC5"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PR_///7C/10C/15A" pad="NC6"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PR_///7D/10D/15B" pad="NC7"/>
 <connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="NC1"/>
 <connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="NC2"/>
 <connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="NC3"/>
@@ -3727,51 +3917,87 @@ only pins</text>
 </device>
 <device name="TG144" package="TQFP144">
 <connects>
-<connect gate="G$1" pin="PL_///7A/10A/11A" pad="15"/>
-<connect gate="G$1" pin="PL_///7B/10B/10B" pad="17"/>
-<connect gate="G$1" pin="PR_///7C/10C/15A" pad="87"/>
-<connect gate="G$1" pin="PR_///7D/10D/15B" pad="89"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15C/19A/23A" pad="59"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//15D/19B/23B" pad="60"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20A/24A/29A" pad="68"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//20B/24B/29B" pad="69"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4A/3A/3A" pad="38"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//4B/3B/3B" pad="39"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9C/9A/10A" pad="47"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-1200" pin="PB_//9D/9B/10B" pad="48"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-256" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10A/11C/12A/15A" pad="52"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/10B/11D/12B/15B" pad="54"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14A/18C/22A/27A" pad="65"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/14B/18D/22B/27B" pad="67"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4C/6A/6A/7A" pad="42"/>
-<connect gate="MACHXO2-CSBGA132-BOTTOM-640" pin="PB_/4D/6B/6B/7B" pad="43"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//10B/13B/19B" pad="33"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2A/1A/3A" pad="1"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//2B/1B/3B" pad="2"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4C/6A/9A" pad="13"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-1200" pin="PL_//4D/6B/9B" pad="14"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-256" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3C/4A/5A/8A" pad="11"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/3D/4B/5B/8B" pad="12"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5C/5C/9A/13A" pad="21"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/5D/5D/9B/13B" pad="22"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6C/8C/11A/16A" pad="25"/>
-<connect gate="MACHXO2-CSBGA132-LEFT-640" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15C/19A/23A" pad="59"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//15D/19B/23B" pad="60"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20A/24A/29A" pad="68"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//20B/24B/29B" pad="69"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4A/3A/3A" pad="38"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//4B/3B/3B" pad="39"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9C/9A/10A" pad="47"/>
+<connect gate="MACHXO2-CSBGA132-1200-BOTTOM" pin="PB_//9D/9B/10B" pad="48"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//10B/13B/19B" pad="33"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2A/1A/3A" pad="1"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//2B/1B/3B" pad="2"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4C/6A/9A" pad="13"/>
+<connect gate="MACHXO2-CSBGA132-1200-LEFT" pin="PL_//4D/6B/9B" pad="14"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10A/13A/18A" pad="76"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//10B/13B/18B" pad="75"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2C/2A/3A" pad="105"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//2D/2B/3B" pad="104"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8A/9A/13A" pad="86"/>
+<connect gate="MACHXO2-CSBGA132-1200-RIGHT" pin="PR_//8B/9B/13B" pad="85"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11A/13A/14A" pad="133"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//11B/13B/14B" pad="132"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16A/21A/24A" pad="117"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//16B/21B/24B" pad="115"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17A/23A/27A" pad="112"/>
+<connect gate="MACHXO2-CSBGA132-1200-TOP" pin="PT_//17B/24B/27B" pad="111"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7A/12A/15A/18A/21A" pad="57"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7B/12B/15B/18B/21B" pad="58"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7C/12C/18A/21A/24A" pad="61"/>
+<connect gate="MACHXO2-CSBGA132-256-BOTTOM" pin="PB_7D/12D/18B/21B/24B" pad="62"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2A/2A/2C/2A/4A" pad="3"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2B/2B/2D/2B/4B" pad="4"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2C/2C/3A/3A/6A" pad="5"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_2D/2D/3B/3B/6B" pad="6"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3A/3A/3C/4A/7A" pad="9"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3B/3B/3D/4B/7B" pad="10"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3C/5A/5A/7C/10C" pad="19"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_3D/5B/5B/7D/10D" pad="20"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5A/6A/8A/10A/14A" pad="23"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_5B/6B/8B/10B/14B" pad="24"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6A/7C/10C/14A/20A" pad="34"/>
+<connect gate="MACHXO2-CSBGA132-256-LEFT" pin="PL_6B/7D/10D/14B/20B" pad="35"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
+<connect gate="MACHXO2-CSBGA132-256-RIGHT" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
+<connect gate="MACHXO2-CSBGA132-256-TOP" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10A/11C/12A/15A" pad="52"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/10B/11D/12B/15B" pad="54"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14A/18C/22A/27A" pad="65"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/14B/18D/22B/27B" pad="67"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4C/6A/6A/7A" pad="42"/>
+<connect gate="MACHXO2-CSBGA132-640-BOTTOM" pin="PB_/4D/6B/6B/7B" pad="43"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3C/4A/5A/8A" pad="11"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/3D/4B/5B/8B" pad="12"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5C/5C/9A/13A" pad="21"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/5D/5D/9B/13B" pad="22"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6C/8C/11A/16A" pad="25"/>
+<connect gate="MACHXO2-CSBGA132-640-LEFT" pin="PL_/6D/8D/11B/16B" pad="26"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3A/4A/4A/6A" pad="98"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/3B/4B/4B/6B" pad="97"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5A/5A/6A/9A" pad="94"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/5B/5B/6B/9B" pad="93"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6A/8C/10A/14A" pad="84"/>
+<connect gate="MACHXO2-CSBGA132-640-RIGHT" pin="PR_/6B/8D/10B/14B" pad="83"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10A/15A/19A/21A" pad="122"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/10B/15B/19B/21B" pad="121"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11A/16C/22A/25A" pad="114"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/11B/16D/22B/25B" pad="113"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6C/10A/11A/11A" pad="139"/>
+<connect gate="MACHXO2-CSBGA132-640-TOP" pin="PT_/6D/10B/11B/11B" pad="138"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@A5" pad="46 116"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@B11" pad="134"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="GND@D13" pad="101"/>
@@ -3798,46 +4024,6 @@ only pins</text>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3/5@D3" pad="7"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO3@L1" pad="30"/>
 <connect gate="MACHXO2-CSBGA132-PWR" pin="VCCIO4@G1" pad="16"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10A/13A/18A" pad="76"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//10B/13B/18B" pad="75"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2C/2A/3A" pad="105"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//2D/2B/3B" pad="104"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8A/9A/13A" pad="86"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-1200" pin="PR_//8B/9B/13B" pad="85"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2A/2A/2A/1A/2A" pad="107"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_2B/2B/2B/1B/2B" pad="106"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3A/2C/3A/3A/5A" pad="100"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3B/2D/3B/3B/5B" pad="99"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3C/3C/4C/5A/8A" pad="96"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_3D/3D/4D/5B/8B" pad="95"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5C/6C/9A/11A/15A" pad="82"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_5D/6D/9B/11B/15B" pad="81"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6A/7A/9C/12A/16A" pad="78"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6B/7B/9D/12B/16B" pad="77"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6C/7C/10C/14A/19A" pad="74"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-256" pin="PR_6D/7D/10D/14B/19B" pad="73"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3A/4A/4A/6A" pad="98"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/3B/4B/4B/6B" pad="97"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5A/5A/6A/9A" pad="94"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/5B/5B/6B/9B" pad="93"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6A/8C/10A/14A" pad="84"/>
-<connect gate="MACHXO2-CSBGA132-RIGHT-640" pin="PR_/6B/8D/10B/14B" pad="83"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11A/13A/14A" pad="133"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//11B/13B/14B" pad="132"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16A/21A/24A" pad="117"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//16B/21B/24B" pad="115"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17A/23A/27A" pad="112"/>
-<connect gate="MACHXO2-CSBGA132-TOP-1200" pin="PT_//17B/24B/27B" pad="111"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6A/6A/9A/9A/9A" pad="143"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_6B/6B/9B/9B/9B" pad="142"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8A/9A/12A/17A/18A" pad="128"/>
-<connect gate="MACHXO2-CSBGA132-TOP-256" pin="PT_8B/9B/12B/17B/18B" pad="127"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10A/15A/19A/21A" pad="122"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/10B/15B/19B/21B" pad="121"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11A/16C/22A/25A" pad="114"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/11B/16D/22B/25B" pad="113"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6C/10A/11A/11A" pad="139"/>
-<connect gate="MACHXO2-CSBGA132-TOP-640" pin="PT_/6D/10B/11B/11B" pad="138"/>
 <connect gate="MACHXO2-ERB" pin="CSSPIN/PB_2A..." pad="40"/>
 <connect gate="MACHXO2-ERB" pin="DONE/PT17D" pad="109"/>
 <connect gate="MACHXO2-ERB" pin="INITN/PT17C" pad="110"/>
@@ -3862,6 +4048,10 @@ only pins</text>
 <connect gate="MACHXO2-QFN32-256" pin="PL_5D/7B/9B/12B/17B" pad="28"/>
 <connect gate="MACHXO2-QFN32-256" pin="PR_5A/5C/5C/7A/10A" pad="92"/>
 <connect gate="MACHXO2-QFN32-256" pin="PR_5B/5D/5D/7B/10B" pad="91"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PL_///7A/10A/10A" pad="15"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PL_///7B/10B/10B" pad="17"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PR_///7C/10C/15A" pad="87"/>
+<connect gate="MACHXO2-TEFQ144-2000" pin="PR_///7D/10D/15B" pad="89"/>
 <connect gate="MACHXO2-TQFP144" pin="PL_//10A/13A/19A" pad="32"/>
 <connect gate="MACHXO2-TQFP144" pin="PT_//9C/10A/10A" pad="141"/>
 <connect gate="MACHXO2-TQFP144" pin="PT_//9D/10B/10B" pad="140"/>
@@ -3880,7 +4070,7 @@ only pins</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F4-ELLI">
+<deviceset name="ELLI-STM32F4">
 <description>&lt;h3&gt;STM32F427 / 429 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real STM32F42x MCU.  The pseudo-symbols list the ELL-i project functions for the STM32F4 MCU pins.&lt;/p&gt;
@@ -3896,6 +4086,32 @@ only pins</text>
 <gate name="G$5" symbol="STM32-PF-ELLI" x="-10.16" y="-20.32"/>
 <gate name="G$6" symbol="STM32-PG-ELLI" x="27.94" y="-20.32"/>
 <gate name="G$7" symbol="STM32-PE-ELLI" x="-48.26" y="-20.32"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ELLI-MACHXO2-2000">
+<gates>
+<gate name="G$1" symbol="ELLI-MACHXO2-256-BOTTOM" x="48.26" y="-35.56"/>
+<gate name="G$2" symbol="ELLI-MACHXO2-256-LEFT" x="5.08" y="10.16"/>
+<gate name="G$3" symbol="ELLI-MACHXO2-256-QNF32" x="48.26" y="-10.16"/>
+<gate name="G$4" symbol="ELLI-MACHXO2-256-RIGHT" x="88.9" y="10.16"/>
+<gate name="G$5" symbol="ELLI-MACHXO2-256-TOP" x="48.26" y="43.18"/>
+<gate name="G$6" symbol="ELLI-MACHXO2-640-BOTTOM" x="48.26" y="-53.34"/>
+<gate name="G$7" symbol="ELLI-MACHXO2-640-LEFT" x="5.08" y="-25.4"/>
+<gate name="G$8" symbol="ELLI-MACHXO2-640-RIGHT" x="88.9" y="-25.4"/>
+<gate name="G$9" symbol="ELLI-MACHXO2-640-TOP" x="48.26" y="60.96"/>
+<gate name="G$10" symbol="ELLI-MACHXO2-1200-BOTTOM" x="48.26" y="-81.28"/>
+<gate name="G$11" symbol="ELLI-MACHXO2-1200-LEFT" x="5.08" y="-45.72"/>
+<gate name="G$12" symbol="ELLI-MACHXO2-1200-RIGHT" x="88.9" y="-48.26"/>
+<gate name="G$13" symbol="ELLI-MACHXO2-1200-TOP" x="48.26" y="83.82"/>
+<gate name="G$14" symbol="ELLI-MACHXO2-1200-TQFP144" x="48.26" y="10.16"/>
+<gate name="G$15" symbol="ELLI-MACHXO2-2000-TQFP144" x="48.26" y="25.4"/>
 </gates>
 <devices>
 <device name="">
