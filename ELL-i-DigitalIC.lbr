@@ -2148,8 +2148,8 @@
 <pin name="PC14-OSC32_IN" x="7.62" y="-17.78" length="short" rot="R180"/>
 <pin name="PC15-OSC32_OUT" x="7.62" y="-20.32" length="short" rot="R180"/>
 <wire x1="5.08" y1="20.32" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
 <text x="-4.064" y="21.336" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="STM32-PD">
@@ -2637,72 +2637,137 @@
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
-<symbol name="STM32-PA-ELLI">
+<symbol name="ELLI-STM32-PA">
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">A0</text>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino A0</text>
 <text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ETH RMII_REF_CLK</text>
 <text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">ETH RMII_MDIO</text>
-<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">D6 (PWM)</text>
-<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">A2</text>
-<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">A3</text>
-<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">D12 / SPI1_MISO</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">Arduino D6</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">Arduino A2</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino A3</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">Arduino D12 / SPI MISO</text>
 <text x="-35.56" y="0" size="1.27" layer="94" align="center-left">ETH RMII_CRS_DV</text>
 <text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">MCO</text>
-<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">D1 / USART1_TX</text>
-<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">D0 / USART1_RX</text>
-<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">D3 / USART1_CTS / CAN1_RX</text>
-<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">D4 / USART1_RTS / CAN1_TX</text>
-<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">SWDIO / JTMS</text>
-<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">SWCLK / JTCK</text>
-<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">D10 (PWM) / JTDI</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">Arduino D1 / TX</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">Arduino D0 / RX</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">Arduino D3 / CTS</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">Arduino D4 / RTS</text>
+<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">JTMS / SWDIO</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">JTCK / SWCLK</text>
+<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">JTDI / Arduino D10 / SPI SS</text>
 </symbol>
-<symbol name="STM32-PB-ELLI">
+<symbol name="ELLI-SMALL-STM32-PA">
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">D9 (PWM)</text>
-<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">D7</text>
-<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">XO2_JTAGENB</text>
-<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">D13 / SPI1_SCK / JTDO</text>
-<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">D5 (PWM)</text>
-<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">D11 (PWM) / SPI1_MOSI / CAN2_RX</text>
-<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">A5 / I2C1_SCL / CAN2_TX</text>
-<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">FMC_NL/NADV</text>
-<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">XO2_SN</text>
-<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">A4 / I2C1_SDA</text>
-<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">I2C2_SCL</text>
-<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">I2C2 SDA</text>
-<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">SPI2_SS / CAN2_RX</text>
-<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">SPI2_SCK / CAN2_TX</text>
-<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">SPI2_MISO</text>
-<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">SPI2_MOSI</text>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino A0</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ENC28J60 Interrupt</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">Arduino A1</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">Arduino D6</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">Arduino A2</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino A3</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">D12 / SPI1_MISO</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">TBD</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">MCO</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">Arduino D1 / TX</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">Arduino D0 / RX</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">Arduino D3 / CTS</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">Arduino D4 / RTS</text>
+<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">SWDIO</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">SWCLK</text>
+<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">Arduino D10</text>
 </symbol>
-<symbol name="STM32-PC-ELLI">
+<symbol name="ELLI-STM32-PB">
+<wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D7</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2 SN</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">JTDO / Arduino D13 / SPI1_SCK</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">JNRST / Arduino D5</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 / SPI1_MOSI</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">Arduino A5 / I2C_SCL</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">FMC_NL/NADV</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTAGENB</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">Arduino A4 / I2C_SDA</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i I2C2_SCL</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i I2C2 SDA</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">ELL-i SPI2_SS / CAN2_RX</text>
+<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">ELL-i SPI2_SCK / CAN2_TX</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">ELL-i SPI2_MISO</text>
+<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">ELL-i SPI2_MOSI</text>
+</symbol>
+<symbol name="ELLI-SMALL-STM32-PB">
+<wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D7</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2 SN*</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">Arduino D13 / SPI_SCK</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">Arduino D5</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 / SPI_MOSI</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">Arduino A5 / I2C_SCL</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">Arduino D8</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTAGENB</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">ARduino A4 / I2C_SDA</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i I2C2_SCL</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i I2C2 SDA</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">ELL-i SPI2_SS / CAN2_RX</text>
+<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">ELL-i SPI2_SCK / CAN2_TX</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">ELL-i SPI2_MISO</text>
+<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">ELL-i SPI2_MOSI</text>
+</symbol>
+<symbol name="ELLI-STM32-PC">
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">FMC_SNDWE</text>
 <text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ETH MDC</text>
-<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">D8</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">FMC_SNDE0</text>
 <text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">FMC_SDCKE0</text>
 <text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">ETH RMII_RXD0</text>
 <text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">ETH RMII_RXD1</text>
-<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">LVSD 6T</text>
-<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">LVDS 6C</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVSD 6T</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 6C</text>
 <text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left"></text>
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left"></text>
-<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">USART3_TX</text>
-<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">USART3_RX</text>
-<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">DMCI_D9 / XO2_CSSPIN</text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i USART3_TX</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i USART3_RX</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2 CSSPIN</text>
 <text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">TAMP1</text>
 <text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">OSC32_IN</text>
 <text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">OSC32_OUT</text>
-<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">XO2_PROGRAMN</text>
-<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">TBD</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; MachXO2 PROGRAMN</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTDI</text>
 </symbol>
-<symbol name="STM32-PD-ELLI">
+<symbol name="ELLI-SMALL-STM32-PC">
+<wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">ELL-i LVDS 3C</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ELL-i LVDS 3T</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">ELL-i LVDS 4C</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">ELL-i LVDS 4T</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">ELL-i LVDS 5C</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 5T</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 6C</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 6T</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left"></text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left"></text>
+<text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i USART3_TX (GPIO)</text>
+<text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i USART3_RX (GPIO)</text>
+<text x="-35.56" y="-12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2CSSPIN</text>
+<text x="-35.56" y="-15.24" size="1.27" layer="94" align="center-left">TAMP1</text>
+<text x="-35.56" y="-17.78" size="1.27" layer="94" align="center-left">OSC32_IN</text>
+<text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">OSC32_OUT</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; Mach XO2 PROGRAMN</text>
+<text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">-&gt; Mach XO2 JTDI</text>
+</symbol>
+<symbol name="ELLI-STM32-PD">
 <wire x1="-27.94" y1="20.32" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
@@ -2721,9 +2786,9 @@
 <text x="-25.4" y="-15.24" size="1.27" layer="94" align="center-left">FMC_A18</text>
 <text x="-25.4" y="-17.78" size="1.27" layer="94" align="center-left">FMC_D0</text>
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">FMC_D1</text>
-<text x="-25.4" y="12.7" size="1.27" layer="94" align="center-left">D2</text>
+<text x="-25.4" y="12.7" size="1.27" layer="94" align="center-left">Arduino D2</text>
 </symbol>
-<symbol name="STM32-PE-ELLI">
+<symbol name="ELLI-STM32-PE">
 <wire x1="-27.94" y1="20.32" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
@@ -2744,7 +2809,7 @@
 <text x="-25.4" y="-17.78" size="1.27" layer="94" align="center-left">FMC_D11</text>
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">FMC_D12</text>
 </symbol>
-<symbol name="STM32-PF-ELLI">
+<symbol name="ELLI-STM32-PF">
 <wire x1="-27.94" y1="20.32" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
@@ -2764,13 +2829,13 @@
 <text x="-25.4" y="-15.24" size="1.27" layer="94" align="center-left">FMC_A7</text>
 <text x="-25.4" y="-17.78" size="1.27" layer="94" align="center-left">FMC_A8</text>
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">FMC_A9</text>
-<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">A1</text>
-<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">XO2_JTDI</text>
-<text x="-25.4" y="-2.54" size="1.27" layer="94" align="center-left">LVDS1C</text>
-<text x="-25.4" y="-5.08" size="1.27" layer="94" align="center-left">LVDS1T</text>
-<text x="-25.4" y="-7.62" size="1.27" layer="94" align="center-left">LVDS2C</text>
+<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">Arduino A1</text>
+<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 2T</text>
+<text x="-25.4" y="-2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 1C</text>
+<text x="-25.4" y="-5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 1T</text>
+<text x="-25.4" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i LVDS 2C</text>
 </symbol>
-<symbol name="STM32-PG-ELLI">
+<symbol name="ELLI-STM32-PG">
 <wire x1="-27.94" y1="20.32" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="20.32" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-22.86" x2="-27.94" y2="-22.86" width="0.254" layer="94"/>
@@ -2789,8 +2854,8 @@
 <text x="-25.4" y="-12.7" size="1.27" layer="94" align="center-left">FMC_NE4</text>
 <text x="-25.4" y="-15.24" size="1.27" layer="94" align="center-left">ETH RMII_TXD0</text>
 <text x="-25.4" y="-17.78" size="1.27" layer="94" align="center-left">ETH RMII_TXD1</text>
-<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">LVDS2T</text>
-<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">LVDS3C</text>
+<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">Arduino D8</text>
+<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 5T</text>
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">FMC_SNDCAS</text>
 </symbol>
 <symbol name="MACHXO2-QFN32-256">
@@ -3030,6 +3095,16 @@ only pins</text>
 <text x="-58.42" y="0" size="1.778" layer="94" align="center-left">I2C2 SDA</text>
 <text x="-58.42" y="-5.08" size="1.778" layer="94" align="center-left">LVDS 4T</text>
 <text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">LVDS 4B</text>
+</symbol>
+<symbol name="ELLI-SMALL-STM32-PDF-LQFP64">
+<wire x1="-5.08" y1="7.62" x2="-27.94" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-25.4" y="5.08" size="1.27" layer="94" align="center-left">Arduino D2</text>
+<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 1C</text>
+<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 1T</text>
+<text x="-25.4" y="-2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 2C</text>
+<text x="-25.4" y="-5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 2T</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4447,13 +4522,13 @@ only pins</text>
    &lt;li&gt;TBD (a link to the relevant design document)&lt;/li&gt;.
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="STM32-PA-ELLI" x="-38.1" y="25.4"/>
-<gate name="G$2" symbol="STM32-PB-ELLI" x="0" y="25.4"/>
-<gate name="G$3" symbol="STM32-PC-ELLI" x="38.1" y="25.4"/>
-<gate name="G$4" symbol="STM32-PD-ELLI" x="66.04" y="25.4"/>
-<gate name="G$5" symbol="STM32-PF-ELLI" x="-10.16" y="-20.32"/>
-<gate name="G$6" symbol="STM32-PG-ELLI" x="27.94" y="-20.32"/>
-<gate name="G$7" symbol="STM32-PE-ELLI" x="-48.26" y="-20.32"/>
+<gate name="G$1" symbol="ELLI-STM32-PA" x="-38.1" y="25.4"/>
+<gate name="G$2" symbol="ELLI-STM32-PB" x="0" y="25.4"/>
+<gate name="G$3" symbol="ELLI-STM32-PC" x="38.1" y="25.4"/>
+<gate name="G$4" symbol="ELLI-STM32-PD" x="66.04" y="25.4"/>
+<gate name="G$5" symbol="ELLI-STM32-PF" x="-10.16" y="-20.32"/>
+<gate name="G$6" symbol="ELLI-STM32-PG" x="27.94" y="-20.32"/>
+<gate name="G$7" symbol="ELLI-STM32-PE" x="-48.26" y="-20.32"/>
 </gates>
 <devices>
 <device name="">
@@ -4539,6 +4614,21 @@ only pins</text>
 <technology name="ZE-1"/>
 <technology name="ZE-2"/>
 <technology name="ZE-3"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ELLI-STM32F0">
+<gates>
+<gate name="G$1" symbol="ELLI-SMALL-STM32-PA" x="2.54" y="30.48"/>
+<gate name="G$2" symbol="ELLI-SMALL-STM32-PB" x="40.64" y="30.48"/>
+<gate name="G$3" symbol="ELLI-SMALL-STM32-PC" x="2.54" y="-17.78"/>
+<gate name="PDF" symbol="ELLI-SMALL-STM32-PDF-LQFP64" x="30.48" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
