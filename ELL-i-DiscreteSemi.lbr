@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -188,6 +188,24 @@
 <rectangle x1="-1.1375" y1="-1.725" x2="-0.8125" y2="-1.275" layer="51"/>
 <smd name="F1" x="0" y="0.45" dx="2.37" dy="1.7" layer="1"/>
 </package>
+<package name="DFN1006-X2-3">
+<description>&lt;h3&gt;X2-DFN1006-3 package&lt;/h3&gt;
+
+&lt;p&gt;Used by Diodes DMP21D5UFB4&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.diodes.com/datasheets/DMP21D5UFB4.pdf"&gt;Diodes DMP21D5UFB4 datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="0.5" y1="0.3" x2="-0.5" y2="0.3" width="0.08" layer="21"/>
+<wire x1="-0.5" y1="0.3" x2="-0.5" y2="-0.3" width="0.08" layer="21"/>
+<wire x1="-0.5" y1="-0.3" x2="0.5" y2="-0.3" width="0.08" layer="21"/>
+<wire x1="0.5" y1="-0.3" x2="0.5" y2="0.3" width="0.08" layer="21"/>
+<smd name="S" x="0.35" y="0.225" dx="0.4" dy="0.25" layer="1"/>
+<smd name="G" x="0.35" y="-0.225" dx="0.4" dy="0.25" layer="1"/>
+<smd name="D" x="-0.35" y="0" dx="0.4" dy="0.7" layer="1"/>
+<text x="-0.7" y="0.4" size="0.3" layer="25">&gt;NAME</text>
+<text x="-0.7" y="-0.7" size="0.3" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -235,6 +253,38 @@
 <vertex x="0.762" y="-0.254"/>
 </polygon>
 </symbol>
+<symbol name="P_MOSFET">
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.762" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="0" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="1.397" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="0.762" y1="0.254" x2="2.032" y2="0.381" layer="94" rot="R180"/>
+<pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="-1.016" y="-0.635"/>
+<vertex x="-1.016" y="0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="0.254"/>
+<vertex x="0.762" y="-0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIODE-SCHOTTKY" prefix="D">
@@ -277,6 +327,30 @@
 <connect gate="G$1" pin="D" pad="5 6 7 8 F1"/>
 <connect gate="G$1" pin="G" pad="4"/>
 <connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMP21D5UFB4" prefix="T">
+<description>&lt;h3&gt;Diodes P-channel enhancement mode MOSFET&lt;/h3&gt;
+
+&lt;p&gt;Low on-resistance (Rdson) and very low gate threshold voltage VGS(TH), 1.0V max&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.diodes.com/datasheets/DMP21D5UFB4.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="P_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN1006-X2-3">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
