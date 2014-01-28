@@ -3019,6 +3019,9 @@
 <text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">JTDI / Arduino D10 / SPI SS</text>
 </symbol>
 <symbol name="ELLI-SMALL-STM32-PA">
+<description>&lt;h3&gt;ELL-i functions for STM32F Port A&lt;/h3&gt;
+
+&lt;p&gt;STM32F051/030 64-pin TQFP version&lt;/p&gt;</description>
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
@@ -3061,6 +3064,9 @@
 <text x="-35.56" y="-20.32" size="1.27" layer="94" align="center-left">ELL-i SPI2_MOSI</text>
 </symbol>
 <symbol name="ELLI-SMALL-STM32-PB">
+<description>&lt;h3&gt;ELL-i functions for STM32F Port B&lt;/h3&gt;
+
+&lt;p&gt;STM32F051/030 64-pin TQFP version&lt;/p&gt;</description>
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
@@ -3105,17 +3111,20 @@
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTDI</text>
 </symbol>
 <symbol name="ELLI-SMALL-STM32-PC">
+<description>&lt;h3&gt;ELL-i functions for STM32F Port C&lt;/h3&gt;
+
+&lt;p&gt;STM32F051/030 64-pin TQFP version&lt;/p&gt;</description>
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">ELL-i LVDS 3C</text>
-<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ELL-i LVDS 3T</text>
-<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">ELL-i LVDS 4C</text>
-<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">ELL-i LVDS 4T</text>
-<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">ELL-i LVDS 5C</text>
-<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 5T</text>
-<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 6C</text>
-<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 6T</text>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">ELL-i LVDS 3T</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">ELL-i LVDS 3C</text>
+<text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">ELL-i LVDS 4T</text>
+<text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">ELL-i LVDS 4C</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">ELL-i LVDS 5T</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 5C</text>
+<text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 6T</text>
+<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 6C</text>
 <text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left"></text>
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left"></text>
 <text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i USART3_TX (GPIO)</text>
@@ -3219,7 +3228,7 @@
 <text x="-25.4" y="-20.32" size="1.27" layer="94" align="center-left">FMC_SNDCAS</text>
 </symbol>
 <symbol name="MACHXO2-QFN32-256">
-<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
+<description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 256&lt;/h3&gt;
 
 &lt;p&gt;Generic pins available in the QFN32 package.&lt;/p&gt;
 
@@ -3457,14 +3466,17 @@ only pins</text>
 <text x="-58.42" y="-7.62" size="1.778" layer="94" align="center-left">LVDS 4B</text>
 </symbol>
 <symbol name="ELLI-SMALL-STM32-PDF-LQFP64">
+<description>&lt;h3&gt;ELL-i functions for STM32F Porta D and F&lt;/h3&gt;
+
+&lt;p&gt;STM32F051/030 64-pin TQFP version&lt;/p&gt;</description>
 <wire x1="-5.08" y1="7.62" x2="-27.94" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="7.62" x2="-27.94" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-27.94" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
 <text x="-25.4" y="5.08" size="1.27" layer="94" align="center-left">Arduino D2</text>
-<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 1C</text>
-<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 1T</text>
-<text x="-25.4" y="-2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 2C</text>
-<text x="-25.4" y="-5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 2T</text>
+<text x="-25.4" y="2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 1T</text>
+<text x="-25.4" y="0" size="1.27" layer="94" align="center-left">ELL-i LVDS 1C</text>
+<text x="-25.4" y="-2.54" size="1.27" layer="94" align="center-left">ELL-i LVDS 2T</text>
+<text x="-25.4" y="-5.08" size="1.27" layer="94" align="center-left">ELL-i LVDS 2C</text>
 </symbol>
 <symbol name="ENC624J600-I/PT">
 <pin name="VDD_2" x="-35.56" y="53.34" length="middle" direction="pwr"/>
@@ -4236,7 +4248,14 @@ only pins</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LCMXO2-256" prefix="U">
+<deviceset name="LCMXO2-256*" prefix="U">
+<description>&lt;h3&gt; MachXO2-256 in csBGA132 or TQFP144 package.&lt;/h3&gt;
+
+&lt;p&gt;Lattice MachXO2-series FPGA in a 132 ball chip size BGA or 144 lead TQFP package.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="MACHXO2-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-20.32" y="73.66"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="88.9" y="68.58"/>
@@ -4347,6 +4366,13 @@ only pins</text>
 </devices>
 </deviceset>
 <deviceset name="LCMXO2-1200" prefix="U">
+<description>&lt;h3&gt; MachXO2-1200 in csBGA132 or TQFP144 package.&lt;/h3&gt;
+
+&lt;p&gt;Lattice MachXO2-series FPGA in a 132 ball chip size BGA or 144 lead TQFP package.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
@@ -4659,6 +4685,13 @@ only pins</text>
 </devices>
 </deviceset>
 <deviceset name="LCMXO2-2000" prefix="U">
+<description>&lt;h3&gt; MachXO2-2000 in csBGA132 or TQFP144 package.&lt;/h3&gt;
+
+&lt;p&gt;Lattice MachXO2-series FPGA in a 132 ball chip size BGA or 144 lead TQFP package.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="MACHXO2-CSBGA132-PWR" symbol="MACHXO2-CSBGA132-PWR" x="-43.18" y="55.88"/>
 <gate name="MACHXO2-ERB" symbol="MACHXO2-ERB" x="86.36" y="55.88"/>
@@ -5013,6 +5046,13 @@ only pins</text>
 </devices>
 </deviceset>
 <deviceset name="ELLI-MACHXO2-2000">
+<description>&lt;h3&gt;MachXO2 2000 ELL-i functions.&lt;/h3&gt;
+
+&lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real MachXO2-2000 FPGA.  The pseudo-symbols list the ELL-i project functions for the 132/144 pins FPGA package.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;TBD (a link to the relevant design document)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="ELLI-MACHXO2-256-BOTTOM" x="48.26" y="-35.56"/>
 <gate name="G$2" symbol="ELLI-MACHXO2-256-LEFT" x="5.08" y="10.16"/>
@@ -5039,6 +5079,13 @@ only pins</text>
 </devices>
 </deviceset>
 <deviceset name="LCMXO2-256*SG32">
+<description>&lt;h3&gt;MachXO2-256 in 32-pin QFN package.&lt;/h3&gt;
+
+&lt;p&gt;Lattice MachXO2-series FPGA in a 32-pin QFN package, 0.5 mm pitch.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="MACHXO2-QFN32-256" x="0" y="0"/>
 <gate name="G$2" symbol="MACHXO2-ERB" x="22.86" y="45.72"/>
@@ -5093,6 +5140,13 @@ only pins</text>
 </devices>
 </deviceset>
 <deviceset name="ELLI-STM32F0">
+<description>&lt;h3&gt;STM32F051/030 ELL-i functions.&lt;/h3&gt;
+
+&lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real STM32F0 MCU.  The pseudo-symbols list the ELL-i project functions for the STM32F0 MCU pins in a 64-pin package.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;TBD (a link to the relevant design document)&lt;/li&gt;.
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="ELLI-SMALL-STM32-PA" x="2.54" y="30.48"/>
 <gate name="G$2" symbol="ELLI-SMALL-STM32-PB" x="40.64" y="30.48"/>
@@ -5189,6 +5243,25 @@ only pins</text>
 <attribute name="PACKAGE" value="TQFP-64" constant="no"/>
 <attribute name="SUPPLIER" value="Microchip" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ELLI-MACHXO2-256">
+<description>&lt;h3&gt;MachXO2 256 QFN32 ELL-i functions.&lt;/h3&gt;
+
+&lt;p&gt;This device contains a pseudo-symbols, meant to be used with a corresponding MachXO2-256 FPGA device.  The pseudo-symbols list the ELL-i project extra functions for the 32 pins FPGA package. Most of the functions in the QFN32 package are predefined by Lattice, though overrideable by a user design.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;TBD (a link to the relevant design document)&lt;/li&gt;.
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ELLI-SMALL-MACHXO2-ALL" x="33.02" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
