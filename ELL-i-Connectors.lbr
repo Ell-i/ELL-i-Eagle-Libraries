@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2003,11 +2003,11 @@
 <pin name="SDA2" x="-17.78" y="-35.56" length="middle"/>
 <pin name="SCL2" x="-17.78" y="-38.1" length="middle"/>
 <pin name="TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="TXC" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="TX-" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="RX+" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="RXC" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="RX-" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="ETH_MUX" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="TX-" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="RX+" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="ETH_SPI_SS" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="RX-" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="GND@46" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="3.3V@48" x="17.78" y="-22.86" length="middle" rot="R180"/>
 <pin name="E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
@@ -2751,12 +2751,12 @@ In several package variant, including pogopin version.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-ELLI-HEADER">
+<deviceset name="DF12-ELLI-*" prefix="J">
 <gates>
 <gate name="E" symbol="ELLI-HEADER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DF12(4.0)-60DP-0.5V">
+<device name="HEADER-TOP" package="DF12(4.0)-60DP-0.5V">
 <connects>
 <connect gate="E" pin="-RESET" pad="22"/>
 <connect gate="E" pin="3.3V@48" pad="48"/>
@@ -2781,6 +2781,8 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="E7" pad="47"/>
 <connect gate="E" pin="E8" pad="49"/>
 <connect gate="E" pin="E9" pad="51"/>
+<connect gate="E" pin="ETH_MUX" pad="36"/>
+<connect gate="E" pin="ETH_SPI_SS" pad="42"/>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
@@ -2803,7 +2805,6 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="RSV2" pad="16"/>
 <connect gate="E" pin="RX+" pad="40"/>
 <connect gate="E" pin="RX-" pad="44"/>
-<connect gate="E" pin="RXC" pad="42"/>
 <connect gate="E" pin="SCK" pad="15"/>
 <connect gate="E" pin="SCK2/CANTX" pad="54"/>
 <connect gate="E" pin="SCL" pad="1"/>
@@ -2814,7 +2815,73 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="SS2/CANRX" pad="60"/>
 <connect gate="E" pin="TX+" pad="34"/>
 <connect gate="E" pin="TX-" pad="38"/>
-<connect gate="E" pin="TXC" pad="36"/>
+<connect gate="E" pin="VBATT" pad="4"/>
+<connect gate="E" pin="VCC(IO)" pad="2"/>
+<connect gate="E" pin="VIN" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RECEPTABLE-BOTTOM" package="DF12-60DS-0.5V">
+<connects>
+<connect gate="E" pin="-RESET" pad="22"/>
+<connect gate="E" pin="3.3V@48" pad="48"/>
+<connect gate="E" pin="3.3V@6" pad="6"/>
+<connect gate="E" pin="5V" pad="8"/>
+<connect gate="E" pin="AD0" pad="11"/>
+<connect gate="E" pin="AD1" pad="9"/>
+<connect gate="E" pin="AD2" pad="7"/>
+<connect gate="E" pin="AD3" pad="5"/>
+<connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="E0" pad="33"/>
+<connect gate="E" pin="E1" pad="35"/>
+<connect gate="E" pin="E10" pad="53"/>
+<connect gate="E" pin="E11" pad="55"/>
+<connect gate="E" pin="E18" pad="52"/>
+<connect gate="E" pin="E19" pad="50"/>
+<connect gate="E" pin="E2" pad="37"/>
+<connect gate="E" pin="E3" pad="39"/>
+<connect gate="E" pin="E4" pad="41"/>
+<connect gate="E" pin="E5" pad="43"/>
+<connect gate="E" pin="E6" pad="45"/>
+<connect gate="E" pin="E7" pad="47"/>
+<connect gate="E" pin="E8" pad="49"/>
+<connect gate="E" pin="E9" pad="51"/>
+<connect gate="E" pin="ETH_MUX" pad="36"/>
+<connect gate="E" pin="ETH_SPI_SS" pad="42"/>
+<connect gate="E" pin="GND@12" pad="12"/>
+<connect gate="E" pin="GND@14" pad="14"/>
+<connect gate="E" pin="GND@46" pad="46"/>
+<connect gate="E" pin="IO0" pad="24"/>
+<connect gate="E" pin="IO1" pad="26"/>
+<connect gate="E" pin="IO2" pad="28"/>
+<connect gate="E" pin="IO3" pad="30"/>
+<connect gate="E" pin="IO4" pad="32"/>
+<connect gate="E" pin="IO5" pad="31"/>
+<connect gate="E" pin="IO6" pad="29"/>
+<connect gate="E" pin="IO7" pad="27"/>
+<connect gate="E" pin="IO8" pad="25"/>
+<connect gate="E" pin="IO9" pad="23"/>
+<connect gate="E" pin="MISO" pad="17"/>
+<connect gate="E" pin="MISO2" pad="56"/>
+<connect gate="E" pin="MOSI" pad="19"/>
+<connect gate="E" pin="MOSI2" pad="58"/>
+<connect gate="E" pin="RSV0" pad="20"/>
+<connect gate="E" pin="RSV1" pad="18"/>
+<connect gate="E" pin="RSV2" pad="16"/>
+<connect gate="E" pin="RX+" pad="40"/>
+<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="SCK" pad="15"/>
+<connect gate="E" pin="SCK2/CANTX" pad="54"/>
+<connect gate="E" pin="SCL" pad="1"/>
+<connect gate="E" pin="SCL2" pad="59"/>
+<connect gate="E" pin="SDA" pad="3"/>
+<connect gate="E" pin="SDA2" pad="57"/>
+<connect gate="E" pin="SS" pad="21"/>
+<connect gate="E" pin="SS2/CANRX" pad="60"/>
+<connect gate="E" pin="TX+" pad="34"/>
+<connect gate="E" pin="TX-" pad="38"/>
 <connect gate="E" pin="VBATT" pad="4"/>
 <connect gate="E" pin="VCC(IO)" pad="2"/>
 <connect gate="E" pin="VIN" pad="10"/>
