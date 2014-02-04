@@ -2716,6 +2716,7 @@
 <wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
 <pin name="PB_2B/4B/4D/5B/4B" x="-22.86" y="5.08" length="middle"/>
+<text x="8.636" y="21.336" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="MACHXO2-CSBGA132-256-BOTTOM">
 <description>&lt;h3&gt;Lattice MachXO2 csBGA 132 common I/O pins for 256 / 640 / 1200 / 2000 / 4000&lt;/h3&gt;
@@ -2996,6 +2997,7 @@
 <wire x1="-10.16" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="-4.064" y="11.176" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ELLI-STM32-PA">
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
@@ -3246,6 +3248,7 @@
 <wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="15.24" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<text x="-4.064" y="16.256" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="MACHXO2-TQFP144-1200">
 <description>&lt;h3&gt;Lattice MachXO2 common I/O pins for 1200 / 2000 / 4000&lt;/h3&gt;
@@ -5078,7 +5081,7 @@ only pins</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LCMXO2-256*SG32">
+<deviceset name="LCMXO2-256*SG32" prefix="U">
 <description>&lt;h3&gt;MachXO2-256 in 32-pin QFN package.&lt;/h3&gt;
 
 &lt;p&gt;Lattice MachXO2-series FPGA in a 32-pin QFN package, 0.5 mm pitch.&lt;/p&gt;
@@ -5087,43 +5090,43 @@ only pins</text>
    &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="MACHXO2-QFN32-256" x="0" y="0"/>
-<gate name="G$2" symbol="MACHXO2-ERB" x="22.86" y="45.72"/>
-<gate name="G$3" symbol="MACHXO2-QFN32-PWR" x="30.48" y="5.08"/>
+<gate name="IO" symbol="MACHXO2-QFN32-256" x="0" y="0"/>
+<gate name="ERB" symbol="MACHXO2-ERB" x="22.86" y="45.72"/>
+<gate name="PWR" symbol="MACHXO2-QFN32-PWR" x="30.48" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="QFN-32">
 <connects>
-<connect gate="G$1" pin="PB_4A/6C/9A/11A/13A" pad="11"/>
-<connect gate="G$1" pin="PB_4B/6D/9B/11B/13B" pad="12"/>
-<connect gate="G$1" pin="PB_4C/10C/11A/16A/20A" pad="13"/>
-<connect gate="G$1" pin="PB_4D/10D/11B/16B/20B" pad="14"/>
-<connect gate="G$1" pin="PL_5C/7A/9A/12A/17A" pad="4"/>
-<connect gate="G$1" pin="PL_5D/7B/9B/12B/17B" pad="5"/>
-<connect gate="G$1" pin="PR_5A/5C/5C/7A/10A" pad="21"/>
-<connect gate="G$1" pin="PR_5B/5D/5D/7B/10B" pad="20"/>
-<connect gate="G$2" pin="CSSPIN/PB_2A..." pad="8"/>
-<connect gate="G$2" pin="DONE/PT17D" pad="23"/>
-<connect gate="G$2" pin="INITN/PT17C" pad="NC1"/>
-<connect gate="G$2" pin="JTAGENB/PT15C" pad="26"/>
-<connect gate="G$2" pin="MCLK/CCLK/PB6C" pad="9"/>
-<connect gate="G$2" pin="PB_2B/4B/4D/5B/4B" pad="NC2"/>
-<connect gate="G$2" pin="PROGRAMN/PT15D" pad="25"/>
-<connect gate="G$2" pin="SCL/PT12C" pad="28"/>
-<connect gate="G$2" pin="SDA/PT12D" pad="27"/>
-<connect gate="G$2" pin="SISPI/PB20D" pad="17"/>
-<connect gate="G$2" pin="SN/PB20C" pad="16"/>
-<connect gate="G$2" pin="SPISO/PB6D" pad="10"/>
-<connect gate="G$2" pin="TCK" pad="30"/>
-<connect gate="G$2" pin="TDI" pad="32"/>
-<connect gate="G$2" pin="TDO" pad="1"/>
-<connect gate="G$2" pin="TMS" pad="29"/>
-<connect gate="G$3" pin="GND" pad="3 22"/>
-<connect gate="G$3" pin="VCC" pad="2 18"/>
-<connect gate="G$3" pin="VCCIO0" pad="24 31"/>
-<connect gate="G$3" pin="VCCIO1" pad="19"/>
-<connect gate="G$3" pin="VCCIO2" pad="7 15"/>
-<connect gate="G$3" pin="VCCIO3" pad="6"/>
+<connect gate="ERB" pin="CSSPIN/PB_2A..." pad="8"/>
+<connect gate="ERB" pin="DONE/PT17D" pad="23"/>
+<connect gate="ERB" pin="INITN/PT17C" pad="NC1"/>
+<connect gate="ERB" pin="JTAGENB/PT15C" pad="26"/>
+<connect gate="ERB" pin="MCLK/CCLK/PB6C" pad="9"/>
+<connect gate="ERB" pin="PB_2B/4B/4D/5B/4B" pad="NC2"/>
+<connect gate="ERB" pin="PROGRAMN/PT15D" pad="25"/>
+<connect gate="ERB" pin="SCL/PT12C" pad="28"/>
+<connect gate="ERB" pin="SDA/PT12D" pad="27"/>
+<connect gate="ERB" pin="SISPI/PB20D" pad="17"/>
+<connect gate="ERB" pin="SN/PB20C" pad="16"/>
+<connect gate="ERB" pin="SPISO/PB6D" pad="10"/>
+<connect gate="ERB" pin="TCK" pad="30"/>
+<connect gate="ERB" pin="TDI" pad="32"/>
+<connect gate="ERB" pin="TDO" pad="1"/>
+<connect gate="ERB" pin="TMS" pad="29"/>
+<connect gate="IO" pin="PB_4A/6C/9A/11A/13A" pad="11"/>
+<connect gate="IO" pin="PB_4B/6D/9B/11B/13B" pad="12"/>
+<connect gate="IO" pin="PB_4C/10C/11A/16A/20A" pad="13"/>
+<connect gate="IO" pin="PB_4D/10D/11B/16B/20B" pad="14"/>
+<connect gate="IO" pin="PL_5C/7A/9A/12A/17A" pad="4"/>
+<connect gate="IO" pin="PL_5D/7B/9B/12B/17B" pad="5"/>
+<connect gate="IO" pin="PR_5A/5C/5C/7A/10A" pad="21"/>
+<connect gate="IO" pin="PR_5B/5D/5D/7B/10B" pad="20"/>
+<connect gate="PWR" pin="GND" pad="3 22"/>
+<connect gate="PWR" pin="VCC" pad="2 18"/>
+<connect gate="PWR" pin="VCCIO0" pad="24 31"/>
+<connect gate="PWR" pin="VCCIO1" pad="19"/>
+<connect gate="PWR" pin="VCCIO2" pad="7 15"/>
+<connect gate="PWR" pin="VCCIO3" pad="6"/>
 </connects>
 <technologies>
 <technology name="HC-4"/>
