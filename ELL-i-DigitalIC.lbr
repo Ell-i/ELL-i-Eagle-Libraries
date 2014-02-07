@@ -3048,15 +3048,15 @@
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9</text>
-<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D7</text>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9 (PWM)</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D5 (PWM)</text>
 <text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2 SN</text>
 <text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">JTDO / Arduino D13 / SPI1_SCK</text>
-<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">JNRST / Arduino D5</text>
-<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 / SPI1_MOSI</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">JNRST / JTAGENB</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 (PWM) / SPI1_MOSI</text>
 <text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">Arduino A5 / I2C_SCL</text>
 <text x="-35.56" y="0" size="1.27" layer="94" align="center-left">FMC_NL/NADV</text>
-<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTAGENB</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">Arduino D7</text>
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">Arduino A4 / I2C_SDA</text>
 <text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i I2C2_SCL</text>
 <text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i I2C2 SDA</text>
@@ -3072,15 +3072,15 @@
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-38.1" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
-<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9</text>
-<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D7</text>
+<text x="-35.56" y="17.78" size="1.27" layer="94" align="center-left">Arduino D9 (PWM)</text>
+<text x="-35.56" y="15.24" size="1.27" layer="94" align="center-left">Arduino D5 (PWM)</text>
 <text x="-35.56" y="12.7" size="1.27" layer="94" align="center-left">-&gt; MachXO2 SN*</text>
 <text x="-35.56" y="10.16" size="1.27" layer="94" align="center-left">Arduino D13 / SPI_SCK</text>
-<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">Arduino D5</text>
-<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 / SPI_MOSI</text>
+<text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTAGENB</text>
+<text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino D11 (PWM) / SPI_MOSI</text>
 <text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">Arduino A5 / I2C_SCL</text>
 <text x="-35.56" y="0" size="1.27" layer="94" align="center-left">Arduino D8</text>
-<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">-&gt; MachXO2 JTAGENB</text>
+<text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">Arduino D7</text>
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">ARduino A4 / I2C_SDA</text>
 <text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">ELL-i I2C2_SCL</text>
 <text x="-35.56" y="-10.16" size="1.27" layer="94" align="center-left">ELL-i I2C2 SDA</text>
