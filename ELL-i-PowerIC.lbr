@@ -387,7 +387,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS2378">
+<deviceset name="TPS2378" prefix="U">
 <description>&lt;h3&gt;TI 802.3at Power-over-Ethernet controller with an integrated FET&lt;/h3&gt;
 
 &lt;p&gt;This IC contains all of the features needed to implement an IEEE802.3at type-2 powered device (PD). It includes an 0.5 Ω R&lt;sub&gt;DSON&lt;/sub&gt; Power FET, which enables  continuous  0.85 A current. It supports also auxiliary power.
@@ -419,7 +419,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT3748">
+<deviceset name="LT3748" prefix="U">
 <description>&lt;h3&gt;100V Isolated Flyback Controller&lt;/h3&gt;
 
 &lt;p&gt;A switching regulator controller designed for the isolated flyback topology. Drives an external N-channel power MOSFET from an internally regulated 7V supply. No third winding or opto-isolator are required.&lt;/p&gt;
@@ -480,7 +480,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS6226*" prefix="IC">
+<deviceset name="TPS6226*" prefix="U">
 <description>&lt;h3&gt;TI 600 mA step-down converter&lt;/h3&gt;
 
 &lt;p&gt;The TPS6226x devices are synchronous step-down dc-dc converters. They provide up to 600 mA of output current.&lt;/p&gt;

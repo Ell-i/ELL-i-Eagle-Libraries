@@ -5110,7 +5110,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-STM32F4">
+<deviceset name="ELLI-STM32F4" prefix="U">
 <description>&lt;h3&gt;STM32F427 / 429 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real STM32F42x MCU.  The pseudo-symbols list the ELL-i project functions for the STM32F4 MCU pins.&lt;/p&gt;
@@ -5135,7 +5135,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-MACHXO2-2000">
+<deviceset name="ELLI-MACHXO2-2000" prefix="U">
 <description>&lt;h3&gt;MachXO2 2000 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real MachXO2-2000 FPGA.  The pseudo-symbols list the ELL-i project functions for the 132/144 pins FPGA package.&lt;/p&gt;
@@ -5229,7 +5229,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-STM32F0">
+<deviceset name="ELLI-STM32F0" prefix="U">
 <description>&lt;h3&gt;STM32F051/030 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real STM32F0 MCU.  The pseudo-symbols list the ELL-i project functions for the STM32F0 MCU pins in a 64-pin package.&lt;/p&gt;
@@ -5251,7 +5251,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="ENC624J600-I/PT">
+<deviceset name="ENC624J600-I/PT" prefix="U">
 <description>Stand-Alone 10/100 Ethernet Controller</description>
 <gates>
 <gate name="A" symbol="ENC624J600-I/PT" x="0" y="0"/>
@@ -5337,7 +5337,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-MACHXO2-256">
+<deviceset name="ELLI-MACHXO2-256" prefix="U">
 <description>&lt;h3&gt;MachXO2 256 QFN32 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a pseudo-symbols, meant to be used with a corresponding MachXO2-256 FPGA device.  The pseudo-symbols list the ELL-i project extra functions for the 32 pins FPGA package. Most of the functions in the QFN32 package are predefined by Lattice, though overrideable by a user design.&lt;/p&gt;

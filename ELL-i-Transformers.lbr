@@ -406,7 +406,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FLYBACK">
+<deviceset name="FLYBACK" prefix="T">
 <description>&lt;h3&gt;Flyback SMPS transformer&lt;/h3&gt;
 
 &lt;p&gt;These types of transformers are often used in flyback and forward SMPS converters.  The primary-side auxillary winding typically used to generate a 7-12 V auxillary voltage, which is used to generate the operating voltage (VCC) for the SMPS controller chip.  The packages includes the ones used at various ELL-i boards.&lt;/p&gt;</description>

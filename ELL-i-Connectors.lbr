@@ -2710,7 +2710,7 @@ In several package variant, including pogopin version.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-TINYDUINO-HEADER">
+<deviceset name="DF12-TINYDUINO-HEADER" prefix="J">
 <gates>
 <gate name="TD" symbol="TINYDUINO-HEADER" x="0" y="0"/>
 </gates>
@@ -2755,7 +2755,7 @@ In several package variant, including pogopin version.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF12-TINYDUINO-RECEPTABLE">
+<deviceset name="DF12-TINYDUINO-RECEPTABLE" prefix="J">
 <gates>
 <gate name="TD" symbol="TINYDUINO-RECEPTABLE" x="2.54" y="0"/>
 </gates>
