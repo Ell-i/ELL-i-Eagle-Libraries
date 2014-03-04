@@ -1995,12 +1995,12 @@
 <pin name="IO6" x="-17.78" y="0" length="middle" swaplevel="1"/>
 <pin name="IO4" x="17.78" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
 <pin name="IO3" x="17.78" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="IO1" x="17.78" y="5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="IO0" x="17.78" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX1/IO1" x="17.78" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX1/IO0" x="17.78" y="7.62" length="middle" swaplevel="1" rot="R180"/>
 <pin name="-RESET" x="17.78" y="10.16" length="middle" swaplevel="1" rot="R180"/>
 <pin name="RSV0" x="17.78" y="12.7" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="RSV1" x="17.78" y="15.24" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="RSV2" x="17.78" y="17.78" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="BOOT0/RSV2" x="17.78" y="17.78" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND@12" x="17.78" y="22.86" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
 <pin name="VIN" x="17.78" y="25.4" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
 <pin name="5V" x="17.78" y="27.94" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
@@ -2031,8 +2031,8 @@
 <pin name="RX-" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="GND@46" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="3.3V@48" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<pin name="E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
-<pin name="E18" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="TX2/E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2/E18" x="17.78" y="-27.94" length="middle" rot="R180"/>
 <pin name="SCK2/CANTX" x="17.78" y="-30.48" length="middle" rot="R180"/>
 <pin name="MISO2" x="17.78" y="-33.02" length="middle" rot="R180"/>
 <pin name="MOSI2" x="17.78" y="-35.56" length="middle" rot="R180"/>
@@ -2816,12 +2816,11 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="BOOT0/RSV2" pad="16"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
 <connect gate="E" pin="E11" pad="55"/>
-<connect gate="E" pin="E18" pad="52"/>
-<connect gate="E" pin="E19" pad="50"/>
 <connect gate="E" pin="E2" pad="37"/>
 <connect gate="E" pin="E3" pad="39"/>
 <connect gate="E" pin="E4" pad="41"/>
@@ -2835,8 +2834,6 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
-<connect gate="E" pin="IO0" pad="24"/>
-<connect gate="E" pin="IO1" pad="26"/>
 <connect gate="E" pin="IO2" pad="28"/>
 <connect gate="E" pin="IO3" pad="30"/>
 <connect gate="E" pin="IO4" pad="32"/>
@@ -2851,9 +2848,10 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="MOSI2" pad="58"/>
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
-<connect gate="E" pin="RSV2" pad="16"/>
 <connect gate="E" pin="RX+" pad="40"/>
 <connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX1/IO0" pad="24"/>
+<connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
 <connect gate="E" pin="SCK2/CANTX" pad="54"/>
 <connect gate="E" pin="SCL" pad="1"/>
@@ -2864,6 +2862,8 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="SS2/CANRX" pad="60"/>
 <connect gate="E" pin="TX+" pad="34"/>
 <connect gate="E" pin="TX-" pad="38"/>
+<connect gate="E" pin="TX1/IO1" pad="26"/>
+<connect gate="E" pin="TX2/E19" pad="50"/>
 <connect gate="E" pin="VBATT" pad="4"/>
 <connect gate="E" pin="VCC(IO)" pad="2"/>
 <connect gate="E" pin="VIN" pad="10"/>
@@ -2883,12 +2883,11 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="BOOT0/RSV2" pad="16"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
 <connect gate="E" pin="E11" pad="55"/>
-<connect gate="E" pin="E18" pad="52"/>
-<connect gate="E" pin="E19" pad="50"/>
 <connect gate="E" pin="E2" pad="37"/>
 <connect gate="E" pin="E3" pad="39"/>
 <connect gate="E" pin="E4" pad="41"/>
@@ -2902,8 +2901,6 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
-<connect gate="E" pin="IO0" pad="24"/>
-<connect gate="E" pin="IO1" pad="26"/>
 <connect gate="E" pin="IO2" pad="28"/>
 <connect gate="E" pin="IO3" pad="30"/>
 <connect gate="E" pin="IO4" pad="32"/>
@@ -2918,9 +2915,10 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="MOSI2" pad="58"/>
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
-<connect gate="E" pin="RSV2" pad="16"/>
 <connect gate="E" pin="RX+" pad="40"/>
 <connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX1/IO0" pad="24"/>
+<connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
 <connect gate="E" pin="SCK2/CANTX" pad="54"/>
 <connect gate="E" pin="SCL" pad="1"/>
@@ -2931,6 +2929,8 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="SS2/CANRX" pad="60"/>
 <connect gate="E" pin="TX+" pad="34"/>
 <connect gate="E" pin="TX-" pad="38"/>
+<connect gate="E" pin="TX1/IO1" pad="26"/>
+<connect gate="E" pin="TX2/E19" pad="50"/>
 <connect gate="E" pin="VBATT" pad="4"/>
 <connect gate="E" pin="VCC(IO)" pad="2"/>
 <connect gate="E" pin="VIN" pad="10"/>
