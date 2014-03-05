@@ -2023,7 +2023,7 @@
 <pin name="E11" x="-17.78" y="-33.02" length="middle"/>
 <pin name="SDA2" x="-17.78" y="-35.56" length="middle"/>
 <pin name="SCL2" x="-17.78" y="-38.1" length="middle"/>
-<pin name="ETH_IN/TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="ETH_INT/TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="ETH_MUX" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <pin name="ETH_SS/TX-" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="RX+" x="17.78" y="-10.16" length="middle" rot="R180"/>
@@ -2816,7 +2816,7 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
-<connect gate="E" pin="BOOT0" pad="42"/>
+<connect gate="E" pin="BOOT0" pad="44"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
@@ -2829,9 +2829,9 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="E7" pad="47"/>
 <connect gate="E" pin="E8" pad="49"/>
 <connect gate="E" pin="E9" pad="51"/>
-<connect gate="E" pin="ETH_IN/TX+" pad="34"/>
-<connect gate="E" pin="ETH_MUX" pad="36"/>
-<connect gate="E" pin="ETH_SS/TX-" pad="38"/>
+<connect gate="E" pin="ETH_INT/TX+" pad="34"/>
+<connect gate="E" pin="ETH_MUX" pad="42"/>
+<connect gate="E" pin="ETH_SS/TX-" pad="36"/>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
@@ -2850,8 +2850,8 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
 <connect gate="E" pin="RSV2" pad="16"/>
-<connect gate="E" pin="RX+" pad="40"/>
-<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX+" pad="38"/>
+<connect gate="E" pin="RX-" pad="40"/>
 <connect gate="E" pin="RX1/IO0" pad="24"/>
 <connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
@@ -2883,7 +2883,7 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
-<connect gate="E" pin="BOOT0" pad="42"/>
+<connect gate="E" pin="BOOT0" pad="44"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
@@ -2896,9 +2896,9 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="E7" pad="47"/>
 <connect gate="E" pin="E8" pad="49"/>
 <connect gate="E" pin="E9" pad="51"/>
-<connect gate="E" pin="ETH_IN/TX+" pad="34"/>
-<connect gate="E" pin="ETH_MUX" pad="36"/>
-<connect gate="E" pin="ETH_SS/TX-" pad="38"/>
+<connect gate="E" pin="ETH_INT/TX+" pad="34"/>
+<connect gate="E" pin="ETH_MUX" pad="42"/>
+<connect gate="E" pin="ETH_SS/TX-" pad="36"/>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
@@ -2917,8 +2917,8 @@ In several package variant, including pogopin version.</description>
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
 <connect gate="E" pin="RSV2" pad="16"/>
-<connect gate="E" pin="RX+" pad="40"/>
-<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX+" pad="38"/>
+<connect gate="E" pin="RX-" pad="40"/>
 <connect gate="E" pin="RX1/IO0" pad="24"/>
 <connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
