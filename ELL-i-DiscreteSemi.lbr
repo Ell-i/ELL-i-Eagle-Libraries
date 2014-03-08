@@ -276,6 +276,28 @@ Not reviewed
 <text x="-0.7" y="-0.2" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-0.8" y="1.55" size="0.3048" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT-563">
+<description>&lt;b&gt;Small Outline Transistor; 6 leads&lt;/b&gt; Reflow soldering&lt;p&gt;</description>
+<circle x="-0.696" y="-1.2136" radius="0.1" width="0.2032" layer="21"/>
+<circle x="-0.569" y="-0.4262" radius="0.1" width="0.2032" layer="51"/>
+<wire x1="-0.8531" y1="0.7" x2="-0.8531" y2="-0.7" width="0.1016" layer="51"/>
+<wire x1="-0.8531" y1="-0.7" x2="0.8531" y2="-0.7" width="0.1016" layer="51"/>
+<wire x1="0.8531" y1="-0.7" x2="0.8531" y2="0.7" width="0.1016" layer="51"/>
+<wire x1="0.8531" y1="0.7" x2="-0.8531" y2="0.7" width="0.1016" layer="51"/>
+<rectangle x1="-0.6805" y1="-1.173" x2="-0.3305" y2="-0.648" layer="51"/>
+<rectangle x1="-0.175" y1="-1.173" x2="0.175" y2="-0.648" layer="51"/>
+<rectangle x1="0.3305" y1="-1.173" x2="0.6805" y2="-0.648" layer="51"/>
+<rectangle x1="0.3178" y1="0.648" x2="0.6678" y2="1.173" layer="51"/>
+<rectangle x1="-0.175" y1="0.648" x2="0.175" y2="1.173" layer="51"/>
+<rectangle x1="-0.6805" y1="0.648" x2="-0.3305" y2="1.173" layer="51"/>
+<smd name="1" x="-0.5004" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="2" x="0" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="3" x="0.5004" y="-0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="4" x="0.5004" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="5" x="0" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<smd name="6" x="-0.5004" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
+<text x="0" y="0" size="0.381" layer="25" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -353,6 +375,99 @@ Not reviewed
 <vertex x="1.397" y="0.254"/>
 <vertex x="0.762" y="-0.762"/>
 <vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
+<symbol name="P_MOSFET_DUAL">
+<description>&lt;h3&gt;Dual P-channel MOSFET&lt;/h3&gt;
+
+&lt;p&gt;For example OnSemi NTZD3152P.&lt;/p&gt;</description>
+<circle x="-2.54" y="5.08" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="5.08" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="-5.08" radius="0.3592" width="0" layer="94"/>
+<circle x="-2.54" y="-5.08" radius="0.3592" width="0" layer="94"/>
+<wire x1="0.762" y1="3.302" x2="0" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="-0.762" y2="3.302" width="0.254" layer="94"/>
+<wire x1="3.175" y1="3.302" x2="2.54" y2="3.302" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.302" x2="1.905" y2="3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="3.302" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="3.302" x2="-2.54" y2="3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.302" x2="-3.175" y2="3.302" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="-0.508" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="6.35" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="3.302" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="5.588" x2="-0.508" y2="5.842" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="5.842" x2="-0.508" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="6.35" x2="-0.508" y2="6.858" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="6.858" x2="-0.254" y2="7.112" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-3.302" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="0.762" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-3.302" x2="-2.54" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.302" x2="-1.905" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-3.302" x2="2.54" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.302" x2="3.175" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-3.302" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="0.508" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-6.35" x2="2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.302" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-5.588" x2="0.508" y2="-5.842" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-5.842" x2="0.508" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-6.35" x2="0.508" y2="-6.858" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-6.858" x2="0.254" y2="-7.112" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<pin name="D1" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="D2" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas"/>
+<pin name="G1" x="-7.62" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="G2" x="7.62" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="S1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="S2" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="-4.826" y="-9.906" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.826" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.508" y="6.35"/>
+<vertex x="0.254" y="6.858"/>
+<vertex x="0.254" y="5.842"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="5.08"/>
+<vertex x="-0.762" y="4.064"/>
+<vertex x="0.762" y="4.064"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.508" y="-6.35"/>
+<vertex x="-0.254" y="-6.858"/>
+<vertex x="-0.254" y="-5.842"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-5.08"/>
+<vertex x="0.762" y="-4.064"/>
+<vertex x="-0.762" y="-4.064"/>
 </polygon>
 </symbol>
 </symbols>
@@ -468,6 +583,33 @@ Rds(on) &amp;lt; 5R @ Vgs 2.7 V.
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTZD3152P" prefix="Q">
+<description>&lt;h3&gt;OnSemi dual P-channel Small Signal MOSFET 20V 430mA&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/NTZD3152P-D.PDF"&gt;Datasheet&lt;/a&gt; (from onsemi)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="P_MOSFET_DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-563">
+<connects>
+<connect gate="G$1" pin="D1" pad="6"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="5"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="NTZD3152P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
