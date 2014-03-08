@@ -194,22 +194,22 @@
 &lt;ul&gt;
    &lt;li&gt;&lt;a href="http://www.coilcraft.com/eth1-230.cfm"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="P$1" x="-6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$2" x="-3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$3" x="-1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$4" x="1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$5" x="3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$6" x="6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$7" x="8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$8" x="8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$9" x="6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$10" x="3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$11" x="1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$12" x="-1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$13" x="-3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$14" x="-6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$15" x="-8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$16" x="-8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="1" x="-6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="2" x="-3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="4" x="1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="5" x="3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="6" x="6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="7" x="8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="8" x="8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="9" x="6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="10" x="3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="11" x="1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="12" x="-1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="13" x="-3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="14" x="-6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="15" x="-8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="16" x="-8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
 <wire x1="8.255" y1="8.255" x2="8.255" y2="0" width="0.127" layer="21"/>
 <wire x1="8.255" y1="-8.255" x2="8.255" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-8.255" y1="-8.255" x2="-8.255" y2="-5.08" width="0.127" layer="21"/>
@@ -457,18 +457,18 @@
 <devices>
 <device name="-230NL" package="COILCRAFT-ETH1-230L">
 <connects>
-<connect gate="G$1" pin="RCT" pad="P$3"/>
-<connect gate="G$1" pin="RD+" pad="P$2"/>
-<connect gate="G$1" pin="RD-" pad="P$1"/>
-<connect gate="G$1" pin="RX+" pad="P$13"/>
-<connect gate="G$1" pin="RX-" pad="P$14"/>
-<connect gate="G$1" pin="RXCT" pad="P$12"/>
-<connect gate="G$1" pin="TCT" pad="P$4"/>
-<connect gate="G$1" pin="TD+" pad="P$6"/>
-<connect gate="G$1" pin="TD-" pad="P$5"/>
-<connect gate="G$1" pin="TX+" pad="P$9"/>
-<connect gate="G$1" pin="TX-" pad="P$10"/>
-<connect gate="G$1" pin="TXCT" pad="P$11"/>
+<connect gate="G$1" pin="RCT" pad="3"/>
+<connect gate="G$1" pin="RD+" pad="2"/>
+<connect gate="G$1" pin="RD-" pad="1"/>
+<connect gate="G$1" pin="RX+" pad="13"/>
+<connect gate="G$1" pin="RX-" pad="14"/>
+<connect gate="G$1" pin="RXCT" pad="12"/>
+<connect gate="G$1" pin="TCT" pad="4"/>
+<connect gate="G$1" pin="TD+" pad="6"/>
+<connect gate="G$1" pin="TD-" pad="5"/>
+<connect gate="G$1" pin="TX+" pad="9"/>
+<connect gate="G$1" pin="TX-" pad="10"/>
+<connect gate="G$1" pin="TXCT" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
