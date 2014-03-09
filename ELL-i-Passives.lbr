@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -805,9 +805,9 @@ Not reviewed.
 &lt;p&gt;
 Not reviewed.
 &lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="100"/>
-<text x="-2.54" y="1.27" size="1.27" layer="1">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="1">&gt;VALUE</text>
+<smd name="P$1" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="100" cream="no"/>
+<text x="-2.54" y="1.524" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-1.524" size="1.27" layer="21" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -875,7 +875,7 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <wire x1="0.762" y1="-1.27" x2="-0.762" y2="-2.032" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-2.032" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0.762" y1="-2.54" x2="-0.762" y2="-3.048" width="0.254" layer="94"/>
-<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="P$1" x="0" y="2.54" visible="off" length="short" direction="out" rot="R270"/>
 <text x="-2.286" y="-7.366" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 </symbols>
@@ -1142,7 +1142,7 @@ Has both test loops and bare copper area.</description>
 <devices>
 <device name="-5021" package="TP_5000">
 <connects>
-<connect gate="TP$1" pin="1" pad="P$1"/>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1150,7 +1150,7 @@ Has both test loops and bare copper area.</description>
 </device>
 <device name="-5000" package="TP_5021">
 <connects>
-<connect gate="TP$1" pin="1" pad="P$1"/>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1158,7 +1158,7 @@ Has both test loops and bare copper area.</description>
 </device>
 <device name="-BARE" package="TP_BARE">
 <connects>
-<connect gate="TP$1" pin="1" pad="P$1"/>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
