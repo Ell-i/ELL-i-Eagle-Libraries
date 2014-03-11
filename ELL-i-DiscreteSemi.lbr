@@ -298,6 +298,21 @@ Not reviewed
 <smd name="6" x="-0.5004" y="0.6744" dx="0.2996" dy="0.4496" layer="1"/>
 <text x="0" y="0" size="0.381" layer="25" align="center">&gt;NAME</text>
 </package>
+<package name="SOT-416">
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="0.9224" y1="-0.6604" x2="-0.9224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="-0.6604" x2="-0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="51"/>
+<wire x1="-0.9224" y1="-0.1854" x2="-0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<wire x1="-0.9224" y1="0.4604" x2="-0.6576" y2="0.4604" width="0.1524" layer="21"/>
+<wire x1="0.9224" y1="0.4604" x2="0.9224" y2="-0.1854" width="0.1524" layer="21"/>
+<wire x1="0.6326" y1="0.4604" x2="0.9224" y2="0.4604" width="0.1524" layer="21"/>
+<rectangle x1="-0.87" y1="-1.08" x2="0.87" y2="0.74" layer="29"/>
+<smd name="1" x="-0.5" y="-0.65" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="-0.65" dx="0.5" dy="0.6" layer="1"/>
+<smd name="3" x="0" y="0.65" dx="0.5" dy="0.6" layer="1"/>
+<text x="0" y="0" size="0.25" layer="25" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -614,6 +629,32 @@ Rds(on) &amp;lt; 5R @ Vgs 2.7 V.
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="NTZD3152P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7002PT" prefix="Q">
+<description>&lt;h3&gt;MOSFET N-CH SGL 60V SOT-416&lt;/h3&gt;
+
+&lt;br&gt;&lt;br&gt;
+N-channel enhancement mode Field-Effect Transistor (FET) in a small SOT416 (SC-75)
+Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology
+&lt;br&gt;&lt;br&gt;
+&lt;a href="http://www.nxp.com/documents/data_sheet/2N7002PT.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="N_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-416">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="2N7002PT" constant="no"/>
 </technology>
 </technologies>
 </device>
