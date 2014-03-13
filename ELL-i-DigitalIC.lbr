@@ -5539,7 +5539,9 @@ Quad 2:1 Multiplexer / Demultiplexer Bus Switch
 <connect gate="G$1" pin="VSSA" pad="12"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PARTNO" value="STM32F103RB" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
