@@ -5546,6 +5546,20 @@ Quad 2:1 Multiplexer / Demultiplexer Bus Switch
 </device>
 </devices>
 </deviceset>
+<deviceset name="STM32F103R">
+<gates>
+<gate name="G$1" symbol="STM32-PA" x="-7.62" y="33.02"/>
+<gate name="G$2" symbol="STM32-PB" x="20.32" y="33.02"/>
+<gate name="G$3" symbol="STM32-PC" x="48.26" y="33.02"/>
+</gates>
+<devices>
+<device name="B" package="LQFP64">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
