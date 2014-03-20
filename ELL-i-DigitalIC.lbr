@@ -2501,7 +2501,8 @@ Not reviewed
 <wire x1="5.08" y1="20.32" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
-<text x="-4.064" y="21.336" size="1.778" layer="94">&gt;NAME</text>
+<text x="-14.824" y="21.436" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32-PB">
 <description>&lt;h3&gt;STM32F-series MCU GPIO port B.&lt;/h3&gt;
@@ -2526,7 +2527,8 @@ Not reviewed
 <wire x1="5.08" y1="20.32" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
-<text x="-4.064" y="21.336" size="1.778" layer="94">&gt;NAME</text>
+<text x="-14.824" y="21.336" size="1.778" layer="95">&gt;NAME</text>
+<text x="-14.84" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32-PC">
 <description>&lt;h3&gt;STM32F-series MCU GPIO port C.&lt;/h3&gt;
@@ -2551,7 +2553,8 @@ Not reviewed
 <wire x1="5.08" y1="20.32" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="20.32" x2="5.08" y2="20.32" width="0.254" layer="94"/>
-<text x="-4.064" y="21.336" size="1.778" layer="94">&gt;NAME</text>
+<text x="-14.724" y="21.436" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32-PD">
 <description>&lt;h3&gt;STM32F-series MCU GPIO port D.&lt;/h3&gt;
