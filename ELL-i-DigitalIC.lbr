@@ -3756,6 +3756,39 @@ Not reviewed
 <pin name="VDD4" x="55.88" y="15.24" length="middle" rot="R180"/>
 <pin name="VSS4" x="55.88" y="-2.54" length="middle" rot="R180"/>
 </symbol>
+<symbol name="STM32F1XX-PD-CTL">
+<description>&lt;b&gt;STM32F-series MCU control pads&lt;/b&gt;</description>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<pin name="PD0" x="-12.7" y="2.54" length="short" direction="in"/>
+<pin name="PD1" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="PD2" x="12.7" y="0" length="short" rot="R180"/>
+<text x="-9.5" y="5.8" size="1.778" layer="95">&gt;NAME</text>
+<text x="-9.26" y="-7.5" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<pin name="BOOT0" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="NRST" x="12.7" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="STM32F1XX-PWR">
+<description>&lt;b&gt;STM32F1-series MCU Power pads&lt;/b&gt;</description>
+<wire x1="-9.66" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-9.66" y2="-15.24" width="0.254" layer="94"/>
+<pin name="VBAT" x="10.16" y="12.7" length="short" direction="sup" rot="R180"/>
+<pin name="VSSA" x="10.16" y="10.16" length="short" direction="sup" rot="R180"/>
+<pin name="VDDA" x="10.16" y="7.62" length="short" direction="sup" rot="R180"/>
+<pin name="VDD1" x="10.16" y="5.08" length="short" direction="sup" rot="R180"/>
+<pin name="VDD2" x="10.16" y="2.54" length="short" direction="sup" rot="R180"/>
+<pin name="VDD3" x="10.16" y="0" length="short" direction="sup" rot="R180"/>
+<pin name="VDD4" x="10.16" y="-2.54" length="short" direction="sup" rot="R180"/>
+<pin name="VSS1" x="10.16" y="-5.08" length="short" direction="sup" rot="R180"/>
+<pin name="VSS2" x="10.16" y="-7.62" length="short" direction="sup" rot="R180"/>
+<pin name="VSS3" x="10.16" y="-10.16" length="short" direction="sup" rot="R180"/>
+<pin name="VSS4" x="10.16" y="-12.7" length="short" direction="sup" rot="R180"/>
+<text x="-9.04" y="16.18" size="1.778" layer="95">&gt;NAME</text>
+<text x="-8.84" y="-18.02" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LAN8720" prefix="U" uservalue="yes">
@@ -5542,6 +5575,91 @@ Quad 2:1 Multiplexer / Demultiplexer Bus Switch
 <technology name="">
 <attribute name="PARTNO" value="STM32F103RB" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F103R" prefix="U">
+<description>STM32F103 Medium Density 64pin LQFP
+&lt;br&gt;&lt;br&gt;
+&lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="PA" symbol="STM32-PA" x="-35.56" y="15.24"/>
+<gate name="PB" symbol="STM32-PB" x="-2.54" y="15.24"/>
+<gate name="PC" symbol="STM32-PC" x="30.48" y="15.24"/>
+<gate name="PD_CTL" symbol="STM32F1XX-PD-CTL" x="-25.4" y="-25.4"/>
+<gate name="PWR" symbol="STM32F1XX-PWR" x="12.7" y="-33.02"/>
+</gates>
+<devices>
+<device name="B" package="LQFP64">
+<connects>
+<connect gate="PA" pin="PA0-ADC_IN0" pad="14"/>
+<connect gate="PA" pin="PA1-ADC_IN1" pad="15"/>
+<connect gate="PA" pin="PA10" pad="43"/>
+<connect gate="PA" pin="PA11" pad="44"/>
+<connect gate="PA" pin="PA12" pad="45"/>
+<connect gate="PA" pin="PA13-SWDIO" pad="46"/>
+<connect gate="PA" pin="PA14-SWCLK" pad="49"/>
+<connect gate="PA" pin="PA15" pad="50"/>
+<connect gate="PA" pin="PA2-ADC_IN2" pad="16"/>
+<connect gate="PA" pin="PA3-ADC_IN3" pad="17"/>
+<connect gate="PA" pin="PA4-ADC_IN4" pad="20"/>
+<connect gate="PA" pin="PA5-ADC_IN5" pad="21"/>
+<connect gate="PA" pin="PA6-ADC_IN6" pad="22"/>
+<connect gate="PA" pin="PA7-ADC_IN7" pad="23"/>
+<connect gate="PA" pin="PA8" pad="41"/>
+<connect gate="PA" pin="PA9" pad="42"/>
+<connect gate="PB" pin="PB0-ADC_IN8" pad="26"/>
+<connect gate="PB" pin="PB1-ADC_IN9" pad="27"/>
+<connect gate="PB" pin="PB10" pad="29"/>
+<connect gate="PB" pin="PB11" pad="30"/>
+<connect gate="PB" pin="PB12" pad="33"/>
+<connect gate="PB" pin="PB13" pad="34"/>
+<connect gate="PB" pin="PB14" pad="35"/>
+<connect gate="PB" pin="PB15" pad="36"/>
+<connect gate="PB" pin="PB2" pad="28"/>
+<connect gate="PB" pin="PB3" pad="55"/>
+<connect gate="PB" pin="PB4" pad="56"/>
+<connect gate="PB" pin="PB5" pad="57"/>
+<connect gate="PB" pin="PB6" pad="58"/>
+<connect gate="PB" pin="PB7" pad="59"/>
+<connect gate="PB" pin="PB8" pad="61"/>
+<connect gate="PB" pin="PB9" pad="62"/>
+<connect gate="PC" pin="PC0-ADC_IN10" pad="8"/>
+<connect gate="PC" pin="PC1-ADC_IN11" pad="9"/>
+<connect gate="PC" pin="PC10" pad="51"/>
+<connect gate="PC" pin="PC11" pad="52"/>
+<connect gate="PC" pin="PC12" pad="53"/>
+<connect gate="PC" pin="PC13" pad="2"/>
+<connect gate="PC" pin="PC14-OSC32_IN" pad="3"/>
+<connect gate="PC" pin="PC15-OSC32_OUT" pad="4"/>
+<connect gate="PC" pin="PC2-ADC_IN12" pad="10"/>
+<connect gate="PC" pin="PC3-ADC_IN13" pad="11"/>
+<connect gate="PC" pin="PC4-ADC_IN14" pad="24"/>
+<connect gate="PC" pin="PC5-ADC_IN15" pad="25"/>
+<connect gate="PC" pin="PC6" pad="37"/>
+<connect gate="PC" pin="PC7" pad="38"/>
+<connect gate="PC" pin="PC8" pad="39"/>
+<connect gate="PC" pin="PC9" pad="40"/>
+<connect gate="PD_CTL" pin="BOOT0" pad="60"/>
+<connect gate="PD_CTL" pin="NRST" pad="7"/>
+<connect gate="PD_CTL" pin="PD0" pad="5"/>
+<connect gate="PD_CTL" pin="PD1" pad="6"/>
+<connect gate="PD_CTL" pin="PD2" pad="54"/>
+<connect gate="PWR" pin="VBAT" pad="1"/>
+<connect gate="PWR" pin="VDD1" pad="32"/>
+<connect gate="PWR" pin="VDD2" pad="48"/>
+<connect gate="PWR" pin="VDD3" pad="64"/>
+<connect gate="PWR" pin="VDD4" pad="19"/>
+<connect gate="PWR" pin="VDDA" pad="13"/>
+<connect gate="PWR" pin="VSS1" pad="31"/>
+<connect gate="PWR" pin="VSS2" pad="47"/>
+<connect gate="PWR" pin="VSS3" pad="63"/>
+<connect gate="PWR" pin="VSS4" pad="18"/>
+<connect gate="PWR" pin="VSSA" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
