@@ -537,7 +537,7 @@ Not reviewed
 </device>
 </devices>
 </deviceset>
-<deviceset name="FDMC2674" prefix="T">
+<deviceset name="FDMC2674" prefix="Q">
 <description>&lt;h3&gt;220V N-Channel UltraFET Trench MOSFET&lt;/h3&gt;
 
 &lt;p&gt;This is a power MOSFET, capable of passing 2A of current and lasting some 200V, in a small MLP package.  For a typical flyback converter, you need the switching FET to last much higher voltage than the nominal primary side voltage, as the flyback generates a high parasitic voltage at the time the FET switches off, before the so-called snubber circuit is able to absorb it.&lt;/p&gt; 
