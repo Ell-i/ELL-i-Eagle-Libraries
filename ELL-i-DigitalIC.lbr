@@ -2913,7 +2913,8 @@ Not reviewed
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-8.89" y="10.922" size="1.778" layer="94">&gt;NAME</text>
+<text x="-8.89" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<text x="-8.89" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="STM32F0XX-CTL">
 <description>&lt;h3&gt;STM32F-series MCU control pads, low-end.&lt;/h3&gt;
@@ -3236,7 +3237,8 @@ Not reviewed
 <wire x1="-10.16" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<text x="-4.064" y="11.176" size="1.778" layer="94">&gt;NAME</text>
+<text x="-4.064" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="ELLI-STM32-PA">
 <wire x1="-38.1" y1="20.32" x2="-38.1" y2="-22.86" width="0.254" layer="94"/>
@@ -3273,7 +3275,6 @@ Not reviewed
 <text x="-35.56" y="7.62" size="1.27" layer="94" align="center-left">Arduino A2</text>
 <text x="-35.56" y="5.08" size="1.27" layer="94" align="center-left">Arduino A3</text>
 <text x="-35.56" y="2.54" size="1.27" layer="94" align="center-left">D12 / SPI1_MISO</text>
-<text x="-35.56" y="0" size="1.27" layer="94" align="center-left">TBD</text>
 <text x="-35.56" y="-2.54" size="1.27" layer="94" align="center-left">MCO</text>
 <text x="-35.56" y="-5.08" size="1.27" layer="94" align="center-left">Arduino D1 / TX</text>
 <text x="-35.56" y="-7.62" size="1.27" layer="94" align="center-left">Arduino D0 / RX</text>
