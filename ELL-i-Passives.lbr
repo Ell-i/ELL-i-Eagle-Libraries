@@ -875,7 +875,7 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <wire x1="0.762" y1="-1.27" x2="-0.762" y2="-2.032" width="0.254" layer="94"/>
 <wire x1="-0.762" y1="-2.032" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0.762" y1="-2.54" x2="-0.762" y2="-3.048" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="2.54" visible="off" length="short" direction="out" rot="R270"/>
+<pin name="P$1" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <text x="-2.286" y="-7.366" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 </symbols>
