@@ -716,8 +716,16 @@ Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology
 </devices>
 </deviceset>
 <deviceset name="BAS70" prefix="D">
-<description>&lt;b&gt;Silicon Schottky Diodes&lt;/b&gt;&lt;p&gt;
-General-purpose diode for high-speed switching</description>
+<description>&lt;h3&gt;Silicon Schottky Diodes&lt;/h3&gt;
+
+&lt;p&gt;
+General-purpose diode for high-speed switching.
+&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Maximum forward current 70 mA&lt;/li&gt;
+   &lt;li&gt;Maxiumum forward voltage drop Vf 0.410 mV&lt;/li&gt;
+   &lt;li&gt;Maximum reverse voltage 70V&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
 </gates>
