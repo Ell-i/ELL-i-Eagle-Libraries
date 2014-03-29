@@ -287,7 +287,7 @@
 <rectangle x1="0.5" y1="-0.625" x2="1.05" y2="0.625" layer="51"/>
 </package>
 <package name="CT3216">
-<description>&lt;h3&gt;Tantalum capacitor in an EIA3216 package&lt;/h3&gt;
+<description>&lt;h3&gt;Tantalum capacitor in an EIA3216 package (CASE A)&lt;/h3&gt;
 
 &lt;p&gt;Eagle package Copyright (c) SparkFun under Creative Commons v3.0 Share Alike license.&lt;/p&gt;
 
@@ -307,7 +307,7 @@
 <text x="0.408" y="1.332" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="CT3528">
-<description>&lt;h3&gt;Tantalum capacitor in an EIA3528 package&lt;/h3&gt;
+<description>&lt;h3&gt;Tantalum capacitor in an EIA3528 package (CASE B)&lt;/h3&gt;
 
 &lt;p&gt;Eagle package Copyright (c) SparkFun under Creative Commons v3.0 Share Alike license.&lt;/p&gt;
 
@@ -624,7 +624,7 @@
 </polygon>
 </package>
 <package name="CT6032">
-<description>&lt;h3&gt;Tantalum capacitor in an EIA6032 package&lt;/h3&gt;
+<description>&lt;h3&gt;Tantalum capacitor in an EIA6032 package (CASE C)&lt;/h3&gt;
 
 &lt;p&gt;Eagle package Copyright (c) SparkFun under Creative Commons v3.0 Share Alike license.&lt;/p&gt;
 
@@ -809,6 +809,63 @@ Not reviewed.
 <text x="-2.54" y="1.524" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-1.524" size="1.27" layer="21" align="top-left">&gt;VALUE</text>
 </package>
+<package name="FB1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="1.573" y1="-0.783" x2="-1.573" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="-1.573" y1="-0.783" x2="-1.573" y2="0.783" width="0.0508" layer="39"/>
+<text x="-1.989" y="1.316" size="0.8128" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.989" y="-1.986" size="0.8128" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-1.573" y1="0.783" x2="1.573" y2="0.783" width="0.0508" layer="39"/>
+</package>
+<package name="FB0402">
+<wire x1="-0.245" y1="0.219" x2="0.245" y2="0.219" width="0.06" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.06" layer="51"/>
+<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<smd name="2" x="0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<text x="-0.935" y="0.362" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.935" y="-0.705" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="41"/>
+</package>
+<package name="C1210">
+<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.3" x2="1.6" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.3" x2="-1.6" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.3" x2="-1.6" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.2032" layer="21"/>
+<smd name="1" x="-1.6" y="0" dx="1.2" dy="2" layer="1"/>
+<smd name="2" x="1.6" y="0" dx="1.2" dy="2" layer="1"/>
+<text x="-0.8" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R_EU">
@@ -972,6 +1029,24 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CPOL" prefix="C" uservalue="yes">
@@ -1121,7 +1196,25 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <gate name="G$1" symbol="L_US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="COILCRAFT-MSS5121">
+<device name="5121" package="COILCRAFT-MSS5121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206" package="FB1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="FB0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
