@@ -2928,7 +2928,7 @@ Not reviewed
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-8.89" y="11.176" size="1.778" layer="94">&gt;NAME</text>
+<text x="-8.89" y="11.176" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="MACHXO2-ERB">
 <description>&lt;h3&gt;Lattice MachXO2 Embedded Function Block (EFB) signal pins&lt;/h3&gt;
