@@ -1377,6 +1377,28 @@
 <text x="-2.6" y="4.7" size="1.27" layer="51">RJ-45</text>
 <text x="-2.5" y="6.4" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="MICRO_USB">
+<description>Molex Micro-USB</description>
+<wire x1="-1.45" y1="3.24" x2="2.59" y2="3.24" width="0.127" layer="51"/>
+<wire x1="2.59" y1="3.24" x2="2.62" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="2.62" y1="-3.25" x2="-1.45" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-3.25" x2="-1.45" y2="3.24" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="3.24" x2="-2.15" y2="3.24" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="3.24" x2="-2.15" y2="-3.25" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="-3.25" x2="-1.45" y2="-3.25" width="0.127" layer="51"/>
+<smd name="VBUS" x="2.66" y="1.3" dx="1.38" dy="0.45" layer="1" rot="R180"/>
+<smd name="D-" x="2.66" y="0.65" dx="1.38" dy="0.45" layer="1" rot="R180"/>
+<smd name="D+" x="2.66" y="0" dx="1.38" dy="0.45" layer="1" rot="R180"/>
+<smd name="ID" x="2.66" y="-0.65" dx="1.38" dy="0.45" layer="1" rot="R180"/>
+<smd name="GND" x="2.66" y="-1.3" dx="1.38" dy="0.45" layer="1" rot="R180"/>
+<smd name="P1" x="2.3" y="-2.4625" dx="1.475" dy="2.1" layer="1" rot="R90"/>
+<smd name="P2" x="2.3" y="2.4625" dx="1.475" dy="2.1" layer="1" rot="R90"/>
+<smd name="P3" x="0" y="2.9125" dx="1.9" dy="2.375" layer="1"/>
+<smd name="P4" x="0" y="-2.9125" dx="1.9" dy="2.375" layer="1"/>
+<smd name="P5" x="0" y="0.8375" dx="1.9" dy="1.175" layer="1"/>
+<smd name="P6" x="0" y="-0.8375" dx="1.9" dy="1.175" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" rot="R90" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DF12-32-F">
@@ -2175,6 +2197,26 @@
 <vertex x="-0.381" y="2.413"/>
 </polygon>
 <text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="MICRO_USB">
+<description>Molex Micro-USB</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="VBUS" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="D-" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="D+" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="ID" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="P1" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="P2" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="P3" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="P4" x="-5.08" y="-10.16" length="middle" rot="R90"/>
+<pin name="P5" x="-7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="P6" x="-10.16" y="-10.16" length="middle" rot="R90"/>
+<text x="-12.7" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3107,6 +3149,40 @@ In several package variant, including pogopin version.</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICRO-USB" prefix="J">
+<description>&lt;h3&gt;Micro USB from Molex&lt;/h3&gt;
+
+CONN RCPT 5POS MICRO USB R/A
+
+&lt;br&gt;&lt;br&gt;
+&lt;a href="http://www.molex.com/pdm_docs/sd/473460001_sd.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="MICRO_USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO_USB">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PARTNO" value="AS-ITM-00021" constant="no"/>
+<attribute name="VALUE" value="47346-0001" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
