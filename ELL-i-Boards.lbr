@@ -177,17 +177,6 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 </package>
 <package name="RASPBERRYPI-SHIELD-FULLSIZE">
 <description>&lt;h3&gt;Raspberry Pi Shield&lt;/h3&gt;</description>
-<wire x1="63" y1="0" x2="63" y2="19" width="0.127" layer="46"/>
-<wire x1="63" y1="19" x2="85" y2="19" width="0.127" layer="46"/>
-<wire x1="39" y1="56" x2="39" y2="42" width="0.127" layer="46"/>
-<wire x1="52" y1="56" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="39" y1="42" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="85" y1="38.5" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="85" y1="23" x2="74" y2="23" width="0.127" layer="46"/>
-<wire x1="74" y1="23" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="16.2" y1="6" x2="16.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="8.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="16.2" y2="6" width="0.127" layer="46" curve="-180"/>
 <wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="20"/>
 <wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="20"/>
 <wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="20"/>
@@ -275,6 +264,7 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pad name="19" x="25.4" y="50.8" drill="1"/>
 <pad name="P$1" x="25.5" y="18" drill="2.9"/>
 <pad name="P$2" x="80" y="43.5" drill="2.9"/>
+<circle x="12.2" y="6" radius="4" width="0.127" layer="51"/>
 </package>
 <package name="NUCLEO-SHIELD-FULLSIZE">
 <wire x1="12" y1="0" x2="45" y2="0" width="0.127" layer="20"/>
