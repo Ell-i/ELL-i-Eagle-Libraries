@@ -522,22 +522,22 @@
 <text x="-7.62" y="-10.16" size="1.9304" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="ADUM4160BRWZ">
-<pin name="VDD1" x="-18.08" y="6.9" length="middle" direction="pwr"/>
-<pin name="VDD2" x="18.08" y="6.74" length="middle" direction="pwr" rot="R180"/>
-<pin name="VBUS1" x="-17.98" y="12.52" length="middle" direction="pwr"/>
-<pin name="VBUS2" x="18.18" y="12.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD1" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDD2" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS1" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="VBUS2" x="17.78" y="12.7" length="middle" direction="pwr" rot="R180"/>
 <pin name="PDEN" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="SPU" x="-17.78" y="-2.54" length="middle" direction="in"/>
-<pin name="PIN" x="18.08" y="-3.22" length="middle" direction="in" rot="R180"/>
-<pin name="SPD" x="17.98" y="0.02" length="middle" direction="in" rot="R180"/>
-<pin name="GND1_2" x="-17.88" y="-22" length="middle" direction="pas"/>
-<pin name="GND1" x="-17.98" y="9.56" length="middle" direction="pas"/>
-<pin name="GND2_2" x="17.98" y="-21.92" length="middle" direction="pas" rot="R180"/>
-<pin name="GND2" x="18.08" y="9.42" length="middle" direction="pas" rot="R180"/>
-<pin name="UD-" x="-17.88" y="-9.7" length="middle"/>
-<pin name="UD+" x="-17.68" y="-12.96" length="middle"/>
-<pin name="DD+" x="18.08" y="-13.12" length="middle" rot="R180"/>
-<pin name="DD-" x="18.08" y="-9.36" length="middle" rot="R180"/>
+<pin name="PIN" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="SPD" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="GND1_2" x="-17.78" y="-22.86" length="middle" direction="pas"/>
+<pin name="GND1" x="-17.78" y="10.16" length="middle" direction="pas"/>
+<pin name="GND2_2" x="17.78" y="-22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="GND2" x="17.78" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="UD-" x="-17.78" y="-10.16" length="middle"/>
+<pin name="UD+" x="-17.78" y="-12.7" length="middle"/>
+<pin name="DD+" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="DD-" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="-25.4" width="0.4064" layer="94"/>
 <wire x1="-12.7" y1="-25.4" x2="12.7" y2="-25.4" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="-25.4" x2="12.7" y2="17.78" width="0.4064" layer="94"/>
