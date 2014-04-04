@@ -1399,6 +1399,45 @@
 <smd name="P6" x="0" y="-0.8375" dx="1.9" dy="1.175" layer="1"/>
 <text x="0" y="0" size="0.635" layer="25" rot="R90" align="center">&gt;NAME</text>
 </package>
+<package name="TE1888250">
+<description>&lt;h3&gt;Tyco Electronics 1888250 RJ-45 receptacle&lt;/h3&gt;
+
+&lt;p&gt;PCB Mounted RJ45 Jack, Single Port 1x1, Low Profile, 8P8C&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.te.com/catalog/products/en?q=1888250"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-9.045" y1="10.84" x2="-9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="9.045" y1="10.84" x2="9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="-9.045" y1="11.34" x2="-9.045" y2="24.34" width="0.127" layer="21"/>
+<wire x1="9.045" y1="11.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
+<wire x1="-9.045" y1="10.84" x2="-8.545" y2="11.34" width="0.127" layer="20" curve="-90"/>
+<wire x1="9.045" y1="10.84" x2="8.545" y2="11.34" width="0.127" layer="20" curve="90"/>
+<wire x1="-8.545" y1="11.34" x2="8.545" y2="11.34" width="0.127" layer="20"/>
+<wire x1="-9.045" y1="24.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
+<pad name="1" x="-3.556" y="20.98" drill="0.8"/>
+<pad name="2" x="-2.54" y="18.44" drill="0.8"/>
+<pad name="3" x="-1.524" y="20.98" drill="0.8"/>
+<pad name="5" x="0.508" y="20.98" drill="0.8"/>
+<pad name="7" x="2.54" y="20.98" drill="0.8"/>
+<pad name="4" x="-0.508" y="18.44" drill="0.8"/>
+<pad name="6" x="1.524" y="18.44" drill="0.8"/>
+<pad name="8" x="3.556" y="18.44" drill="0.8"/>
+<pad name="9" x="4.14" y="15.14" drill="0.8"/>
+<pad name="10" x="5.58" y="12.84" drill="0.8"/>
+<pad name="11" x="-5.58" y="15.14" drill="0.8"/>
+<pad name="12" x="-4.14" y="12.84" drill="0.8"/>
+<text x="-4.6" y="19.5" size="0.8128" layer="25">1</text>
+<text x="2.7" y="16.7" size="0.8128" layer="25">8</text>
+<text x="2.6" y="14.7" size="0.8128" layer="25">9</text>
+<text x="3.3" y="12.5" size="0.8128" layer="25">10</text>
+<text x="-4.5" y="14.7" size="0.8128" layer="25">11</text>
+<text x="-3" y="12.5" size="0.8128" layer="25">12</text>
+<pad name="GND@1" x="-8.054" y="17.59" drill="1.55"/>
+<pad name="GND@2" x="8.045" y="17.59" drill="1.55"/>
+<pad name="GND@3" x="-6" y="23.19" drill="1.55"/>
+<pad name="GND@4" x="6" y="23.19" drill="1.55"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DF12-32-F">
@@ -3138,6 +3177,27 @@ In several package variant, including pogopin version.</description>
 <connect gate="LED2" pin="C" pad="10"/>
 <connect gate="RJ45" pin="GND@0" pad="SGND1 SGND3"/>
 <connect gate="RJ45" pin="GND@2" pad="SGND2 SGND4"/>
+<connect gate="RJ45" pin="POE+@4" pad="4"/>
+<connect gate="RJ45" pin="POE+@5" pad="5"/>
+<connect gate="RJ45" pin="POE-@7" pad="7"/>
+<connect gate="RJ45" pin="POE-@8" pad="8"/>
+<connect gate="RJ45" pin="RX+@3" pad="3"/>
+<connect gate="RJ45" pin="RX-@6" pad="6"/>
+<connect gate="RJ45" pin="TX+@1" pad="1"/>
+<connect gate="RJ45" pin="TX-@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TE1888250" package="TE1888250">
+<connects>
+<connect gate="LED1" pin="A" pad="10"/>
+<connect gate="LED1" pin="C" pad="9"/>
+<connect gate="LED2" pin="A" pad="11"/>
+<connect gate="LED2" pin="C" pad="12"/>
+<connect gate="RJ45" pin="GND@0" pad="GND@1 GND@3"/>
+<connect gate="RJ45" pin="GND@2" pad="GND@2 GND@4"/>
 <connect gate="RJ45" pin="POE+@4" pad="4"/>
 <connect gate="RJ45" pin="POE+@5" pad="5"/>
 <connect gate="RJ45" pin="POE-@7" pad="7"/>
