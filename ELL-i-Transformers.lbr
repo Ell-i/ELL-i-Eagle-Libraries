@@ -37,10 +37,10 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -247,6 +247,33 @@
 <text x="-5.334" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-4.445" y="-2.794" radius="0.40160625" width="0.127" layer="21"/>
 </package>
+<package name="WE_EP13_SMD_10PIN_EMBEDDED">
+<wire x1="-8.9" y1="-6.7" x2="8.9" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="8.9" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="-8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="8.9" y1="6.7" x2="8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="-10" y1="7" x2="10" y2="7" width="0.127" layer="39"/>
+<wire x1="10" y1="7" x2="10" y2="-7" width="0.127" layer="39"/>
+<wire x1="10" y1="-7" x2="-10" y2="-7" width="0.127" layer="39"/>
+<wire x1="-10" y1="-7" x2="-10" y2="7" width="0.127" layer="39"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="46"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="46"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="46"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.127" layer="46"/>
+<circle x="-6.6" y="-5" radius="0.2" width="0.127" layer="21"/>
+<smd name="6" x="8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="10" x="8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="5" x="-8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="1" x="-8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="7" x="8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="9" x="8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="4" x="-8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="2" x="-8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="8" x="8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<smd name="3" x="-8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<text x="-9.3" y="7.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.3" y="-9.2" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="2PRIMARY-1SECONDARY">
@@ -428,6 +455,19 @@
 </technologies>
 </device>
 <device name="750311689" package="WE_EP13_SMD_10PIN">
+<connects>
+<connect gate="G$1" pin="AUX+" pad="2"/>
+<connect gate="G$1" pin="AUX-" pad="1"/>
+<connect gate="G$1" pin="PRI+" pad="5"/>
+<connect gate="G$1" pin="PRI-" pad="3"/>
+<connect gate="G$1" pin="SEC+" pad="6 7"/>
+<connect gate="G$1" pin="SEC-" pad="9 10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EMBEDDED" package="WE_EP13_SMD_10PIN_EMBEDDED">
 <connects>
 <connect gate="G$1" pin="AUX+" pad="2"/>
 <connect gate="G$1" pin="AUX-" pad="1"/>
