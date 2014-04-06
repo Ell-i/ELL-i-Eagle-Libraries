@@ -46,7 +46,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="10" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -526,7 +526,7 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <text x="41.2" y="1.15" size="1.27" layer="51">RCA</text>
 <text x="39.975" y="-46.925" size="1.27" layer="51">HDMI</text>
 </package>
-<package name="NUCLEO-SHIELD-NORMAL">
+<package name="NUCLEO-SHIELD-SHORT">
 <wire x1="12" y1="0" x2="45" y2="0" width="0.127" layer="20"/>
 <wire x1="12" y1="0" x2="11" y2="1" width="0.127" layer="20"/>
 <wire x1="11" y1="1" x2="1" y2="1" width="0.127" layer="20"/>
@@ -662,6 +662,235 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="5.7912" y1="6.5786" x2="10.8712" y2="6.5786" width="0.127" layer="1"/>
 <wire x1="5.7912" y1="4.0386" x2="10.8712" y2="4.0386" width="0.127" layer="1"/>
 <wire x1="59.1312" y1="4.0386" x2="64" y2="4.0386" width="0.127" layer="1"/>
+</package>
+<package name="NUCLEO-SHIELD-UNDERSIDE-EXTENDED">
+<wire x1="1" y1="-22" x2="69" y2="-22" width="0.127" layer="20"/>
+<wire x1="0" y1="-21" x2="0" y2="56.5" width="0.127" layer="20"/>
+<wire x1="1" y1="57.5" x2="69" y2="57.5" width="0.127" layer="20"/>
+<wire x1="70" y1="-21" x2="70" y2="56.5" width="0.127" layer="20"/>
+<wire x1="0" y1="56.5" x2="1" y2="57.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="69" y1="57.5" x2="70" y2="56.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="1" y1="-22" x2="0" y2="-21" width="0.127" layer="20" curve="-90"/>
+<wire x1="70" y1="-21" x2="69" y2="-22" width="0.127" layer="20" curve="-90"/>
+<pad name="CN7_37" x="3.25" y="4.04" drill="0.8"/>
+<pad name="CN10_38" x="66.75" y="4.04" drill="0.8"/>
+<pad name="CN7_33" x="3.25" y="9.12" drill="0.8"/>
+<pad name="CN7_31" x="3.25" y="11.66" drill="0.8"/>
+<pad name="CN7_29" x="3.25" y="14.2" drill="0.8"/>
+<pad name="CN7_27" x="3.25" y="16.74" drill="0.8"/>
+<pad name="CN7_25" x="3.25" y="19.28" drill="0.8"/>
+<pad name="CN7_23" x="3.25" y="21.82" drill="0.8"/>
+<pad name="CN7_21" x="3.25" y="24.36" drill="0.8"/>
+<pad name="CN7_35" x="3.25" y="6.58" drill="0.8"/>
+<pad name="CN7_19" x="3.25" y="26.9" drill="0.8"/>
+<pad name="CN7_17" x="3.25" y="29.44" drill="0.8"/>
+<pad name="CN7_15" x="3.25" y="31.98" drill="0.8"/>
+<pad name="CN7_13" x="3.25" y="34.52" drill="0.8"/>
+<pad name="CN7_11" x="3.25" y="37.06" drill="0.8"/>
+<pad name="CN7_9" x="3.25" y="39.6" drill="0.8"/>
+<pad name="CN7_7" x="3.25" y="42.14" drill="0.8"/>
+<pad name="CN7_5" x="3.25" y="44.68" drill="0.8"/>
+<pad name="CN7_3" x="3.25" y="47.22" drill="0.8"/>
+<pad name="CN7_1" x="3.25" y="49.76" drill="0.8" shape="square"/>
+<pad name="CN7_38" x="5.79" y="4.04" drill="0.8"/>
+<pad name="CN7_34" x="5.79" y="9.12" drill="0.8"/>
+<pad name="CN7_32" x="5.79" y="11.66" drill="0.8"/>
+<pad name="CN7_30" x="5.79" y="14.2" drill="0.8"/>
+<pad name="CN7_28" x="5.79" y="16.74" drill="0.8"/>
+<pad name="CN7_26" x="5.79" y="19.28" drill="0.8"/>
+<pad name="CN7_24" x="5.79" y="21.82" drill="0.8"/>
+<pad name="CN7_22" x="5.79" y="24.36" drill="0.8"/>
+<pad name="CN7_36" x="5.79" y="6.58" drill="0.8"/>
+<pad name="CN7_20" x="5.79" y="26.9" drill="0.8"/>
+<pad name="CN7_18" x="5.79" y="29.44" drill="0.8"/>
+<pad name="CN7_16" x="5.79" y="31.98" drill="0.8"/>
+<pad name="CN7_14" x="5.79" y="34.52" drill="0.8"/>
+<pad name="CN7_12" x="5.79" y="37.06" drill="0.8"/>
+<pad name="CN7_10" x="5.79" y="39.6" drill="0.8"/>
+<pad name="CN7_8" x="5.79" y="42.14" drill="0.8"/>
+<pad name="CN7_6" x="5.79" y="44.68" drill="0.8"/>
+<pad name="CN7_4" x="5.79" y="47.22" drill="0.8"/>
+<pad name="CN7_2" x="5.79" y="49.76" drill="0.8"/>
+<pad name="CN10_36" x="66.75" y="6.58" drill="0.8"/>
+<pad name="CN10_34" x="66.75" y="9.12" drill="0.8"/>
+<pad name="CN10_32" x="66.75" y="11.66" drill="0.8"/>
+<pad name="CN10_30" x="66.75" y="14.2" drill="0.8"/>
+<pad name="CN10_28" x="66.75" y="16.74" drill="0.8"/>
+<pad name="CN10_26" x="66.75" y="19.28" drill="0.8"/>
+<pad name="CN10_24" x="66.75" y="21.82" drill="0.8"/>
+<pad name="CN10_22" x="66.75" y="24.36" drill="0.8"/>
+<pad name="CN10_20" x="66.75" y="26.9" drill="0.8"/>
+<pad name="CN10_18" x="66.75" y="29.44" drill="0.8"/>
+<pad name="CN10_16" x="66.75" y="31.98" drill="0.8"/>
+<pad name="CN10_14" x="66.75" y="34.52" drill="0.8"/>
+<pad name="CN10_12" x="66.75" y="37.06" drill="0.8"/>
+<pad name="CN10_10" x="66.75" y="39.6" drill="0.8"/>
+<pad name="CN10_8" x="66.75" y="42.14" drill="0.8"/>
+<pad name="CN10_6" x="66.75" y="44.68" drill="0.8"/>
+<pad name="CN10_4" x="66.75" y="47.22" drill="0.8"/>
+<pad name="CN10_2" x="66.75" y="49.76" drill="0.8"/>
+<pad name="CN10_37" x="64.21" y="4.04" drill="0.8"/>
+<pad name="CN10_35" x="64.21" y="6.58" drill="0.8"/>
+<pad name="CN10_33" x="64.21" y="9.12" drill="0.8"/>
+<pad name="CN10_31" x="64.21" y="11.66" drill="0.8"/>
+<pad name="CN10_29" x="64.21" y="14.2" drill="0.8"/>
+<pad name="CN10_27" x="64.21" y="16.74" drill="0.8"/>
+<pad name="CN10_25" x="64.21" y="19.28" drill="0.8"/>
+<pad name="CN10_23" x="64.21" y="21.82" drill="0.8"/>
+<pad name="CN10_21" x="64.21" y="24.36" drill="0.8"/>
+<pad name="CN10_19" x="64.21" y="26.9" drill="0.8"/>
+<pad name="CN10_17" x="64.21" y="29.44" drill="0.8"/>
+<pad name="CN10_15" x="64.21" y="31.98" drill="0.8"/>
+<pad name="CN10_13" x="64.21" y="34.52" drill="0.8"/>
+<pad name="CN10_11" x="64.21" y="37.06" drill="0.8"/>
+<pad name="CN10_9" x="64.21" y="39.6" drill="0.8"/>
+<pad name="CN10_7" x="64.21" y="42.14" drill="0.8"/>
+<pad name="CN10_5" x="64.21" y="44.68" drill="0.8"/>
+<pad name="CN10_3" x="64.21" y="47.22" drill="0.8"/>
+<pad name="CN10_1" x="64.21" y="49.76" drill="0.8" shape="square"/>
+</package>
+<package name="NUCLEO-SHIELD-UNDERSIDE-SHORT">
+<wire x1="1" y1="57.5" x2="69" y2="57.5" width="0.127" layer="20"/>
+<wire x1="70" y1="2" x2="70" y2="56.5" width="0.127" layer="20"/>
+<wire x1="0" y1="56.5" x2="1" y2="57.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="69" y1="57.5" x2="70" y2="56.5" width="0.127" layer="20" curve="-90"/>
+<wire x1="70" y1="2" x2="69" y2="1" width="0.127" layer="20" curve="-90"/>
+<pad name="CN7_37" x="3.25" y="4.04" drill="0.8"/>
+<pad name="CN10_38" x="66.75" y="4.04" drill="0.8"/>
+<pad name="CN7_33" x="3.25" y="9.12" drill="0.8"/>
+<pad name="CN7_31" x="3.25" y="11.66" drill="0.8"/>
+<pad name="CN7_29" x="3.25" y="14.2" drill="0.8"/>
+<pad name="CN7_27" x="3.25" y="16.74" drill="0.8"/>
+<pad name="CN7_25" x="3.25" y="19.28" drill="0.8"/>
+<pad name="CN7_23" x="3.25" y="21.82" drill="0.8"/>
+<pad name="CN7_21" x="3.25" y="24.36" drill="0.8"/>
+<pad name="CN7_35" x="3.25" y="6.58" drill="0.8"/>
+<pad name="CN7_19" x="3.25" y="26.9" drill="0.8"/>
+<pad name="CN7_17" x="3.25" y="29.44" drill="0.8"/>
+<pad name="CN7_15" x="3.25" y="31.98" drill="0.8"/>
+<pad name="CN7_13" x="3.25" y="34.52" drill="0.8"/>
+<pad name="CN7_11" x="3.25" y="37.06" drill="0.8"/>
+<pad name="CN7_9" x="3.25" y="39.6" drill="0.8"/>
+<pad name="CN7_7" x="3.25" y="42.14" drill="0.8"/>
+<pad name="CN7_5" x="3.25" y="44.68" drill="0.8"/>
+<pad name="CN7_3" x="3.25" y="47.22" drill="0.8"/>
+<pad name="CN7_1" x="3.25" y="49.76" drill="0.8" shape="square"/>
+<pad name="CN7_38" x="5.79" y="4.04" drill="0.8"/>
+<pad name="CN7_34" x="5.79" y="9.12" drill="0.8"/>
+<pad name="CN7_32" x="5.79" y="11.66" drill="0.8"/>
+<pad name="CN7_30" x="5.79" y="14.2" drill="0.8"/>
+<pad name="CN7_28" x="5.79" y="16.74" drill="0.8"/>
+<pad name="CN7_26" x="5.79" y="19.28" drill="0.8"/>
+<pad name="CN7_24" x="5.79" y="21.82" drill="0.8"/>
+<pad name="CN7_22" x="5.79" y="24.36" drill="0.8"/>
+<pad name="CN7_36" x="5.79" y="6.58" drill="0.8"/>
+<pad name="CN7_20" x="5.79" y="26.9" drill="0.8"/>
+<pad name="CN7_18" x="5.79" y="29.44" drill="0.8"/>
+<pad name="CN7_16" x="5.79" y="31.98" drill="0.8"/>
+<pad name="CN7_14" x="5.79" y="34.52" drill="0.8"/>
+<pad name="CN7_12" x="5.79" y="37.06" drill="0.8"/>
+<pad name="CN7_10" x="5.79" y="39.6" drill="0.8"/>
+<pad name="CN7_8" x="5.79" y="42.14" drill="0.8"/>
+<pad name="CN7_6" x="5.79" y="44.68" drill="0.8"/>
+<pad name="CN7_4" x="5.79" y="47.22" drill="0.8"/>
+<pad name="CN7_2" x="5.79" y="49.76" drill="0.8"/>
+<pad name="CN10_36" x="66.75" y="6.58" drill="0.8"/>
+<pad name="CN10_34" x="66.75" y="9.12" drill="0.8"/>
+<pad name="CN10_32" x="66.75" y="11.66" drill="0.8"/>
+<pad name="CN10_30" x="66.75" y="14.2" drill="0.8"/>
+<pad name="CN10_28" x="66.75" y="16.74" drill="0.8"/>
+<pad name="CN10_26" x="66.75" y="19.28" drill="0.8"/>
+<pad name="CN10_24" x="66.75" y="21.82" drill="0.8"/>
+<pad name="CN10_22" x="66.75" y="24.36" drill="0.8"/>
+<pad name="CN10_20" x="66.75" y="26.9" drill="0.8"/>
+<pad name="CN10_18" x="66.75" y="29.44" drill="0.8"/>
+<pad name="CN10_16" x="66.75" y="31.98" drill="0.8"/>
+<pad name="CN10_14" x="66.75" y="34.52" drill="0.8"/>
+<pad name="CN10_12" x="66.75" y="37.06" drill="0.8"/>
+<pad name="CN10_10" x="66.75" y="39.6" drill="0.8"/>
+<pad name="CN10_8" x="66.75" y="42.14" drill="0.8"/>
+<pad name="CN10_6" x="66.75" y="44.68" drill="0.8"/>
+<pad name="CN10_4" x="66.75" y="47.22" drill="0.8"/>
+<pad name="CN10_2" x="66.75" y="49.76" drill="0.8"/>
+<pad name="CN10_37" x="64.21" y="4.04" drill="0.8"/>
+<pad name="CN10_35" x="64.21" y="6.58" drill="0.8"/>
+<pad name="CN10_33" x="64.21" y="9.12" drill="0.8"/>
+<pad name="CN10_31" x="64.21" y="11.66" drill="0.8"/>
+<pad name="CN10_29" x="64.21" y="14.2" drill="0.8"/>
+<pad name="CN10_27" x="64.21" y="16.74" drill="0.8"/>
+<pad name="CN10_25" x="64.21" y="19.28" drill="0.8"/>
+<pad name="CN10_23" x="64.21" y="21.82" drill="0.8"/>
+<pad name="CN10_21" x="64.21" y="24.36" drill="0.8"/>
+<pad name="CN10_19" x="64.21" y="26.9" drill="0.8"/>
+<pad name="CN10_17" x="64.21" y="29.44" drill="0.8"/>
+<pad name="CN10_15" x="64.21" y="31.98" drill="0.8"/>
+<pad name="CN10_13" x="64.21" y="34.52" drill="0.8"/>
+<pad name="CN10_11" x="64.21" y="37.06" drill="0.8"/>
+<pad name="CN10_9" x="64.21" y="39.6" drill="0.8"/>
+<pad name="CN10_7" x="64.21" y="42.14" drill="0.8"/>
+<pad name="CN10_5" x="64.21" y="44.68" drill="0.8"/>
+<pad name="CN10_3" x="64.21" y="47.22" drill="0.8"/>
+<pad name="CN10_1" x="64.21" y="49.76" drill="0.8" shape="square"/>
+<wire x1="12" y1="0" x2="45" y2="0" width="0.127" layer="20"/>
+<wire x1="12" y1="0" x2="11" y2="1" width="0.127" layer="20"/>
+<wire x1="11" y1="1" x2="1" y2="1" width="0.127" layer="20"/>
+<wire x1="0" y1="2" x2="0" y2="56.5" width="0.127" layer="20"/>
+<wire x1="69" y1="1" x2="46" y2="1" width="0.127" layer="20"/>
+<wire x1="45" y1="0" x2="46" y2="1" width="0.127" layer="20"/>
+<wire x1="1" y1="1" x2="0" y2="2" width="0.127" layer="20" curve="-90"/>
+</package>
+<package name="RASPBERRYPI-SHIELD-CONNECTOR">
+<wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="49"/>
+<wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.615" y1="51.725" x2="3.465" y2="51.725" width="0.127" layer="21"/>
+<wire x1="3.465" y1="51.725" x2="3.465" y2="49.875" width="0.127" layer="21" curve="1.965897"/>
+<wire x1="3.465" y1="49.875" x2="1.615" y2="49.875" width="0.127" layer="21"/>
+<wire x1="1.615" y1="49.875" x2="1.615" y2="51.725" width="0.127" layer="21"/>
+<wire x1="0.14" y1="0.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.14" y1="49.575" x2="34.34" y2="49.575" width="0.127" layer="21"/>
+<wire x1="34.34" y1="49.575" x2="34.34" y2="54.575" width="0.127" layer="21"/>
+<wire x1="34.34" y1="54.575" x2="1.14" y2="54.575" width="0.127" layer="21"/>
+<wire x1="1.14" y1="54.575" x2="1.14" y2="49.575" width="0.127" layer="21"/>
+<wire x1="0.24" y1="16.775" x2="0.24" y2="16.675" width="0.05" layer="51"/>
+<wire x1="68.44" y1="56.1" x2="68.54" y2="56.1" width="0.127" layer="51"/>
+<circle x="2.54" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
+<circle x="7.62" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
+<pad name="1" x="2.54" y="50.8" drill="1" shape="square"/>
+<pad name="2" x="2.54" y="53.34" drill="1" diameter="1.6764"/>
+<pad name="3" x="5.08" y="50.8" drill="1"/>
+<pad name="4" x="5.08" y="53.34" drill="1"/>
+<pad name="5" x="7.62" y="50.8" drill="1"/>
+<pad name="6" x="7.62" y="53.34" drill="1" diameter="1.6764"/>
+<pad name="7" x="10.16" y="50.8" drill="1"/>
+<pad name="8" x="10.16" y="53.34" drill="1"/>
+<pad name="9" x="12.7" y="50.8" drill="1"/>
+<pad name="10" x="12.7" y="53.34" drill="1"/>
+<pad name="11" x="15.24" y="50.8" drill="1"/>
+<pad name="12" x="15.24" y="53.34" drill="1"/>
+<pad name="13" x="17.78" y="50.8" drill="1"/>
+<pad name="14" x="17.78" y="53.34" drill="1"/>
+<pad name="15" x="20.32" y="50.8" drill="1"/>
+<pad name="16" x="20.32" y="53.34" drill="1"/>
+<pad name="17" x="22.86" y="50.8" drill="1"/>
+<pad name="18" x="22.86" y="53.34" drill="1"/>
+<pad name="20" x="25.4" y="53.34" drill="1"/>
+<pad name="21" x="27.94" y="50.8" drill="1"/>
+<pad name="22" x="27.94" y="53.34" drill="1"/>
+<pad name="23" x="30.48" y="50.8" drill="1"/>
+<pad name="24" x="30.48" y="53.34" drill="1"/>
+<pad name="25" x="33.02" y="50.8" drill="1"/>
+<pad name="26" x="33.02" y="53.34" drill="1"/>
+<text x="10.54" y="48.8" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="3.04" y="48.3" size="1.27" layer="21" ratio="10" rot="R180">1</text>
+<text x="36.8" y="54.3" size="1.27" layer="21" ratio="10" rot="R180">26</text>
+<text x="34.04" y="48.8" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<text x="1.8436" y="48.8039" size="0.4064" layer="51">3v3</text>
+<text x="2.1686" y="55.0289" size="0.4064" layer="51">5v</text>
+<text x="7.1186" y="54.9789" size="0.4064" layer="51">GND</text>
+<text x="36.8" y="51.3" size="1.27" layer="21" ratio="10" rot="R180">25</text>
+<text x="0.94" y="-1.6" size="1.27" layer="51">Board 56x85mm H=16mm</text>
+<pad name="19" x="25.4" y="50.8" drill="1"/>
 </package>
 </packages>
 <symbols>
@@ -989,6 +1218,39 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="CONNECTOR" package="RASPBERRYPI-SHIELD-CONNECTOR">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="CE0" pad="24"/>
+<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GP17" pad="11"/>
+<connect gate="G$1" pin="GP18" pad="12"/>
+<connect gate="G$1" pin="GP22" pad="15"/>
+<connect gate="G$1" pin="GP23" pad="16"/>
+<connect gate="G$1" pin="GP24" pad="18"/>
+<connect gate="G$1" pin="GP25" pad="22"/>
+<connect gate="G$1" pin="GP27" pad="13"/>
+<connect gate="G$1" pin="GP4" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="21"/>
+<connect gate="G$1" pin="MOSI" pad="19"/>
+<connect gate="G$1" pin="RXI" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="TXO" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="ARDUINO-NUCLEO-SHIELD">
@@ -1217,7 +1479,173 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <technology name=""/>
 </technologies>
 </device>
-<device name="-NORMAL" package="NUCLEO-SHIELD-NORMAL">
+<device name="-NORMAL" package="NUCLEO-SHIELD-SHORT">
+<connects>
+<connect gate="CN10" pin="11_PA5" pad="CN10_11"/>
+<connect gate="CN10" pin="13_PA6" pad="CN10_13"/>
+<connect gate="CN10" pin="15_PA7" pad="CN10_15"/>
+<connect gate="CN10" pin="17_PB7" pad="CN10_17"/>
+<connect gate="CN10" pin="19_PC7" pad="CN10_19"/>
+<connect gate="CN10" pin="1_PC9" pad="CN10_1"/>
+<connect gate="CN10" pin="21_PA9" pad="CN10_21"/>
+<connect gate="CN10" pin="23_PA8" pad="CN10_23"/>
+<connect gate="CN10" pin="25_PB10" pad="CN10_25"/>
+<connect gate="CN10" pin="27_PB4" pad="CN10_27"/>
+<connect gate="CN10" pin="29_PB5" pad="CN10_29"/>
+<connect gate="CN10" pin="31_PB3" pad="CN10_31"/>
+<connect gate="CN10" pin="33_PA10" pad="CN10_33"/>
+<connect gate="CN10" pin="35_PA2" pad="CN10_35"/>
+<connect gate="CN10" pin="37_PA3" pad="CN10_37"/>
+<connect gate="CN10" pin="3_PB8" pad="CN10_3"/>
+<connect gate="CN10" pin="5_PB9" pad="CN10_5"/>
+<connect gate="CN10" pin="7_AVDD" pad="CN10_7"/>
+<connect gate="CN10" pin="9_GND" pad="CN10_9"/>
+<connect gate="CN10" pin="AGND_32" pad="CN10_32"/>
+<connect gate="CN10" pin="GND_20" pad="CN10_20"/>
+<connect gate="CN10" pin="PA11_14" pad="CN10_14"/>
+<connect gate="CN10" pin="PA12_12" pad="CN10_12"/>
+<connect gate="CN10" pin="PB11_18" pad="CN10_18"/>
+<connect gate="CN10" pin="PB12_16" pad="CN10_16"/>
+<connect gate="CN10" pin="PB13_30" pad="CN10_30"/>
+<connect gate="CN10" pin="PB14_28" pad="CN10_28"/>
+<connect gate="CN10" pin="PB15_26" pad="CN10_26"/>
+<connect gate="CN10" pin="PB1_24" pad="CN10_24"/>
+<connect gate="CN10" pin="PB2_22" pad="CN10_22"/>
+<connect gate="CN10" pin="PC4_34" pad="CN10_34"/>
+<connect gate="CN10" pin="PC5_6" pad="CN10_6"/>
+<connect gate="CN10" pin="PC6_4" pad="CN10_4"/>
+<connect gate="CN10" pin="PC8_2" pad="CN10_2"/>
+<connect gate="CN10" pin="PD8_10" pad="CN10_10"/>
+<connect gate="CN10" pin="PF4_38" pad="CN10_38"/>
+<connect gate="CN10" pin="PF5_36" pad="CN10_36"/>
+<connect gate="CN10" pin="U5V_8" pad="CN10_8"/>
+<connect gate="CN7" pin="11_PF7" pad="CN7_11"/>
+<connect gate="CN7" pin="13_PA13" pad="CN7_13"/>
+<connect gate="CN7" pin="15_PA14" pad="CN7_15"/>
+<connect gate="CN7" pin="17_PA15" pad="CN7_17"/>
+<connect gate="CN7" pin="19_GND" pad="CN7_19"/>
+<connect gate="CN7" pin="1_PC10" pad="CN7_1"/>
+<connect gate="CN7" pin="21_PB7" pad="CN7_21"/>
+<connect gate="CN7" pin="23_PC13" pad="CN7_23"/>
+<connect gate="CN7" pin="25_PC14" pad="CN7_25"/>
+<connect gate="CN7" pin="27_PC15" pad="CN7_27"/>
+<connect gate="CN7" pin="29_PF0" pad="CN7_29"/>
+<connect gate="CN7" pin="31_PF1" pad="CN7_31"/>
+<connect gate="CN7" pin="33_VBAT" pad="CN7_33"/>
+<connect gate="CN7" pin="35_PC2" pad="CN7_35"/>
+<connect gate="CN7" pin="37_PC3" pad="CN7_37"/>
+<connect gate="CN7" pin="3V3_12" pad="CN7_12"/>
+<connect gate="CN7" pin="3V3_16" pad="CN7_16"/>
+<connect gate="CN7" pin="3_PC12" pad="CN7_3"/>
+<connect gate="CN7" pin="5V_18" pad="CN7_18"/>
+<connect gate="CN7" pin="5_VDD" pad="CN7_5"/>
+<connect gate="CN7" pin="7_BOOT0" pad="CN7_7"/>
+<connect gate="CN7" pin="9_PF6" pad="CN7_9"/>
+<connect gate="CN7" pin="E5V_6" pad="CN7_6"/>
+<connect gate="CN7" pin="GND_20" pad="CN7_20"/>
+<connect gate="CN7" pin="GND_22" pad="CN7_22"/>
+<connect gate="CN7" pin="GND_8" pad="CN7_8"/>
+<connect gate="CN7" pin="NC_10" pad="CN7_10"/>
+<connect gate="CN7" pin="NC_26" pad="CN7_26"/>
+<connect gate="CN7" pin="NRST_14" pad="CN7_14"/>
+<connect gate="CN7" pin="PA0_28" pad="CN7_28"/>
+<connect gate="CN7" pin="PA1_30" pad="CN7_30"/>
+<connect gate="CN7" pin="PA4_32" pad="CN7_32"/>
+<connect gate="CN7" pin="PB0_34" pad="CN7_34"/>
+<connect gate="CN7" pin="PC11_2" pad="CN7_2"/>
+<connect gate="CN7" pin="PC1_36" pad="CN7_36"/>
+<connect gate="CN7" pin="PC2_38" pad="CN7_38"/>
+<connect gate="CN7" pin="PD2_4" pad="CN7_4"/>
+<connect gate="CN7" pin="VIN_24" pad="CN7_24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-UNDERSIDE-EXTENDED" package="NUCLEO-SHIELD-UNDERSIDE-EXTENDED">
+<connects>
+<connect gate="CN10" pin="11_PA5" pad="CN10_11"/>
+<connect gate="CN10" pin="13_PA6" pad="CN10_13"/>
+<connect gate="CN10" pin="15_PA7" pad="CN10_15"/>
+<connect gate="CN10" pin="17_PB7" pad="CN10_17"/>
+<connect gate="CN10" pin="19_PC7" pad="CN10_19"/>
+<connect gate="CN10" pin="1_PC9" pad="CN10_1"/>
+<connect gate="CN10" pin="21_PA9" pad="CN10_21"/>
+<connect gate="CN10" pin="23_PA8" pad="CN10_23"/>
+<connect gate="CN10" pin="25_PB10" pad="CN10_25"/>
+<connect gate="CN10" pin="27_PB4" pad="CN10_27"/>
+<connect gate="CN10" pin="29_PB5" pad="CN10_29"/>
+<connect gate="CN10" pin="31_PB3" pad="CN10_31"/>
+<connect gate="CN10" pin="33_PA10" pad="CN10_33"/>
+<connect gate="CN10" pin="35_PA2" pad="CN10_35"/>
+<connect gate="CN10" pin="37_PA3" pad="CN10_37"/>
+<connect gate="CN10" pin="3_PB8" pad="CN10_3"/>
+<connect gate="CN10" pin="5_PB9" pad="CN10_5"/>
+<connect gate="CN10" pin="7_AVDD" pad="CN10_7"/>
+<connect gate="CN10" pin="9_GND" pad="CN10_9"/>
+<connect gate="CN10" pin="AGND_32" pad="CN10_32"/>
+<connect gate="CN10" pin="GND_20" pad="CN10_20"/>
+<connect gate="CN10" pin="PA11_14" pad="CN10_14"/>
+<connect gate="CN10" pin="PA12_12" pad="CN10_12"/>
+<connect gate="CN10" pin="PB11_18" pad="CN10_18"/>
+<connect gate="CN10" pin="PB12_16" pad="CN10_16"/>
+<connect gate="CN10" pin="PB13_30" pad="CN10_30"/>
+<connect gate="CN10" pin="PB14_28" pad="CN10_28"/>
+<connect gate="CN10" pin="PB15_26" pad="CN10_26"/>
+<connect gate="CN10" pin="PB1_24" pad="CN10_24"/>
+<connect gate="CN10" pin="PB2_22" pad="CN10_22"/>
+<connect gate="CN10" pin="PC4_34" pad="CN10_34"/>
+<connect gate="CN10" pin="PC5_6" pad="CN10_6"/>
+<connect gate="CN10" pin="PC6_4" pad="CN10_4"/>
+<connect gate="CN10" pin="PC8_2" pad="CN10_2"/>
+<connect gate="CN10" pin="PD8_10" pad="CN10_10"/>
+<connect gate="CN10" pin="PF4_38" pad="CN10_38"/>
+<connect gate="CN10" pin="PF5_36" pad="CN10_36"/>
+<connect gate="CN10" pin="U5V_8" pad="CN10_8"/>
+<connect gate="CN7" pin="11_PF7" pad="CN7_11"/>
+<connect gate="CN7" pin="13_PA13" pad="CN7_13"/>
+<connect gate="CN7" pin="15_PA14" pad="CN7_15"/>
+<connect gate="CN7" pin="17_PA15" pad="CN7_17"/>
+<connect gate="CN7" pin="19_GND" pad="CN7_19"/>
+<connect gate="CN7" pin="1_PC10" pad="CN7_1"/>
+<connect gate="CN7" pin="21_PB7" pad="CN7_21"/>
+<connect gate="CN7" pin="23_PC13" pad="CN7_23"/>
+<connect gate="CN7" pin="25_PC14" pad="CN7_25"/>
+<connect gate="CN7" pin="27_PC15" pad="CN7_27"/>
+<connect gate="CN7" pin="29_PF0" pad="CN7_29"/>
+<connect gate="CN7" pin="31_PF1" pad="CN7_31"/>
+<connect gate="CN7" pin="33_VBAT" pad="CN7_33"/>
+<connect gate="CN7" pin="35_PC2" pad="CN7_35"/>
+<connect gate="CN7" pin="37_PC3" pad="CN7_37"/>
+<connect gate="CN7" pin="3V3_12" pad="CN7_12"/>
+<connect gate="CN7" pin="3V3_16" pad="CN7_16"/>
+<connect gate="CN7" pin="3_PC12" pad="CN7_3"/>
+<connect gate="CN7" pin="5V_18" pad="CN7_18"/>
+<connect gate="CN7" pin="5_VDD" pad="CN7_5"/>
+<connect gate="CN7" pin="7_BOOT0" pad="CN7_7"/>
+<connect gate="CN7" pin="9_PF6" pad="CN7_9"/>
+<connect gate="CN7" pin="E5V_6" pad="CN7_6"/>
+<connect gate="CN7" pin="GND_20" pad="CN7_20"/>
+<connect gate="CN7" pin="GND_22" pad="CN7_22"/>
+<connect gate="CN7" pin="GND_8" pad="CN7_8"/>
+<connect gate="CN7" pin="NC_10" pad="CN7_10"/>
+<connect gate="CN7" pin="NC_26" pad="CN7_26"/>
+<connect gate="CN7" pin="NRST_14" pad="CN7_14"/>
+<connect gate="CN7" pin="PA0_28" pad="CN7_28"/>
+<connect gate="CN7" pin="PA1_30" pad="CN7_30"/>
+<connect gate="CN7" pin="PA4_32" pad="CN7_32"/>
+<connect gate="CN7" pin="PB0_34" pad="CN7_34"/>
+<connect gate="CN7" pin="PC11_2" pad="CN7_2"/>
+<connect gate="CN7" pin="PC1_36" pad="CN7_36"/>
+<connect gate="CN7" pin="PC2_38" pad="CN7_38"/>
+<connect gate="CN7" pin="PD2_4" pad="CN7_4"/>
+<connect gate="CN7" pin="VIN_24" pad="CN7_24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="NUCLEO-SHIELD-UNDERSIDE-SHORT">
 <connects>
 <connect gate="CN10" pin="11_PA5" pad="CN10_11"/>
 <connect gate="CN10" pin="13_PA6" pad="CN10_13"/>
