@@ -1,0 +1,7 @@
+move 'OUTLINE1' (0 5);
+move 'SV1' (17.78 57.07);
+move 'X1' (5.5mm 40.5mm)
+move 'X2' (5.5mm 13.5mm)
+move 'X3' (48.5mm 40.5mm)
+move 'X4' (48.5mm 13.5mm)
+move 'EXT1' (7mm 27mm)

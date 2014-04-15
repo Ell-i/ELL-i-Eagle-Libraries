@@ -1,0 +1,3 @@
+move 'NUCLEO' (0 0);
+move 'CN7'  (30.64mm  4.52mm)
+move 'CN10' (30.64mm 65.48mm)
