@@ -673,58 +673,59 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="79.5" y1="1" x2="78.5" y2="0" width="0.127" layer="49" curve="-90"/>
 <wire x1="78.5" y1="70" x2="79.5" y2="69" width="0.127" layer="49" curve="-90"/>
 </package>
-<package name="RASPBERRYPI-SHIELD-CONNECTOR">
+<package name="RASPBERRYPI-SHIELD-OUTLINE">
 <wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
 <wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="49"/>
 <wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.615" y1="51.725" x2="3.465" y2="51.725" width="0.127" layer="49"/>
+<wire x1="3.465" y1="51.725" x2="3.465" y2="49.875" width="0.127" layer="49" curve="1.965897"/>
+<wire x1="3.465" y1="49.875" x2="1.615" y2="49.875" width="0.127" layer="49"/>
+<wire x1="1.615" y1="49.875" x2="1.615" y2="51.725" width="0.127" layer="49"/>
+<wire x1="0.14" y1="0.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.14" y1="49.575" x2="34.34" y2="49.575" width="0.127" layer="49"/>
+<wire x1="34.34" y1="49.575" x2="34.34" y2="54.575" width="0.127" layer="49"/>
+<wire x1="34.34" y1="54.575" x2="1.14" y2="54.575" width="0.127" layer="49"/>
+<wire x1="1.14" y1="54.575" x2="1.14" y2="49.575" width="0.127" layer="49"/>
+<text x="0.94" y="-1.6" size="1.27" layer="51">Board 56x85mm H=16mm</text>
 <wire x1="1.615" y1="51.725" x2="3.465" y2="51.725" width="0.127" layer="21"/>
 <wire x1="3.465" y1="51.725" x2="3.465" y2="49.875" width="0.127" layer="21" curve="1.965897"/>
-<wire x1="3.465" y1="49.875" x2="1.615" y2="49.875" width="0.127" layer="21"/>
 <wire x1="1.615" y1="49.875" x2="1.615" y2="51.725" width="0.127" layer="21"/>
-<wire x1="0.14" y1="0.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
-<wire x1="1.14" y1="49.575" x2="34.34" y2="49.575" width="0.127" layer="21"/>
-<wire x1="34.34" y1="49.575" x2="34.34" y2="54.575" width="0.127" layer="21"/>
-<wire x1="34.34" y1="54.575" x2="1.14" y2="54.575" width="0.127" layer="21"/>
+<wire x1="75.64" y1="37.275" x2="92.84" y2="37.275" width="0.127" layer="49"/>
+<wire x1="92.84" y1="24.025" x2="75.64" y2="24.025" width="0.127" layer="49"/>
+<wire x1="75.64" y1="24.025" x2="75.64" y2="37.275" width="0.127" layer="49"/>
+<wire x1="64.34" y1="2.075" x2="86.14" y2="2.075" width="0.127" layer="49"/>
+<wire x1="86.14" y1="2.075" x2="86.14" y2="17.475" width="0.127" layer="49"/>
+<wire x1="86.14" y1="17.475" x2="64.34" y2="17.475" width="0.127" layer="49"/>
+<wire x1="64.34" y1="17.475" x2="64.34" y2="2.075" width="0.127" layer="49"/>
+<wire x1="5.24" y1="3.7" x2="-0.36" y2="3.7" width="0.127" layer="49"/>
+<wire x1="-0.36" y1="3.7" x2="-0.36" y2="11.3" width="0.127" layer="49"/>
+<wire x1="-0.36" y1="11.3" x2="5.24" y2="11.3" width="0.127" layer="49"/>
+<wire x1="5.24" y1="11.3" x2="5.24" y2="3.7" width="0.127" layer="49"/>
 <wire x1="1.14" y1="54.575" x2="1.14" y2="49.575" width="0.127" layer="21"/>
-<wire x1="0.24" y1="16.775" x2="0.24" y2="16.675" width="0.05" layer="51"/>
+<wire x1="41.15" y1="53.96" x2="41.15" y2="62.26" width="0.127" layer="49"/>
+<wire x1="41.15" y1="62.26" x2="50.05" y2="62.26" width="0.127" layer="49"/>
+<wire x1="50.05" y1="62.26" x2="50.05" y2="53.86" width="0.127" layer="49"/>
+<wire x1="50.05" y1="53.86" x2="40.76" y2="53.86" width="0.127" layer="49"/>
+<wire x1="40.71" y1="43.95" x2="50.51" y2="43.95" width="0.127" layer="49"/>
+<wire x1="50.51" y1="43.95" x2="50.51" y2="53.85" width="0.127" layer="49"/>
+<wire x1="40.71" y1="53.85" x2="40.71" y2="43.95" width="0.127" layer="49"/>
+<wire x1="71.14" y1="56.1" x2="71.14" y2="44.7" width="0.127" layer="49"/>
+<wire x1="71.14" y1="44.7" x2="59.14" y2="44.7" width="0.127" layer="49"/>
+<wire x1="59.14" y1="44.7" x2="59.14" y2="56.1" width="0.127" layer="49"/>
 <wire x1="68.44" y1="56.1" x2="68.54" y2="56.1" width="0.127" layer="51"/>
-<circle x="2.54" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
-<circle x="7.62" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
-<pad name="1" x="2.54" y="50.8" drill="1" shape="square"/>
-<pad name="2" x="2.54" y="53.34" drill="1" diameter="1.6764"/>
-<pad name="3" x="5.08" y="50.8" drill="1"/>
-<pad name="4" x="5.08" y="53.34" drill="1"/>
-<pad name="5" x="7.62" y="50.8" drill="1"/>
-<pad name="6" x="7.62" y="53.34" drill="1" diameter="1.6764"/>
-<pad name="7" x="10.16" y="50.8" drill="1"/>
-<pad name="8" x="10.16" y="53.34" drill="1"/>
-<pad name="9" x="12.7" y="50.8" drill="1"/>
-<pad name="10" x="12.7" y="53.34" drill="1"/>
-<pad name="11" x="15.24" y="50.8" drill="1"/>
-<pad name="12" x="15.24" y="53.34" drill="1"/>
-<pad name="13" x="17.78" y="50.8" drill="1"/>
-<pad name="14" x="17.78" y="53.34" drill="1"/>
-<pad name="15" x="20.32" y="50.8" drill="1"/>
-<pad name="16" x="20.32" y="53.34" drill="1"/>
-<pad name="17" x="22.86" y="50.8" drill="1"/>
-<pad name="18" x="22.86" y="53.34" drill="1"/>
-<pad name="20" x="25.4" y="53.34" drill="1"/>
-<pad name="21" x="27.94" y="50.8" drill="1"/>
-<pad name="22" x="27.94" y="53.34" drill="1"/>
-<pad name="23" x="30.48" y="50.8" drill="1"/>
-<pad name="24" x="30.48" y="53.34" drill="1"/>
-<pad name="25" x="33.02" y="50.8" drill="1"/>
-<pad name="26" x="33.02" y="53.34" drill="1"/>
-<text x="10.54" y="48.8" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="3.04" y="48.3" size="1.27" layer="21" ratio="10" rot="R180">1</text>
-<text x="36.8" y="54.3" size="1.27" layer="21" ratio="10" rot="R180">26</text>
-<text x="34.04" y="48.8" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<text x="1.8436" y="48.8039" size="0.4064" layer="51">3v3</text>
-<text x="2.1686" y="55.0289" size="0.4064" layer="51">5v</text>
-<text x="7.1186" y="54.9789" size="0.4064" layer="51">GND</text>
-<text x="36.8" y="51.3" size="1.27" layer="21" ratio="10" rot="R180">25</text>
-<text x="0.94" y="-1.6" size="1.27" layer="51">Board 56x85mm H=16mm</text>
-<pad name="19" x="25.4" y="50.8" drill="1"/>
+<wire x1="68.54" y1="56.1" x2="68.54" y2="59.7" width="0.127" layer="49"/>
+<wire x1="68.54" y1="59.7" x2="61.94" y2="59.7" width="0.127" layer="49"/>
+<wire x1="61.94" y1="59.7" x2="61.94" y2="56.1" width="0.127" layer="49"/>
+<wire x1="37.64" y1="-1.1" x2="52.74" y2="-1.1" width="0.127" layer="49"/>
+<wire x1="52.74" y1="-1.1" x2="52.74" y2="10.3" width="0.127" layer="49"/>
+<wire x1="52.74" y1="10.3" x2="37.64" y2="10.3" width="0.127" layer="49"/>
+<wire x1="37.64" y1="10.3" x2="37.64" y2="-1.1" width="0.127" layer="49"/>
+<text x="90.23" y="28.75" size="1.27" layer="51" rot="R90">USB</text>
+<text x="87.78" y="6.65" size="1.27" layer="51" rot="R90">RJ45</text>
+<text x="-1.245" y="5.645" size="1.27" layer="51" rot="R90">USB</text>
+<text x="62.89" y="57.275" size="1.27" layer="51">Audio</text>
+<text x="43.74" y="58.3" size="1.27" layer="48">RCA</text>
+<text x="42.515" y="-3.125" size="1.27" layer="51">HDMI</text>
 </package>
 <package name="NUCLEO-SHIELD-UNDERSIDE-SHORT-OUTLINE">
 <wire x1="0" y1="1" x2="0" y2="69" width="0.127" layer="49"/>
@@ -779,6 +780,52 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pad name="6" x="-17.78" y="1.27" drill="0.8" rot="R90"/>
 <pad name="4" x="-20.32" y="1.27" drill="0.8" rot="R90"/>
 <pad name="2" x="-22.86" y="1.27" drill="0.8" rot="R90"/>
+</package>
+<package name="RASPBERRYPI-SHIELD-CONNECTOR">
+<wire x1="-16.165" y1="-0.345" x2="-14.315" y2="-0.345" width="0.127" layer="21"/>
+<wire x1="-14.315" y1="-0.345" x2="-14.315" y2="-2.195" width="0.127" layer="21" curve="1.965897"/>
+<wire x1="-14.315" y1="-2.195" x2="-16.165" y2="-2.195" width="0.127" layer="21"/>
+<wire x1="-16.165" y1="-2.195" x2="-16.165" y2="-0.345" width="0.127" layer="21"/>
+<wire x1="-16.64" y1="-2.495" x2="16.56" y2="-2.495" width="0.127" layer="21"/>
+<wire x1="16.56" y1="-2.495" x2="16.56" y2="2.505" width="0.127" layer="21"/>
+<wire x1="16.56" y1="2.505" x2="-16.64" y2="2.505" width="0.127" layer="21"/>
+<wire x1="-16.64" y1="2.505" x2="-16.64" y2="-2.495" width="0.127" layer="21"/>
+<circle x="-15.24" y="1.27" radius="1.0152" width="0.1524" layer="52"/>
+<circle x="-10.16" y="1.27" radius="1.0152" width="0.1524" layer="52"/>
+<pad name="1" x="-15.24" y="-1.27" drill="1" shape="square"/>
+<pad name="2" x="-15.24" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="3" x="-12.7" y="-1.27" drill="1"/>
+<pad name="4" x="-12.7" y="1.27" drill="1"/>
+<pad name="5" x="-10.16" y="-1.27" drill="1"/>
+<pad name="6" x="-10.16" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="7" x="-7.62" y="-1.27" drill="1"/>
+<pad name="8" x="-7.62" y="1.27" drill="1"/>
+<pad name="9" x="-5.08" y="-1.27" drill="1"/>
+<pad name="10" x="-5.08" y="1.27" drill="1"/>
+<pad name="11" x="-2.54" y="-1.27" drill="1"/>
+<pad name="12" x="-2.54" y="1.27" drill="1"/>
+<pad name="13" x="0" y="-1.27" drill="1"/>
+<pad name="14" x="0" y="1.27" drill="1"/>
+<pad name="15" x="2.54" y="-1.27" drill="1"/>
+<pad name="16" x="2.54" y="1.27" drill="1"/>
+<pad name="17" x="5.08" y="-1.27" drill="1"/>
+<pad name="18" x="5.08" y="1.27" drill="1"/>
+<pad name="20" x="7.62" y="1.27" drill="1"/>
+<pad name="21" x="10.16" y="-1.27" drill="1"/>
+<pad name="22" x="10.16" y="1.27" drill="1"/>
+<pad name="23" x="12.7" y="-1.27" drill="1"/>
+<pad name="24" x="12.7" y="1.27" drill="1"/>
+<pad name="25" x="15.24" y="-1.27" drill="1"/>
+<pad name="26" x="15.24" y="1.27" drill="1"/>
+<text x="-7.24" y="-3.27" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="-14.74" y="-3.77" size="1.27" layer="21" ratio="10" rot="R180">1</text>
+<text x="19.02" y="2.23" size="1.27" layer="21" ratio="10" rot="R180">26</text>
+<text x="16.26" y="-3.27" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<text x="-15.9364" y="-3.2661" size="0.4064" layer="51">3v3</text>
+<text x="-15.6114" y="2.9589" size="0.4064" layer="51">5v</text>
+<text x="-10.6614" y="2.9089" size="0.4064" layer="51">GND</text>
+<text x="19.02" y="-0.77" size="1.27" layer="21" ratio="10" rot="R180">25</text>
+<pad name="19" x="7.62" y="-1.27" drill="1"/>
 </package>
 </packages>
 <symbols>
@@ -1059,6 +1106,13 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="2.54" width="0.254" layer="97"/>
 <wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.254" layer="97"/>
 </symbol>
+<symbol name="RASPBERRYPI-OUTLINE">
+<text x="0" y="0" size="1.778" layer="97" align="center">RASPBERRYPI SHIELD</text>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="-15.24" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="97"/>
+<wire x1="15.24" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="97"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIN49073" prefix="DIMENSIONS">
@@ -1081,45 +1135,12 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="RASPBERRY-SHIELD">
+<deviceset name="RASPBERRY-CONNECTOR">
 <gates>
 <gate name="G$1" symbol="RASPBERRYPI-GPIO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RASPBERRYPI-SHIELD-FULLSIZE">
-<connects>
-<connect gate="G$1" pin="3.3V@1" pad="1"/>
-<connect gate="G$1" pin="3.3V@17" pad="17"/>
-<connect gate="G$1" pin="5V@2" pad="2"/>
-<connect gate="G$1" pin="5V@4" pad="4"/>
-<connect gate="G$1" pin="CE0" pad="24"/>
-<connect gate="G$1" pin="CE1" pad="26"/>
-<connect gate="G$1" pin="GND@14" pad="14"/>
-<connect gate="G$1" pin="GND@20" pad="20"/>
-<connect gate="G$1" pin="GND@25" pad="25"/>
-<connect gate="G$1" pin="GND@6" pad="6"/>
-<connect gate="G$1" pin="GND@9" pad="9"/>
-<connect gate="G$1" pin="GP17" pad="11"/>
-<connect gate="G$1" pin="GP18" pad="12"/>
-<connect gate="G$1" pin="GP22" pad="15"/>
-<connect gate="G$1" pin="GP23" pad="16"/>
-<connect gate="G$1" pin="GP24" pad="18"/>
-<connect gate="G$1" pin="GP25" pad="22"/>
-<connect gate="G$1" pin="GP27" pad="13"/>
-<connect gate="G$1" pin="GP4" pad="7"/>
-<connect gate="G$1" pin="MISO" pad="21"/>
-<connect gate="G$1" pin="MOSI" pad="19"/>
-<connect gate="G$1" pin="RXI" pad="10"/>
-<connect gate="G$1" pin="SCL" pad="5"/>
-<connect gate="G$1" pin="SCLK" pad="23"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="TXO" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CONNECTOR" package="RASPBERRYPI-SHIELD-CONNECTOR">
+<device name="" package="RASPBERRYPI-SHIELD-CONNECTOR">
 <connects>
 <connect gate="G$1" pin="3.3V@1" pad="1"/>
 <connect gate="G$1" pin="3.3V@17" pad="17"/>
@@ -1285,6 +1306,34 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 </gates>
 <devices>
 <device name="" package="RASPBERRYPI-BOARD">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="CE0" pad="24"/>
+<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GP17" pad="11"/>
+<connect gate="G$1" pin="GP18" pad="12"/>
+<connect gate="G$1" pin="GP22" pad="15"/>
+<connect gate="G$1" pin="GP23" pad="16"/>
+<connect gate="G$1" pin="GP24" pad="18"/>
+<connect gate="G$1" pin="GP25" pad="22"/>
+<connect gate="G$1" pin="GP27" pad="13"/>
+<connect gate="G$1" pin="GP4" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="21"/>
+<connect gate="G$1" pin="MOSI" pad="19"/>
+<connect gate="G$1" pin="RXI" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="TXO" pad="8"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1580,6 +1629,18 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 </technologies>
 </device>
 <device name="-EXTENDED" package="NUCLEO-SHIELD-UNDERSIDE-EXTENDED-OUTLINE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RASPBERRY-OUTLINE" prefix="OUTLINE">
+<gates>
+<gate name="G$1" symbol="RASPBERRYPI-OUTLINE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RASPBERRYPI-SHIELD-OUTLINE">
 <technologies>
 <technology name=""/>
 </technologies>
