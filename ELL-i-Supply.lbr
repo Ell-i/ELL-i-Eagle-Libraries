@@ -113,7 +113,7 @@
 <text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="SGND">
-<pin name="RTN" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="SGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <wire x1="-2.032" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="-0.762" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
