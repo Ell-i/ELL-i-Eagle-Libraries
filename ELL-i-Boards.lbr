@@ -741,44 +741,44 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="56.5" y1="1" x2="55.5" y2="0" width="0.127" layer="49" curve="-90"/>
 </package>
 <package name="NUCLEO-HEADER">
-<pad name="37" x="45.72" y="0" drill="0.8" rot="R90"/>
-<pad name="35" x="43.18" y="0" drill="0.8" rot="R90"/>
-<pad name="33" x="40.64" y="0" drill="0.8" rot="R90"/>
-<pad name="31" x="38.1" y="0" drill="0.8" rot="R90"/>
-<pad name="29" x="35.56" y="0" drill="0.8" rot="R90"/>
-<pad name="27" x="33.02" y="0" drill="0.8" rot="R90"/>
-<pad name="25" x="30.48" y="0" drill="0.8" rot="R90"/>
-<pad name="23" x="27.94" y="0" drill="0.8" rot="R90"/>
-<pad name="21" x="25.4" y="0" drill="0.8" rot="R90"/>
-<pad name="19" x="22.86" y="0" drill="0.8" rot="R90"/>
-<pad name="17" x="20.32" y="0" drill="0.8" rot="R90"/>
-<pad name="15" x="17.78" y="0" drill="0.8" rot="R90"/>
-<pad name="13" x="15.24" y="0" drill="0.8" rot="R90"/>
-<pad name="11" x="12.7" y="0" drill="0.8" rot="R90"/>
-<pad name="9" x="10.16" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="7.78" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="38" x="45.72" y="2.54" drill="0.8" rot="R90"/>
-<pad name="36" x="43.18" y="2.54" drill="0.8" rot="R90"/>
-<pad name="34" x="40.64" y="2.54" drill="0.8" rot="R90"/>
-<pad name="32" x="38.1" y="2.54" drill="0.8" rot="R90"/>
-<pad name="30" x="35.56" y="2.54" drill="0.8" rot="R90"/>
-<pad name="28" x="33.02" y="2.54" drill="0.8" rot="R90"/>
-<pad name="26" x="30.48" y="2.54" drill="0.8" rot="R90"/>
-<pad name="24" x="27.94" y="2.54" drill="0.8" rot="R90"/>
-<pad name="22" x="25.4" y="2.54" drill="0.8" rot="R90"/>
-<pad name="20" x="22.86" y="2.54" drill="0.8" rot="R90"/>
-<pad name="18" x="20.32" y="2.54" drill="0.8" rot="R90"/>
-<pad name="16" x="17.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="14" x="15.24" y="2.54" drill="0.8" rot="R90"/>
-<pad name="12" x="12.7" y="2.54" drill="0.8" rot="R90"/>
-<pad name="10" x="10.16" y="2.54" drill="0.8" rot="R90"/>
-<pad name="8" x="7.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="6" x="5.08" y="2.54" drill="0.8" rot="R90"/>
-<pad name="4" x="2.54" y="2.54" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
+<pad name="37" x="22.86" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="35" x="20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="33" x="17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="31" x="15.24" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="29" x="12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="27" x="10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="25" x="7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="23" x="5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="21" x="2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="19" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="17" x="-2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="15" x="-5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="13" x="-7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="11" x="-10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="9" x="-12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="7" x="-15.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="5" x="-17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="3" x="-20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="1" x="-22.86" y="-1.27" drill="0.8" shape="square" rot="R90"/>
+<pad name="38" x="22.86" y="1.27" drill="0.8" rot="R90"/>
+<pad name="36" x="20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="34" x="17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="32" x="15.24" y="1.27" drill="0.8" rot="R90"/>
+<pad name="30" x="12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="28" x="10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="26" x="7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="24" x="5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="22" x="2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="20" x="0" y="1.27" drill="0.8" rot="R90"/>
+<pad name="18" x="-2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="16" x="-5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="14" x="-7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="12" x="-10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="10" x="-12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="8" x="-15.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="6" x="-17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="4" x="-20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2" x="-22.86" y="1.27" drill="0.8" rot="R90"/>
 </package>
 </packages>
 <symbols>
