@@ -412,7 +412,7 @@
 <pin name="EN" x="-15.24" y="12.7" length="middle" direction="in"/>
 <pin name="TC" x="-15.24" y="-7.62" length="middle" direction="out"/>
 <pin name="SS" x="-15.24" y="-5.08" length="middle"/>
-<pin name="VC" x="-7.62" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="VC" x="-7.62" y="-20.32" length="middle" direction="pas" rot="R90"/>
 <pin name="GND" x="-2.54" y="-20.32" length="middle" direction="pwr" rot="R90"/>
 <pin name="INTVCC" x="15.24" y="12.7" length="middle" direction="pwr" rot="R180"/>
 <pin name="SENSE" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
