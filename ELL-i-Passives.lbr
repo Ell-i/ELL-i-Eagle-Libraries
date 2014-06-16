@@ -1233,23 +1233,23 @@ Has both test loops and bare copper area.</description>
 <gate name="TP$1" symbol="TEST_POINT" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="-5021" package="TP_5000">
-<connects>
-<connect gate="TP$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-5000" package="TP_5021">
-<connects>
-<connect gate="TP$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="-BARE" package="TP_BARE">
+<connects>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5000" package="TP_5000">
+<connects>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5021" package="TP_5021">
 <connects>
 <connect gate="TP$1" pin="P$1" pad="P$1"/>
 </connects>
