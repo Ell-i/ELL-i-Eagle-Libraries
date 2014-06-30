@@ -563,13 +563,13 @@
 <devices>
 <device name="" package="SO08-POWERPAD">
 <connects>
-<connect gate="G$1" pin="APD" pad="5"/>
-<connect gate="G$1" pin="CDB" pad="7"/>
+<connect gate="G$1" pin="APD" pad="8"/>
+<connect gate="G$1" pin="CDB" pad="6"/>
 <connect gate="G$1" pin="CLS" pad="3"/>
 <connect gate="G$1" pin="DEN" pad="2"/>
-<connect gate="G$1" pin="RTN" pad="8"/>
+<connect gate="G$1" pin="RTN" pad="5"/>
 <connect gate="G$1" pin="SLUG" pad="POWERPAD"/>
-<connect gate="G$1" pin="T2P" pad="6"/>
+<connect gate="G$1" pin="T2P" pad="7"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
