@@ -321,13 +321,14 @@ Not reviewed
 <wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
 <wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
 <wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
-<smd name="1" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
-<smd name="2" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
 <text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
-<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 <rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
 </package>
 <package name="SMA">
 <description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
@@ -340,8 +341,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="2.25" y1="-1.825" x2="2.25" y2="-1.25" width="0.254" layer="21" curve="-1.904406"/>
 <wire x1="2.25" y1="1.825" x2="2.25" y2="1.25" width="0.254" layer="21"/>
 <wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<smd name="1" x="-2.2" y="0" dx="2" dy="2" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="2" dy="2" layer="1"/>
+<smd name="C" x="-2.2" y="0" dx="2" dy="2" layer="1"/>
+<smd name="A" x="2.2" y="0" dx="2" dy="2" layer="1"/>
 <text x="-2.75" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.75" y="-3.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
@@ -769,8 +770,8 @@ Surface-Mounted Device (SMD) plastic package using Trench MOSFET technology
 <devices>
 <device name="" package="SOD-323">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -801,8 +802,8 @@ General-purpose diode for high-speed switching.
 <devices>
 <device name="J" package="SOD-323">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -826,8 +827,8 @@ General-purpose diode for high-speed switching.
 <devices>
 <device name="" package="SMA">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
