@@ -670,6 +670,16 @@ Footprint with extended pads for handsoldering. &lt;a href="http://www.fairchild
 <technology name=""/>
 </technologies>
 </device>
+<device name="HANDSOLDERING" package="MLP8L33_HS">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 F1"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DMP21D5UFB4" prefix="T">
