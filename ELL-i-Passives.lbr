@@ -1034,6 +1034,69 @@ See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-
 <wire x1="-1.2" y1="-1.1" x2="1.2" y2="-1.1" width="0.15" layer="21"/>
 <text x="0" y="0" size="1.5" layer="25" ratio="10" align="center">&gt;NAME</text>
 </package>
+<package name="SMD2220-REFLOW">
+<description>&lt;h3&gt;Non-polarized reflow footprint for 2220 (5750 metric) SMD parts&lt;/h3&gt;
+
+&lt;p&gt;
+ Please see &lt;a href="http://product.tdk.com/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf"&gt; TDK MID VOLTAGE CAPACITOR GUIDE&lt;/a&gt; for reference.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pads are as per manufacturer recommendations. &lt;/li&gt;
+&lt;li&gt;Mechanical outline is on Measures layer.&lt;/li&gt;
+&lt;li&gt;Silkscreen outline is on tPlace layer, 0.15 mm width. Silkscreen has 0.15 mm clearance from pads.&lt;/li&gt;
+&lt;li&gt;Name is on tPlace layer, 1.5 mm height, 10 % ratio.&lt;/li&gt;
+&lt;li&gt;Assembly drawing is on tDocu layer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<wire x1="-2.85" y1="-2.5" x2="2.85" y2="-2.5" width="0.127" layer="47"/>
+<wire x1="2.85" y1="-2.5" x2="2.85" y2="2.5" width="0.127" layer="47"/>
+<wire x1="2.85" y1="2.5" x2="-2.85" y2="2.5" width="0.127" layer="47"/>
+<wire x1="-2.85" y1="2.5" x2="-2.85" y2="-2.5" width="0.127" layer="47"/>
+<smd name="P$1" x="-3.1" y="0" dx="1.4" dy="5" layer="1"/>
+<smd name="P$2" x="3.1" y="0" dx="1.4" dy="5" layer="1"/>
+<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-2.7" x2="-2.5" y2="-2.7" width="0.15" layer="21"/>
+<text x="0" y="0" size="1.5" layer="27" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<rectangle x1="-4.2" y1="-3.05" x2="4.2" y2="3" layer="39"/>
+<wire x1="-4.05" y1="2.85" x2="4.05" y2="2.85" width="0.127" layer="51"/>
+<wire x1="4.05" y1="2.85" x2="4.05" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="4.05" y1="-2.9" x2="-4.05" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="-2.9" x2="-4.05" y2="2.85" width="0.127" layer="51"/>
+</package>
+<package name="SMD0603-B">
+<description>&lt;h3&gt;IPC-7351-C compliant smd 0603 (1608 metric) footprint, variant B&lt;/h3&gt;
+&lt;p&gt;
+Variant B has nominal pads and placement courtyard. This footprint should be selected only for moderately populated designs. If the design is going to be handsoldered, consider using A-variant.
+&lt;/p&gt;
+&lt;p&gt;
+Origin is in middle of component, pin 1 is at left. Component is not polarized
+&lt;/p&gt;
+&lt;p&gt;
+Pads have 0.35 mm toes, 0.35 mm heels and 0.03 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 0.7 mm * 0.86 mm. 
+&lt;/p&gt;
+&lt;p&gt;
+Silkscreen has 0.12 mm clearance from pads and 0.12 mm width. Name is printed on silkscreen on layer tNames, 0.12 mm width and 1.2 mm height. 
+&lt;/p&gt;
+&lt;p&gt;
+Component has placement courtyard of 0.25 mm from pads. 
+tDocument layer is used for assembly drawing.
+Component outline is drawn on measures layer.
+&lt;/p&gt;</description>
+<smd name="P$1" x="-0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
+<smd name="P$2" x="0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
+<wire x1="-0.7" y1="-0.2" x2="-0.7" y2="0.2" width="0.4" layer="47"/>
+<wire x1="0.7" y1="0.2" x2="0.7" y2="-0.2" width="0.4" layer="47"/>
+<wire x1="-0.7" y1="0.3" x2="0.7" y2="0.3" width="0.2" layer="47"/>
+<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2" layer="47"/>
+<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-0.55" y1="0.59" x2="0.59" y2="0.59" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.59" x2="0.55" y2="-0.59" width="0.127" layer="21"/>
+<rectangle x1="-1.4" y1="-0.68" x2="1.4" y2="0.68" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R_EU">
@@ -1192,6 +1255,15 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0603-B" package="SMD0603-B">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C" prefix="C" uservalue="yes">
@@ -1279,6 +1351,24 @@ This could be a discrete test loop or just a bare copper pad.</description>
 </technologies>
 </device>
 <device name="1206-A" package="SMD1206-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2220-REFLOW" package="SMD2220-REFLOW">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603-B" package="SMD0603-B">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -1458,6 +1548,42 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402-B" package="SMD0402-B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603-A" package="SMD0603-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805-A" package="SMD0805-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206-A" package="SMD1206-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
