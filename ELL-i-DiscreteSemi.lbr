@@ -464,12 +464,12 @@ Small rectifier package.
 <wire x1="-3.5" y1="-1" x2="-2" y2="-1" width="0.127" layer="47"/>
 <text x="-1.5" y="0" size="1.27" layer="47">~</text>
 <text x="-1.5" y="-2.5" size="1.27" layer="47">~</text>
-<text x="0.5" y="0.5" size="1.27" layer="47">+</text>
-<text x="0.5" y="-2" size="1.27" layer="47">-</text>
+<text x="0.5" y="-2.04" size="1.27" layer="47">+</text>
+<text x="0.5" y="0.54" size="1.27" layer="47">-</text>
 <smd name="AC1" x="-3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
 <smd name="AC2" x="-3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
-<smd name="+" x="3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
-<smd name="-" x="3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="-" x="3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="+" x="3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
 <wire x1="2.5" y1="2.6" x2="-3.5" y2="2.6" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.6" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
 <rectangle x1="-4.1" y1="-2.9" x2="4.1" y2="2.9" layer="39"/>
