@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1492,6 +1492,68 @@
 <wire x1="-2.35" y1="7.9" x2="-2.35" y2="-2.6" width="0.3048" layer="51"/>
 <wire x1="-4.45" y1="12.7" x2="-4.45" y2="10.2" width="0.3048" layer="51"/>
 <wire x1="-3.25" y1="7.9" x2="-3.25" y2="-2.6" width="0.3048" layer="51"/>
+</package>
+<package name="TE1888250-A">
+<description>&lt;h3&gt;Tyco Electronics 1888250 RJ-45 receptacle&lt;/h3&gt;
+
+&lt;p&gt;PCB Mounted RJ45 Jack, Single Port 1x1, Low Profile, 8P8C&lt;/p&gt;
+&lt;p&gt;This connector needs a PCB cutout placed along drawing. Be sure to specify a reasonable radius to inner corners, manufacturer recommendation is 0.5mm. &lt;/p&gt;
+
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt; Part outline is in measures layer.&lt;/li&gt;
+&lt;li&gt; Silkscreen has 0.15 mm width, 0.15 mm clearance from part, 1.5 mm font height. Silkscreen is at tPlace layer.&lt;/li&gt;
+&lt;li&gt; Silkscreen is completely visible after assembly and does not overlap pads.&lt;/li&gt;
+&lt;li&gt;Part name is in tNames layer.&lt;/li&gt;
+&lt;li&gt;Assembly drawing is in tDocu layer.&lt;/li&gt;
+&lt;li&gt;Part has 0.5 mm keepout from dimensions in tKeepout layer.&lt;/li&gt;
+&lt;li&gt;Part does not include cutout.&lt;/li&gt;
+&lt;/ul&gt;
+Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PCB_Design_Optimization_Starts_in_the_CAD_Library.asp"&gt;PCB libraries design document&lt;/a&gt; for details. 
+&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.te.com/catalog/products/en?q=1888250"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-9" y1="0" x2="-9" y2="13" width="0.127" layer="47"/>
+<wire x1="9" y1="0" x2="9" y2="13" width="0.127" layer="47"/>
+<wire x1="-9" y1="0" x2="9" y2="0" width="0.127" layer="47"/>
+<wire x1="-9" y1="13" x2="9" y2="13" width="0.127" layer="47"/>
+<pad name="1" x="-3.556" y="9.64" drill="0.8"/>
+<pad name="2" x="-2.54" y="7.1" drill="0.8"/>
+<pad name="3" x="-1.524" y="9.64" drill="0.8"/>
+<pad name="5" x="0.508" y="9.64" drill="0.8"/>
+<pad name="7" x="2.54" y="9.64" drill="0.8"/>
+<pad name="4" x="-0.508" y="7.1" drill="0.8"/>
+<pad name="6" x="1.524" y="7.1" drill="0.8"/>
+<pad name="8" x="3.556" y="7.1" drill="0.8"/>
+<pad name="9" x="4.18" y="3.8" drill="0.6"/>
+<pad name="10" x="5.8" y="1.5" drill="0.6"/>
+<pad name="11" x="-5.58" y="3.8" drill="0.6"/>
+<pad name="12" x="-4.14" y="1.5" drill="0.6"/>
+<text x="-4.56" y="8.255" size="0.8128" layer="51">1</text>
+<text x="2.74" y="5.455" size="0.8128" layer="51">8</text>
+<text x="2.64" y="3.455" size="0.8128" layer="51">9</text>
+<text x="3.34" y="1.255" size="0.8128" layer="51">10</text>
+<text x="-4.46" y="3.455" size="0.8128" layer="51">11</text>
+<text x="-2.96" y="1.255" size="0.8128" layer="51">12</text>
+<pad name="GND@1" x="-8.045" y="6.25" drill="1.1"/>
+<pad name="GND@2" x="8.045" y="6.25" drill="1.1"/>
+<pad name="GND@3" x="-6" y="11.85" drill="1.1"/>
+<pad name="GND@4" x="6" y="11.85" drill="1.1"/>
+<wire x1="-9" y1="0" x2="-9" y2="-14" width="0.127" layer="47"/>
+<wire x1="9" y1="0" x2="9" y2="-14" width="0.127" layer="47"/>
+<wire x1="-9.25" y1="-13.5" x2="-9.25" y2="13.25" width="0.15" layer="21"/>
+<wire x1="-9.25" y1="13.25" x2="9.25" y2="13.25" width="0.15" layer="21"/>
+<wire x1="9.25" y1="13.25" x2="9.25" y2="-13.5" width="0.15" layer="21"/>
+<rectangle x1="-9.5" y1="-14.5" x2="9.5" y2="13.5" layer="39"/>
+<wire x1="-9" y1="-14" x2="-9" y2="12.5" width="0.15" layer="51"/>
+<wire x1="-9" y1="12.5" x2="-8.5" y2="13" width="0.15" layer="51"/>
+<wire x1="-8.5" y1="13" x2="9" y2="13" width="0.15" layer="51"/>
+<wire x1="9" y1="13" x2="9" y2="-14" width="0.15" layer="51"/>
+<wire x1="9" y1="-14" x2="-9" y2="-14" width="0.15" layer="51"/>
+<text x="0" y="0" size="1.5" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -3264,6 +3326,27 @@ In several package variant, including pogopin version.</description>
 </technologies>
 </device>
 <device name="TE1888250" package="TE1888250">
+<connects>
+<connect gate="LED1" pin="A" pad="10"/>
+<connect gate="LED1" pin="C" pad="9"/>
+<connect gate="LED2" pin="A" pad="11"/>
+<connect gate="LED2" pin="C" pad="12"/>
+<connect gate="RJ45" pin="GND@0" pad="GND@1 GND@3"/>
+<connect gate="RJ45" pin="GND@2" pad="GND@2 GND@4"/>
+<connect gate="RJ45" pin="POE+@4" pad="4"/>
+<connect gate="RJ45" pin="POE+@5" pad="5"/>
+<connect gate="RJ45" pin="POE-@7" pad="7"/>
+<connect gate="RJ45" pin="POE-@8" pad="8"/>
+<connect gate="RJ45" pin="RX+@3" pad="3"/>
+<connect gate="RJ45" pin="RX-@6" pad="6"/>
+<connect gate="RJ45" pin="TX+@1" pad="1"/>
+<connect gate="RJ45" pin="TX-@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TE1888250-A" package="TE1888250-A">
 <connects>
 <connect gate="LED1" pin="A" pad="10"/>
 <connect gate="LED1" pin="C" pad="9"/>
